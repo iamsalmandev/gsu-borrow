@@ -68,8 +68,8 @@ export const oasisBaseTheme = {
     sliderTrackFill: '#9DA3DA',
   },
   fonts: {
-    body: '"Inter", "Helvetica Neue", sans-serif',
-    heading: '"FT Polar Trial", "Helvetica Neue", sans-serif',
+    body: '"Open Sans","Inter", "Helvetica Neue", sans-serif',
+    heading: '"Open Sans","FT Polar Trial", "Helvetica Neue", sans-serif',
     monospace: 'monospace',
   },
   //           0   1   2   3   4   5   6   7   8   9  10
@@ -426,10 +426,11 @@ export const oasisBaseTheme = {
       fontWeight: 'semiBold',
       borderRadius: 'round',
       lineHeight: 'buttons',
-      color: 'neutral10',
+      color: 'black',
       transition: 'background 200ms',
       '&:hover, &:focus-visible': {
-        bg: 'primary60',
+        bg: 'neutral60',
+        opacity: 0.8,
       },
       '&:disabled': {
         bg: 'neutral60',
@@ -772,7 +773,7 @@ export const oasisBaseTheme = {
       py: 2,
       variant: 'buttons.primary',
       display: 'inline-block',
-      bg: 'primary100',
+      bg: 'white',
       '&, &:visited': {
         textDecoration: 'none',
       },
