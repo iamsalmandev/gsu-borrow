@@ -44,12 +44,13 @@ const styles = {
     borderRadius: '58px',
     px: 4,
     '&:hover': {
-      color: 'primary100',
+      color: 'white',
+      bg: 'rgba(233,81,117,0.8)',
     },
   },
   largeSelected: {
-    color: 'primary100',
-    bg: 'neutral10',
+    color: 'white',
+    bg: 'rgb(233,81,117)',
     boxShadow: '0px 1px 6px rgba(37, 39, 61, 0.15)',
   },
   medium: {
