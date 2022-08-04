@@ -110,7 +110,6 @@ function ProductCardBanner({ title, description }: ProductCardBannerProps) {
         opacity={0.7}
         sx={{
           mixBlendMode: 'overlay',
-          backgroundColor: 'black',
           minHeight: contentHeight > 100 ? '140px' : '116px',
           border: 'unset',
         }}
@@ -303,16 +302,17 @@ export function ProductCard({
                 sx={{
                   width: '100%',
                   height: '54px',
+                  color: 'white',
                   fontWeight: 'semiBold',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.13)',
-                  backgroundColor: inactive || isFull ? 'neutral70' : 'primary100',
+                  backgroundColor: inactive || isFull ? 'neutral10' : 'rgb(233,87,117)',
                   '&:hover': {
                     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.15)',
                     transition: '0.2s ease-in',
-                    backgroundColor: isFull ? 'neutral70' : 'primary100',
+                    backgroundColor: isFull ? 'neutral10' : 'rgba(233,87,117,0.9)',
                     cursor: isFull ? 'default' : 'pointer',
                   },
                 }}
