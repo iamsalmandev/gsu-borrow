@@ -429,11 +429,11 @@ export const oasisBaseTheme = {
       color: 'black',
       transition: 'background 200ms',
       '&:hover, &:focus-visible': {
-        bg: 'neutral60',
+        bg: 'rgb(100,100,100)',
         opacity: 0.8,
       },
       '&:disabled': {
-        bg: 'neutral60',
+        bg: 'rgba(100,100,100,0.8)',
         pointerEvents: 'none',
       },
       '&:focus': {
@@ -476,8 +476,8 @@ export const oasisBaseTheme = {
       whiteSpace: 'nowrap',
       cursor: 'pointer',
       fontWeight: 'semiBold',
-      bg: 'secondary60',
-      color: 'primary100',
+      bg: 'rgb(100,100,100)',
+      color: 'white',
       borderRadius: 'round',
       px: 4,
       py: 2,
