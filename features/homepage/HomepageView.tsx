@@ -474,10 +474,15 @@ export function Hero({ sx, isConnected }: { sx?: SxStyleProp; isConnected: boole
         sx={{
           display: 'flex',
           margin: '0 auto',
+          color: 'black',
           px: '40px',
           py: 2,
           alignItems: 'center',
+          '&:hover': {
+            bg: 'rgba(255,255,255,0.8)',
+          },
           '&:hover svg': {
+            bg: 'rgba(255,255,255,0.8)',
             transform: 'translateX(10px)',
           },
         }}
