@@ -84,7 +84,13 @@ export function AppLayout({ children }: WithChildren) {
   return (
     <>
       <WithAnnouncementLayout
-        sx={{ zIndex: 2 }}
+        sx={{
+          zIndex: 2,
+          background: `url(${marketingBackgrounds['default']})`,
+          backgroundRepeat: `no-repeat`,
+          backgroundPosition: 'top center',
+          backgroundSize: [undefined, undefined, '100%'],
+        }}
         showAnnouncement={false}
         footer={<Footer />}
         header={<AppHeader />}
@@ -141,7 +147,13 @@ export function ProductPagesLayout({ children }: WithChildren) {
         footer={<Footer />}
         showAnnouncement={false}
         variant="landingContainer"
-        sx={{ position: 'relative' }}
+        sx={{
+          position: 'relative',
+          background: `url(${marketingBackgrounds['default']})`,
+          backgroundRepeat: `no-repeat`,
+          backgroundPosition: 'top center',
+          backgroundSize: [undefined, undefined, '100%'],
+        }}
       >
         {children}
       </WithAnnouncementLayout>
