@@ -70,7 +70,7 @@ function TitleWrapper({ title, badge, buttons }: TitleWrapperProps) {
         sx={{
           alignItems: 'center',
           height: '40px',
-          fontSize: 3,
+          fontSize: 5,
           fontWeight: 600,
         }}
       >
