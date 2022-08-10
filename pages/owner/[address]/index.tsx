@@ -10,7 +10,6 @@ import { useObservable } from 'helpers/observableHook'
 import { GetServerSidePropsContext } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import React from 'react'
-import { BackgroundLight } from 'theme/BackgroundLight'
 
 export async function getServerSideProps(ctx: GetServerSidePropsContext) {
   return {
@@ -72,7 +71,6 @@ function VaultsSummary({ address }: { address: string }) {
   return address ? (
     <WithConnection>
       <WithTermsOfService>
-        <BackgroundLight />
         <Summary address={address} />
       </WithTermsOfService>
     </WithConnection>
