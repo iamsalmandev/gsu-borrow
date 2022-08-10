@@ -455,7 +455,6 @@ const LINKS = {
   blog: 'https://blog.oasis.app',
   multiply: `/multiply`,
   borrow: `/borrow`,
-  earn: '/earn',
 }
 
 function ConnectedHeader() {
@@ -509,13 +508,14 @@ function ConnectedHeader() {
                 >
                   {t('nav.borrow')}
                 </AppLink>
-                <AppLink
+                {/* // @GSUpro remove earn */}
+                {/* <AppLink
                   variant="links.navHeader"
                   href={LINKS.earn}
                   sx={{ mr: 4, color: navLinkColor(pathname.includes(LINKS.earn)) }}
                 >
                   {t('nav.earn')}
-                </AppLink>
+                </AppLink> */}
                 <AssetsDropdown />
               </Flex>
             </Flex>
@@ -703,7 +703,7 @@ export function MobileMenu() {
   const links = [
     { labelKey: 'nav.multiply', url: LINKS.multiply },
     { labelKey: 'nav.borrow', url: LINKS.borrow },
-    { labelKey: 'nav.earn', url: LINKS.earn },
+    // { labelKey: 'nav.earn', url: LINKS.earn },
   ]
 
   const closeMenu = useCallback(() => setIsOpen(false), [])
@@ -833,13 +833,13 @@ function DisconnectedHeader() {
             >
               {t('nav.borrow')}
             </AppLink>
-            <AppLink
+            {/* <AppLink
               variant="links.navHeader"
               href={LINKS.earn}
               sx={{ color: navLinkColor(pathname.includes(LINKS.earn)) }}
             >
               {t('nav.earn')}
-            </AppLink>
+            </AppLink> */}
             <AssetsDropdown />
           </Grid>
           <Grid sx={{ alignItems: 'center', columnGap: 3, gridAutoFlow: 'column' }}>

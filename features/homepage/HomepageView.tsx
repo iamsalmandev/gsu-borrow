@@ -276,28 +276,29 @@ export function HomepageView() {
                 />
               ),
             },
+            //@GSUpro removes earn
 
-            {
-              label: t('landing.tabs.earn.tabLabel'),
-              value: 'earn',
-              content: (
-                <HomepageTabLayout
-                  paraText={
-                    <>
-                      {t('landing.tabs.earn.tabParaContent')}{' '}
-                      <AppLink href="/earn" variant="inText">
-                        {t('landing.tabs.earn.tabParaLinkContent')}
-                      </AppLink>
-                    </>
-                  }
-                  cards={
-                    <EarnProductCardsContainer
-                      ilks={productCardsConfig.landing.featuredCards['earn']}
-                    />
-                  }
-                />
-              ),
-            },
+            // {
+            //   label: t('landing.tabs.earn.tabLabel'),
+            //   value: 'earn',
+            //   content: (
+            //     <HomepageTabLayout
+            //       paraText={
+            //         <>
+            //           {t('landing.tabs.earn.tabParaContent')}{' '}
+            //           <AppLink href="/earn" variant="inText">
+            //             {t('landing.tabs.earn.tabParaLinkContent')}
+            //           </AppLink>
+            //         </>
+            //       }
+            //       cards={
+            //         <EarnProductCardsContainer
+            //           ilks={productCardsConfig.landing.featuredCards['earn']}
+            //         />
+            //       }
+            //     />
+            //   ),
+            // },
           ]}
         />
       </Box>
