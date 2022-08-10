@@ -9,6 +9,7 @@ import getConfig from 'next/config'
 import React from 'react'
 import { Box, Card, Container, Flex, Grid, Image, Link, Text } from 'theme-ui'
 
+import { FooterBackground } from '../theme/FooterBackground'
 import { ChevronUpDown } from './ChevronUpDown'
 import { SelectComponents } from 'react-select/src/components'
 
@@ -149,7 +150,7 @@ export function TemporaryFooter() {
 function SocialWithLogo() {
   return (
     <Grid gap={3}>
-      <Image src={staticFilesRuntimeUrl('/static/img/logo-footer.svg')} sx={{ height: '27px' }} />
+      <Image src={staticFilesRuntimeUrl('/static/img/logo_footer.svg')} sx={{ height: '27px' }} />
       <Flex sx={{ alignItems: 'center', a: { fontSize: '0px' }, my: 2 }}>
         <AppLink href={ROUTES.TWITTER}>
           <Icon name="twitter" size="auto" width="18px" height="16px" />
@@ -211,6 +212,7 @@ export function Footer() {
         </Flex>
       </Container>
       <TemporaryFooter />
+      <FooterBackground />
     </Box>
   )
 }

@@ -39,8 +39,6 @@ export function SidebarSectionFooterButton({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            color: 'white',
-            bg: 'rgb(100,100,100)',
           }}
         >
           {isLoading && <Spinner size={24} color="neutral10" sx={{ mr: 2, mb: '2px' }} />}

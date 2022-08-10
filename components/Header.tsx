@@ -47,7 +47,7 @@ export function Logo({ sx }: { sx?: SxStyleProp }) {
         ...sx,
       }}
     >
-      <Image width="140px" src={staticFilesRuntimeUrl('/static/img/logo.png')} />
+      <Image src={staticFilesRuntimeUrl('/static/img/logo.svg')} />
     </AppLink>
   )
 }
@@ -848,7 +848,7 @@ function DisconnectedHeader() {
               href="/connect"
               sx={{
                 boxShadow: 'cardLanding',
-                bg: 'white',
+                bg: 'neutral10',
                 textDecoration: 'none',
                 display: 'inline-flex',
                 alignItems: 'center',

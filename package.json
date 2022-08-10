@@ -2,7 +2,7 @@
   "name": "oasis-borrow",
   "version": "4.19.0",
   "license": "Apache-2.0",
-  
+
   "scripts": {
     "start": "next dev",
     "start:prod": "yarn migrate && next start",
@@ -142,7 +142,6 @@
     "web3": "1.5.3",
     "web3-eth-abi": "1.5.3",
     "whatwg-fetch": "2.0.3",
-    "wrtc": "^0.4.7",
     "zod": "^1.5.0"
   },
   "resolutions": {
@@ -194,10 +193,10 @@
     "@types/react-text-mask": "^5.4.0",
     "@types/sinon": "^9.0.0",
     "@types/sinon-chai": "^3.2.4",
-    "@types/socket.io-client": "^3.0.0",
     "@types/supertest": "^2.0.9",
     "@types/theme-ui": "^0.3.1",
     "@types/uuid": "^7.0.3",
+    "@types/socket.io-client": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
     "autoprefixer": "7.1.6",

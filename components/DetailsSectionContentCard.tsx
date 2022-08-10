@@ -138,7 +138,7 @@ export function DetailsSectionContentCard({
       <Heading
         as="h3"
         variant="label"
-        sx={{ fontSize: '20px', cursor: modal ? 'pointer' : 'auto' }}
+        sx={{ cursor: modal ? 'pointer' : 'auto' }}
         {...hightlightableItemEvents}
       >
         {title}
@@ -156,12 +156,7 @@ export function DetailsSectionContentCard({
       <Text
         as="p"
         variant="header2"
-        sx={{
-          fontSize: '50px',
-          maxWidth: '100%',
-          lineHeight: 'loose',
-          cursor: modal ? 'pointer' : 'auto',
-        }}
+        sx={{ maxWidth: '100%', lineHeight: 'loose', cursor: modal ? 'pointer' : 'auto' }}
         {...hightlightableItemEvents}
       >
         {value || '-'}

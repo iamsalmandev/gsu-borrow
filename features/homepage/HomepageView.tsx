@@ -41,7 +41,7 @@ function Pill(props: PillProps) {
         justifyContent: 'center',
         alignItems: 'center',
         minWidth: 140,
-        background: 'rgba(255, 255, 255)',
+        background: 'rgba(255, 255, 255, 0.5)',
         mx: 2,
         my: 2,
         borderRadius: 'round',
@@ -337,8 +337,8 @@ export function HomepageView() {
                 text: t('landing.info-cards.learn.key-concepts'),
               },
             ]}
-            backgroundGradient="linear-gradient(48deg, rgba(179,95,255,0.25) 0%, rgba(233,74,116,0.25) 100%)"
-            backgroundImage=""
+            backgroundGradient="linear-gradient(127.5deg, #EEE1F9 0%, #FFECE8 56.77%, #DDFFF7 100%)"
+            backgroundImage="/static/img/info_cards/cubes_nov27.png"
           />
           <InfoCard
             title={t('landing.info-cards.support.support')}
@@ -361,8 +361,8 @@ export function HomepageView() {
                 text: t('landing.info-cards.support.twitter'),
               },
             ]}
-            backgroundGradient="linear-gradient(-63deg, rgba(233,74,116,0.2) 0%, rgba(179,95,255,0.2) 100%)"
-            backgroundImage=""
+            backgroundGradient="linear-gradient(135.35deg, #FEF7FF 0.6%, #FEE9EF 100%), radial-gradient(261.45% 254.85% at 3.41% 2.19%, #FFFADD 0%, #FFFBE3 0.01%, #F0FFF2 52.6%, #FBEDFD 100%)"
+            backgroundImage="/static/img/info_cards/bubbles.png"
           />
         </Grid>
       </Box>
@@ -399,8 +399,8 @@ export function HomepageView() {
                 text: t('landing.info-cards.multiply.open-vault'),
               },
             ]}
-            backgroundGradient="linear-gradient(-63deg, rgba(179,95,255,0.2) 0%, rgba(179,202,101,0.2) 100%)"
-            backgroundImage=""
+            backgroundGradient="linear-gradient(141.11deg, #EBFAFF 0.79%, #EBF2FF 98.94%), linear-gradient(127.5deg, #EEE1F9 0%, #FFECE8 56.77%, #DDFFF7 100%)"
+            backgroundImage="/static/img/info_cards/pills.png"
             sx={{
               gridArea: [null, 'left'],
               backgroundSize: ['70%, cover', '300px, cover'],
@@ -418,8 +418,8 @@ export function HomepageView() {
                 text: t('landing.info-cards.borrow.open-vault'),
               },
             ]}
-            backgroundGradient="linear-gradient(-63deg, rgba(233,74,116,0.2) 0%, rgba(179,95,255,0.2) 100%)"
-            backgroundImage=""
+            backgroundGradient="linear-gradient(98.21deg, #FFFBE8 2.63%, #FFF0E8 99.63%), linear-gradient(127.5deg, #E4F9C9 0%, #E8FFF5 49.48%, #F9E1EB 100%)"
+            backgroundImage="/static/img/info_cards/dai.png"
           />
           <InfoCard
             sx={{
@@ -433,8 +433,8 @@ export function HomepageView() {
                 text: t('landing.info-cards.manage.connect-your-wallet'),
               },
             ]}
-            backgroundGradient="linear-gradient(-63deg, rgba(179,202,101,0.2) 0%, rgba(233,74,116,0.2) 100%)"
-            backgroundImage=""
+            backgroundGradient="linear-gradient(127.5deg, #E8EAFF 0%, #EEF0FF 0%, #FFF3FA 100%), linear-gradient(127.5deg, #DDFFF7 0%, #E8EAFF 61.98%, #F9E1EF 100%)"
+            backgroundImage="/static/img/info_cards/safe.png"
           />
         </Grid>
       </Box>

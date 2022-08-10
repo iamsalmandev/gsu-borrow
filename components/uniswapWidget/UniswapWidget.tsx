@@ -69,7 +69,7 @@ const cssPaths = (() => {
 const OnboardingGraphic = () => (
   <Box sx={{ position: 'relative' }}>
     <Image
-      src={staticFilesRuntimeUrl('/static/img/logo.png')}
+      src={staticFilesRuntimeUrl('/static/img/logo.svg')}
       sx={{ position: 'absolute', top: '45px', left: '24px', width: '60.6px' }}
     />
     <svg

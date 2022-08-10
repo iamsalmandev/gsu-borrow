@@ -115,7 +115,6 @@ export function TabBar({ sections, variant, useDropdownOnMobile, switchEvent }: 
       >
         <Flex
           sx={{
-            p: '4px',
             ...(variant === 'underline'
               ? {
                   borderBottom: '3px solid',
@@ -128,7 +127,7 @@ export function TabBar({ sections, variant, useDropdownOnMobile, switchEvent }: 
               ? {
                   display: 'inline-flex',
                   borderRadius: '58px',
-                  bg: 'white',
+                  bg: 'secondary60',
                 }
               : {}),
           }}

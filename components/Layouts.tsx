@@ -2,11 +2,14 @@ import { isAppContextAvailable } from 'components/AppContextProvider'
 import { Footer } from 'components/Footer'
 import { AppHeader, ConnectPageHeader } from 'components/Header'
 import { AppLinkProps } from 'components/Links'
-import { staticFilesRuntimeUrl } from 'helpers/staticPaths'
 import { WithChildren } from 'helpers/types'
 import React from 'react'
 import { Container, Flex, SxStyleProp } from 'theme-ui'
+import { Background } from 'theme/Background'
+import { BackgroundLight } from 'theme/BackgroundLight'
+import { BackgroundLighter } from 'theme/BackgroundLighter'
 
+import { ProductBackground } from '../theme/ProductBackground'
 import { Announcement } from './Announcement'
 import { ModalTrezorMetamaskEIP1559 } from './Modal'
 
@@ -84,13 +87,7 @@ export function AppLayout({ children }: WithChildren) {
   return (
     <>
       <WithAnnouncementLayout
-        sx={{
-          zIndex: 2,
-          background: `url(${marketingBackgrounds['default']})`,
-          backgroundRepeat: `no-repeat`,
-          backgroundPosition: 'top center',
-          backgroundSize: [undefined, undefined, '100%'],
-        }}
+        sx={{ zIndex: 2 }}
         showAnnouncement={false}
         footer={<Footer />}
         header={<AppHeader />}
@@ -103,10 +100,10 @@ export function AppLayout({ children }: WithChildren) {
 }
 
 const marketingBackgrounds = {
-  default: staticFilesRuntimeUrl('/static/img/background.png'),
-  light: staticFilesRuntimeUrl('/static/img/background.png'),
-  lighter: staticFilesRuntimeUrl('/static/img/background.png'),
-  none: 'none',
+  default: <Background />,
+  light: <BackgroundLight />,
+  lighter: <BackgroundLighter />,
+  none: null,
 }
 
 export function LandingPageLayout({ children }: WithChildren) {
@@ -116,18 +113,13 @@ export function LandingPageLayout({ children }: WithChildren) {
 
   return (
     <>
+      {marketingBackgrounds['default']}
       <WithAnnouncementLayout
         header={<AppHeader />}
         footer={<Footer />}
         showAnnouncement={false}
         variant="landingContainer"
-        sx={{
-          position: 'relative',
-          background: `url(${marketingBackgrounds['default']})`,
-          backgroundRepeat: `no-repeat`,
-          backgroundPosition: 'top center',
-          backgroundSize: [undefined, undefined, '100%'],
-        }}
+        sx={{ position: 'relative' }}
       >
         {children}
       </WithAnnouncementLayout>
@@ -142,18 +134,13 @@ export function ProductPagesLayout({ children }: WithChildren) {
 
   return (
     <>
+      <ProductBackground />
       <WithAnnouncementLayout
         header={<AppHeader />}
         footer={<Footer />}
         showAnnouncement={false}
         variant="landingContainer"
-        sx={{
-          position: 'relative',
-          background: `url(${marketingBackgrounds['default']})`,
-          backgroundRepeat: `no-repeat`,
-          backgroundPosition: 'top center',
-          backgroundSize: [undefined, undefined, '100%'],
-        }}
+        sx={{ position: 'relative' }}
       >
         {children}
       </WithAnnouncementLayout>
@@ -177,11 +164,12 @@ export function MarketingLayout({
 
   return (
     <>
+      {marketingBackgrounds[topBackground]}
       <BasicLayout
         header={<AppHeader />}
         footer={<Footer />}
         variant={variant || 'marketingContainer'}
-        sx={{ position: 'relative', background: `url(${marketingBackgrounds[topBackground]})` }}
+        sx={{ position: 'relative' }}
       >
         {children}
       </BasicLayout>

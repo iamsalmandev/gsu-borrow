@@ -4,7 +4,7 @@
   "404-message": "Sorry, page not found.",
   "about": {
     "heading": "About us",
-    "description": "Oasis mission is to provide the best and most trusted entry point to deploy your capital. We are building Oasis.app to let our users benefit from all of the potential in GSUpro.\n\n Our team is made of passionate thinkers and builders.",
+    "description": "Oasis mission is to provide the best and most trusted entry point to deploy your capital. We are building Oasis.app to let our users benefit from all of the potential in DeFi.\n\n Our team is made of passionate thinkers and builders.",
     "careers-link": "Join Us",
     "pics-title": "Meet the team"
   },
@@ -52,7 +52,7 @@
   "buy": "Buy",
   "careers": {
     "heading": "Open Roles",
-    "intro": "We believe in talent. Join us to build the next generation of GSUpro.",
+    "intro": "We believe in talent. Join us to build the next generation of DeFi.",
     "cta-button": "Apply",
     "back-link": "Back to Careers",
     "no-open-positions": "There are currently no roles available at this time, but we are always looking for the best talents to join us.",
@@ -276,9 +276,9 @@
   "keyWithCount_plural": "{{count}} items",
   "landing": {
     "hero": {
-      "headlinePreAssetLandingPages": "Borrow Dai and Multiply your exposure to GSUpro",
+      "headlinePreAssetLandingPages": "Borrow Dai and Multiply your exposure to crypto",
       "subheaderPreAssetLandingPages": "Open a Maker Vault, deposit 25+ crypto collaterals. Either borrow Dai or buy additional collateral to increase your exposure.<0/> Connect a wallet to start.",
-      "headline": "Deploy your crypto into GSUpro",
+      "headline": "Deploy your crypto into DeFi",
       "subheader": "Earn a yield, Multiply your exposure or Borrow against your crypto. ETH, BTC and 30 more cryptos available to put to work."
     },
     "stats": {
@@ -293,7 +293,7 @@
       },
       "faq": {
         "title": "Have a question?",
-        "description": "Learn more about Oasis, Dai and GSUpro at our FAQ’s page"
+        "description": "Learn more about Oasis, Dai and DeFi at our FAQ’s page"
       }
     },
     "tabs": {
@@ -638,7 +638,7 @@
     },
     "careers": {
       "title": "Careers",
-      "description": "We believe in talent. Join us to build the next generation of GSUpro."
+      "description": "We believe in talent. Join us to build the next generation of DeFi."
     },
     "about": {
       "title": "About Us",
@@ -1272,7 +1272,7 @@
       "link": "https://ethereum.org/en/eth/"
     },
     "btc": {
-      "description": "Bitcoin itself cannot be used directly, but needs to be moved onto the Ethereum Blockchain to use it in GSUpro. Both wrapped Bitcoin (wbtc) and renBTC deliver the power of Bitcoin with the flexibility of an ERC20 token. Get the most of your Bitcoin Multiplying your exposure or Borrowing.",
+      "description": "Bitcoin itself cannot be used directly, but needs to be moved onto the Ethereum Blockchain to use it in DeFi. Both wrapped Bitcoin (wbtc) and renBTC deliver the power of Bitcoin with the flexibility of an ERC20 token. Get the most of your Bitcoin Multiplying your exposure or Borrowing.",
       "link": "https://wbtc.network/"
     },
     "usdc": {
@@ -1550,7 +1550,7 @@
     "etherscan": "Etherscan",
     "modal": {
       "you-have-been-ref": "You have been invited to the Oasis.app Refer a Friend program by ",
-      "body-text": "Oasis.app is the most trusted place to deploy capital into GSUpro. By joining our Refer a Friend program you:",
+      "body-text": "Oasis.app is the most trusted place to deploy capital into Defi. By joining our Refer a Friend program you:",
       "p1_1": "Receive 5% of all ",
       "p1_2": "fees you generate on Oasis.app",
       "p2": "Completely free, claim anytime",
@@ -1560,7 +1560,7 @@
       "accept": "Accept invite",
       "later": "Decide later",
       "joined": "You have successfully joined the Oasis.app Refer a Friend program.",
-      "joined-body": "You will now receive 5% of all fees that you generate on Oasis.app. You can now go directly to the Oasis.app homepage and start exploring products to deploy capital into GSUpro.",
+      "joined-body": "You will now receive 5% of all fees that you generate on Oasis.app. You can now go directly to the Oasis.app homepage and start exploring products to deploy capital into Defi.",
       "go-home": "Go to Oasis.app homepage ",
       "go-dashboard": "Go to referral dashboard ",
       "link-1": "Oasis.app Referral Blog Post, ",
