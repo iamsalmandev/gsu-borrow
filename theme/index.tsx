@@ -426,7 +426,7 @@ export const oasisBaseTheme = {
       fontWeight: 'semiBold',
       borderRadius: 'round',
       lineHeight: 'buttons',
-      color: 'black',
+      color: 'white',
       transition: 'background 200ms',
       '&:hover, &:focus-visible': {
         bg: 'rgb(100,100,100)',
