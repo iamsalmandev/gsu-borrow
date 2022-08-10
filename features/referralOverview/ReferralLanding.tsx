@@ -117,7 +117,7 @@ export function ReferralLanding({ context, userReferral }: Props) {
             margin: '0 auto',
             px: '40px',
             py: 2,
-            color: 'offWhite',
+            color: 'black',
             alignItems: 'center',
             '&:hover svg': {
               transform: 'translateX(10px)',
@@ -156,10 +156,10 @@ export function ReferralLanding({ context, userReferral }: Props) {
           onClick={
             userReferral.referrer
               ? () =>
-                  openModal(NewReferralModal, {
-                    userReferral,
-                    account: connectedAccount,
-                  })
+                openModal(NewReferralModal, {
+                  userReferral,
+                  account: connectedAccount,
+                })
               : () => createUser({ hasAccepted: true, isReferred: false })
           }
         >
