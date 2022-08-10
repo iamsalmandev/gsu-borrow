@@ -1,10 +1,10 @@
 {
-  "get-started-button": "Get started on Oasis",
+  "get-started-button": "Get started on GSUpro",
   "404-button": "Go to homepage",
   "404-message": "Sorry, page not found.",
   "about": {
     "heading": "About us",
-    "description": "Oasis mission is to provide the best and most trusted entry point to deploy your capital. We are building GSUprotocol.io to let our users benefit from all of the potential in GSUpro.\n\n Our team is made of passionate thinkers and builders.",
+    "description": "GSUpro mission is to provide the best and most trusted entry point to deploy your capital. We are building GSUprotocol.io to let our users benefit from all of the potential in GSUpro.\n\n Our team is made of passionate thinkers and builders.",
     "careers-link": "Join Us",
     "pics-title": "Meet the team"
   },
@@ -162,8 +162,8 @@
   "error-button": "More info",
   "exchange": {
     "onboarding": {
-      "title": "Say Hello to Oasis Swap",
-      "body": "Quickly and securely swap tokens directly on Oasis. Visit <0>Oasis Swap FAQ's to read more →</0>",
+      "title": "Say Hello to GSUpro Swap",
+      "body": "Quickly and securely swap tokens directly on GSUpro. Visit <0>GSUpro Swap FAQ's to read more →</0>",
       "faq-url": "https://kb.GSUprotocol.io/help/how-to-swap-your-cryptocurrency-using-the-uniswap-widget",
       "button": "Got it"
     }
@@ -283,7 +283,7 @@
     },
     "stats": {
       "30-day-volume": "30 Day Volume",
-      "managed-on-oasis": "Managed on Oasis",
+      "managed-on-oasis": "Managed on GSUpro",
       "median-vault": "Median Vault"
     },
     "cards": {
@@ -293,22 +293,22 @@
       },
       "faq": {
         "title": "Have a question?",
-        "description": "Learn more about Oasis, GSUc and GSUpro at our FAQ’s page"
+        "description": "Learn more about GSUpro, GSUc and GSUpro at our FAQ’s page"
       }
     },
     "tabs": {
       "borrow": {
-        "tabLabel": "Borrow on Oasis",
+        "tabLabel": "Borrow on GSUpro",
         "tabParaContent": "Borrow GSUc against your favorite crypto assets. Use the GSUc however you like.",
         "tabParaLinkContent": "See all Borrow collateral types →"
       },
       "multiply": {
-        "tabLabel": "Multiply on Oasis",
+        "tabLabel": "Multiply on GSUpro",
         "tabParaContent": "Multiply your exposure to your favorite crypto assets. Browse our featured products here.",
         "tabParaLinkContent": "See all Multiply collateral types →"
       },
       "earn": {
-        "tabLabel": "Earn on Oasis",
+        "tabLabel": "Earn on GSUpro",
         "tabParaContent": "Put your crypto assets to work today. Start generating the best yields. Select your Earn product below.",
         "tabParaLinkContent": "Learn more about Earn →"
       }
@@ -500,7 +500,7 @@
     "overview-earn": "Overview (Earn ID: {{earnId}})",
     "earnings-to-date": "Earnings to date",
     "earnings-to-date-after-fees": "After fees {{ afterFees }} {{ symbol }}",
-    "earnings-to-date-modal": "The earnings to date of the position. Calculated as the current net value of the position, minus the cumulative deposits, plus the cumulative withdrawals, and not accounting for the Oasis fees. The 'After fees' value is accounting for the earnings including the Oasis fee, and the Ethereum Gas fees.",
+    "earnings-to-date-modal": "The earnings to date of the position. Calculated as the current net value of the position, minus the cumulative deposits, plus the cumulative withdrawals, and not accounting for the GSUpro fees. The 'After fees' value is accounting for the earnings including the GSUpro fee, and the Ethereum Gas fees.",
     "net-apy": "Net APY",
     "net-apy-modal": "The annual percentage yield, accounting for fees.  Calculated as the percentage price increase of the {{ token }} token over the last 7 days, annualised, and subtracting the variable annual fee.",
     "exposure-modal": "The total exposure of the position, expressed as a multiple of the capital deployed."
@@ -556,7 +556,7 @@
     "oracles": "Oracles",
     "dai-wallet": "GSUc Wallet",
     "borrow": "Borrow",
-    "oasis-borrow": "Oasis Borrow",
+    "oasis-borrow": "GSUpro Borrow",
     "multiply": "Multiply",
     "more": "More",
     "assets": "Assets",
@@ -582,7 +582,7 @@
   "notification-status-sign": "Sign Tx",
   "of": "of",
   "one-of-some": "{{one}} of {{some}}",
-  "onramp-leave-message": "By clicking buy, you will leave Oasis and be redirected to a third party website where you will complete the buy process.",
+  "onramp-leave-message": "By clicking buy, you will leave GSUpro and be redirected to a third party website where you will complete the buy process.",
   "open-new-vault": "Open new Vault",
   "open-vault": {
     "title": "Open Vault",
@@ -594,7 +594,7 @@
   "pending-transactions": "Pending Transactions",
   "permissions": "Set permissions",
   "permissions-btn": "Set permissions",
-  "permissions-desc": "This permission allows Oasis to interact with the GSUc in your wallet.",
+  "permissions-desc": "This permission allows GSUpro to interact with the GSUc in your wallet.",
   "powered-by": "Powered by",
   "price": "Price",
   "proceed": "Proceed",
@@ -642,7 +642,7 @@
     },
     "about": {
       "title": "About Us",
-      "description": "Oasis mission is to provide the best and most trusted entry point to deploy your capital."
+      "description": "GSUpro mission is to provide the best and most trusted entry point to deploy your capital."
     },
     "referrals": {
       "title": "Refer a friend and earn GSUc",
@@ -789,7 +789,7 @@
   "tos-accept-message": "Before you can get started, you’ll need to read and accept our terms of service.",
   "tos-accept-message-updated": "Before you can continue, you’ll need to read and accept our updated terms of service.",
   "tos-acceptance-check-in-progress": "Acceptance check in progress...",
-  "tos-desc": "By creating a Savings pot, I accept Oasis",
+  "tos-desc": "By creating a Savings pot, I accept GSUpro",
   "tos-jwt-signature-message": "It looks like you're new to GSUprotocol.io or are using a new device to connect. For added security, please sign a message with your wallet to continue.",
   "tos-read": "I have read and accept the Terms of Service.",
   "tos-view": "View Terms of Service",
@@ -895,7 +895,7 @@
     "price-impact": "{{token}} Price (impact)",
     "slippage-limit": "Slippage Limit",
     "third-party-fees": "3rd party protocol fees",
-    "oasis-fee": "Oasis fee"
+    "oasis-fee": "GSUpro fee"
   },
   "vault-actions": {
     "deposit": "Deposit",
@@ -940,7 +940,7 @@
     "your-vaults": "Your Vaults",
     "assets-and-positions": "Top {{number}} assets and positions",
     "total-assets": "Total Assets",
-    "total-assets-subheader": "Calculated using the <0>Oasis curated token list →</0>"
+    "total-assets-subheader": "Calculated using the <0>GSUpro curated token list →</0>"
   },
   "vault-notices": {
     "ownership": {
@@ -1060,7 +1060,7 @@
   "welcome": "Welcome to the new GSUprotocol.io.",
   "wallet": "Wallet",
   "read-blog-post": "Read the blog post",
-  "visit-old-oasis": "Visit the old Oasis",
+  "visit-old-oasis": "Visit the old GSUpro",
   "oracles": {
     "header": "Oracles",
     "description": "Below the current and next prices of the collateral types that are accepted for Maker vaults can be viewed. Most use the Oracle Stability Module (OSM). This module updates the price just once every hour. Therefore, when a crash is happening, users still have an hour to react to the new price.",
@@ -1125,7 +1125,7 @@
     "up-to": "up to",
     "not-guaranteed": "Automation isn't guaranteed to work 100% of the time",
     "guarantee-factors": "Several factor can relate to its success. These include liquidity, volatility and gas.",
-    "learn-more-about-automation": "Learn more about automation and how Oasis is building the best automation product on Ethereum →",
+    "learn-more-about-automation": "Learn more about automation and how GSUpro is building the best automation product on Ethereum →",
     "automation-fact": "{{success}} of {{total}} Vaults using Automation have successfully been saved the last 90 days",
     "modal-description": "You have the Stop-Loss protection enabled. Click on the banner below to see more details.",
     "your-stop-loss-triggered": "Your Stop-Loss was triggered",
@@ -1250,17 +1250,17 @@
   },
   "product-page": {
     "multiply": {
-      "title": "Oasis Multiply",
+      "title": "GSUpro Multiply",
       "description": "Multiply your exposure to your favorite crypto assets. Browse our featured products or select a asset.",
       "link": "Learn more about Multiply ->"
     },
     "borrow": {
-      "title": "Oasis Borrow",
+      "title": "GSUpro Borrow",
       "description": "Borrow GSUc against your favorite crypto assets. Use the GSUc however you like. Browse the featured, or select an asset to view our products.",
       "link": "Learn more about Borrow ->"
     },
     "earn": {
-      "title": "Oasis Earn",
+      "title": "GSUpro Earn",
       "description": "Put your crypto assets to work today. Start generating the best yields. Select your Earn product below.",
       "link": "Learn more about Earn ->"
     }
@@ -1518,7 +1518,7 @@
     "banner": "Refer a Friend. Earn GSUc today",
     "ref-a-friend": "Refer a Friend",
     "intro-1": "Refer someone to us and you both get rewarded with 5% of all fees they generate on GSUprotocol.io... forever! Read more about ",
-    "intro-link": "Oasis Refer a Friend",
+    "intro-link": "GSUpro Refer a Friend",
     "total": "Total GSUc fees earned",
     "not-claimed": "GSUc not claimed",
     "claim": "Claim GSUc",
@@ -1530,7 +1530,7 @@
     "copy": "Copy",
     "copied": "Copied",
     "explanation": "Once someone clicks your referral link and accepts then you will see them appear in the “Accounts you’ve referred” below. Then you are all set, fee sharing is active! Your link is reusable as many times as you like.",
-    "faq-link": "Read more in Oasis Referral Guide",
+    "faq-link": "Read more in GSUpro Referral Guide",
     "you-referred": "Accounts you've referred",
     "not-referred-yet": "You haven’t referred anyone yet",
     "you-were-not-referred": "No account has referred you to GSUprotocol.io",
@@ -1545,8 +1545,8 @@
     "how-p2": "2. Share your link with potential GSUprotocol.io users",
     "how-p3": "3. Both receive 5% of the GSUprotocol.io fees generated forever!",
     "need-help": "Need help?",
-    "help-link-1": "Oasis Referrals Guide",
-    "help-link-2": "Visit Oasis Knowledge Centre",
+    "help-link-1": "GSUpro Referrals Guide",
+    "help-link-2": "Visit GSUpro Knowledge Centre",
     "etherscan": "Etherscan",
     "modal": {
       "you-have-been-ref": "You have been invited to the GSUprotocol.io Refer a Friend program by ",
