@@ -21,7 +21,7 @@ export function ReferralBanner({ heading, link }: ReferralBannerProps) {
         marginBottom: 0,
         overflow: 'hidden',
         borderRadius: '50px',
-        maxWidth: ['230px', '335px'],
+        maxWidth: ['230px', '350px'],
         p: '3px 8px 3px 4px',
         '&:hover': {
           opacity: '80%',
@@ -71,7 +71,7 @@ export function ReferralBanner({ heading, link }: ReferralBannerProps) {
           >
             <Text
               variant="text.paragraph3"
-              sx={{ zIndex: 1, fontWeight: 'semiBold', wordBreak: 'normal' }}
+              sx={{ zIndex: 1, fontWeight: 'semiBold', wordBreak: 'normal', fontSize: ["12px", "14px"] }}
             >
               {`${heading.split('.')[0]}.`}
             </Text>
@@ -82,6 +82,7 @@ export function ReferralBanner({ heading, link }: ReferralBannerProps) {
                   zIndex: 1,
                   fontWeight: 'semiBold',
                   wordBreak: 'normal',
+                  fontSize: ["12px", "14px"],
                   whiteSpace: [null, 'pre'],
                 }}
               >
