@@ -1,6 +1,6 @@
 import { Survey } from 'features/survey'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { WithConnection } from '../components/connectWallet/ConnectWallet'
 import { ProductPagesLayout } from '../components/Layouts'
@@ -13,6 +13,7 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
 })
 
 function EarnPage() {
+  // @GSUpro remove earn page
   return (
     <WithConnection>
       <EarnView />
