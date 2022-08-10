@@ -143,12 +143,15 @@ export function VaultDetailsCard({
       >
         <Box>
           <Flex sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text variant="subheader" sx={{ fontWeight: 'semiBold', fontSize: 'inherit' }}>
+            <Text variant="subheader" sx={{ fontSize: '20px', fontWeight: 'semiBold' }}>
               {title}
             </Text>
             {openModal && <Icon name="question_o" size="auto" width="20px" height="20px" />}
           </Flex>
-          <Heading variant="header2" sx={{ fontWeight: 'semiBold', mt: openModal ? 0 : 1 }}>
+          <Heading
+            variant="header2"
+            sx={{ fontSize: '50px', fontWeight: 'semiBold', mt: openModal ? 0 : 1 }}
+          >
             {value}
           </Heading>
           {valueAfter && (
@@ -157,7 +160,7 @@ export function VaultDetailsCard({
             </VaultDetailsAfterPill>
           )}
         </Box>
-        <Box sx={{ fontWeight: 'semiBold', minHeight: '1em' }}>{valueBottom}</Box>
+        <Box sx={{ fontSize: '50px', fontWeight: 'semiBold', minHeight: '1em' }}>{valueBottom}</Box>
       </Flex>
     </Card>
   )
@@ -208,7 +211,7 @@ export function VaultDetailsSummaryItem({
       <Text variant="paragraph3" sx={{ color: 'neutral80', fontWeight: 'semiBold' }}>
         {label}
       </Text>
-      <Text variant="paragraph3" sx={{ fontWeight: 'semiBold' }}>
+      <Text variant="paragraph3" sx={{ fontSize: '50px', fontWeight: 'semiBold' }}>
         {value}
       </Text>
       {valueAfter && (
