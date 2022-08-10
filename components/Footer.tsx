@@ -19,8 +19,8 @@ const {
 const ROUTES = {
   CONTACT: `${apiHost}/daiwallet/contact`,
   SUPPORT: '/support',
-  TWITTER: 'https://twitter.com/oasisdotapp',
-  DISCORD: 'https://discord.gg/Kc2bBB59GC',
+  TWITTER: ' https://twitter.com/GSUcoin',
+  DISCORD: 'https://discord.com/invite/cm3tmM37W3',
 }
 
 const FOOTER_SECTIONS = [
@@ -132,7 +132,7 @@ export function TemporaryFooter() {
           <Text>
             Commit:{' '}
             <Link
-              href={`https://github.com/OasisDex/oasis-borrow/commit/${buildHash}`}
+              href={`https://github.com/gsu-protocol/gsu-borrow/commit/${buildHash}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -157,7 +157,7 @@ function SocialWithLogo() {
         <AppLink href={ROUTES.DISCORD} sx={{ mx: 3 }}>
           <Icon name="discord" size="auto" width="20px" height="23px" />
         </AppLink>
-        <AppLink href="https://github.com/OasisDEX/oasis-borrow/">
+        <AppLink href="https://github.com/gsu-protocol/gsu-borrow">
           <Icon name="github" size="auto" width="21px" />
         </AppLink>
       </Flex>
