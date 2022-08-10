@@ -148,25 +148,25 @@ export function VaultSuggestions(props: { productCardsData: ProductCardData[]; a
               />
             ),
           },
-          {
-            label: t('landing.tabs.earn.tabLabel'),
-            value: 'earn',
-            topContent: (
-              <TabHeaderParagraph>
-                {t('landing.tabs.earn.tabParaContent')}{' '}
-                <AppLink href="/multiply" variant="inText">
-                  {t('landing.tabs.earn.tabParaLinkContent')}
-                </AppLink>
-              </TabHeaderParagraph>
-            ),
-            content: (
-              <TabContent
-                type="earn"
-                renderProductCard={ProductCardEarn}
-                productCardsData={productCardsData}
-              />
-            ),
-          },
+          // {
+          //   label: t('landing.tabs.earn.tabLabel'),
+          //   value: 'earn',
+          //   topContent: (
+          //     <TabHeaderParagraph>
+          //       {t('landing.tabs.earn.tabParaContent')}{' '}
+          //       <AppLink href="/multiply" variant="inText">
+          //         {t('landing.tabs.earn.tabParaLinkContent')}
+          //       </AppLink>
+          //     </TabHeaderParagraph>
+          //   ),
+          //   content: (
+          //     <TabContent
+          //       type="earn"
+          //       renderProductCard={ProductCardEarn}
+          //       productCardsData={productCardsData}
+          //     />
+          //   ),
+          // },
         ]}
       />
     </Box>

@@ -47,7 +47,7 @@ export function AssetView({ content }: { content: AssetPageContent }) {
       ),
     }
 
-    return [borrowTab, multiplyTab, earnTab].filter((tab) => tab) as TabSection[]
+    return [borrowTab, multiplyTab].filter((tab) => tab) as TabSection[]
   }
 
   return (
