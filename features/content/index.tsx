@@ -5,6 +5,7 @@ import { content as cookieContent } from './cookie/cookie'
 import { content as privacyContent } from './privacy/privacy'
 import { content as supportContent, ContentTypeSupport } from './support/support'
 import { content as tosContent } from './tos/tos'
+import { content as inprogressContent } from './inprogress/inprogress'
 
 export interface ContentType {
   [key: string]: any | ContentTypeSupport
@@ -20,6 +21,7 @@ export interface Content {
   privacy: ContentVersioned
   support: ContentVersioned
   cookie: ContentVersioned
+  inprogress: ContentVersioned
 }
 
 const v1: Content = {
@@ -38,6 +40,10 @@ const v1: Content = {
   cookie: {
     version: 'ver-1.7.2022',
     content: <TranslatedContent content={cookieContent} />,
+  },
+  inprogress: {
+    version: 'ver-1.7.2022',
+    content: <TranslatedContent content={inprogressContent} />,
   },
 }
 
