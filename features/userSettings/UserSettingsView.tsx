@@ -293,7 +293,7 @@ function WalletInfo() {
           <Flex>
             {accountData && accountData.daiBalance && (
               <>
-                <Icon sx={{ zIndex: 1 }} name="dai_color" size={16} />
+                <Icon sx={{ zIndex: 1 }} name="gsu_circle_color" size={16} />
                 <Text variant="caption" sx={{ ml: 1, color: 'neutral80' }}>
                   {formatCryptoBalance(accountData.daiBalance)}
                 </Text>
