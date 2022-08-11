@@ -62,7 +62,7 @@ export function WithAnnouncementLayout({
         <Container variant="announcement">
           <Announcement
             text="Welcome to the new Oasis.app. We are thrilled to have you here."
-            discordLink="https://discord.gg/oasisapp"
+            discordLink="https://discord.com/invite/cm3tmM37W3"
             link="https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/"
             linkText="Check blog post"
           />
