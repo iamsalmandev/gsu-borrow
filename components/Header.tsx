@@ -451,8 +451,8 @@ function navLinkColor(isActive: boolean) {
 
 const LINKS = {
   'dai-wallet': `${getConfig().publicRuntimeConfig.apiHost}/daiwallet`,
-  learn: 'https://kb.oasis.app',
-  blog: 'https://blog.oasis.app',
+  learn: '/inprogress',
+  blog: '/inprogres',
   multiply: `/multiply`,
   borrow: `/borrow`,
 }
