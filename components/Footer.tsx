@@ -17,7 +17,8 @@ const {
 } = getConfig()
 
 const ROUTES = {
-  CONTACT: `${apiHost}/daiwallet/contact`,
+  // CONTACT: `${apiHost}/daiwallet/contact`,
+  CONTACT: `/inprogress`,
   SUPPORT: '/support',
   TWITTER: ' https://twitter.com/GSUcoin',
   DISCORD: 'https://discord.com/invite/cm3tmM37W3',
@@ -32,19 +33,21 @@ const FOOTER_SECTIONS = [
       { labelKey: 'nav.privacy', url: '/privacy' },
       { labelKey: 'nav.cookie', url: '/cookie' },
       { labelKey: 'nav.terms', url: '/terms' },
-      { labelKey: 'nav.contact', url: `${apiHost}/daiwallet/contact` },
+      // { labelKey: 'nav.contact', url: `${apiHost}/daiwallet/contact` },
+      { labelKey: 'nav.contact', url: `/inprogress` },
+
     ],
   },
   {
     titleKey: 'nav.resources',
     links: [
-      { labelKey: 'nav.blog', url: 'https://blog.oasis.app', target: '_self' },
+      { labelKey: 'nav.blog', url: '/inprogress' },
       {
         labelKey: 'nav.faq',
         url: '/support',
       },
       // add link
-      { labelKey: 'nav.knowledge-centre', url: 'https://kb.oasis.app/help', target: '_blank' },
+      { labelKey: 'nav.knowledge-centre', url: '/inprogress' },
       { labelKey: 'nav.oracles', url: '/oracles' },
       { labelKey: 'nav.referrals', url: '/referrals' },
     ],
@@ -54,7 +57,8 @@ const FOOTER_SECTIONS = [
     links: [
       {
         labelKey: 'nav.dai-wallet',
-        url: `${apiHost}/daiwallet`,
+        // url: `${apiHost}/daiwallet`,
+        url: `/inprogress`,
         target: '_self',
       },
       { labelKey: 'nav.borrow', url: '/borrow' },
