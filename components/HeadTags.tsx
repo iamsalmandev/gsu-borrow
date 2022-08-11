@@ -33,7 +33,7 @@ export function PageSEONoFollow() {
   )
 }
 
-const APP_URL = 'https://gsuprotocol.io'
+const APP_URL = 'https://gsucoin.app'
 
 export function PageSEOTags({
   title,
