@@ -13,7 +13,7 @@ import { ChevronUpDown } from './ChevronUpDown'
 import { SelectComponents } from 'react-select/src/components'
 
 const {
-  publicRuntimeConfig: { buildHash, buildDate, showBuildInfo, apiHost },
+  publicRuntimeConfig: { buildHash, buildDate, showBuildInfo },
 } = getConfig()
 
 const ROUTES = {
