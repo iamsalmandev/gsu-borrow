@@ -48,16 +48,14 @@ export function ReferralModal({ heading, topButton, bottomButton }: ReferralModa
           <Text variant="paragraph3" sx={{ color: 'neutral80', my: '12px' }}>
             {t('ref.modal.read')}{' '}
             <AppLink
-              href="https://blog.oasis.app/oasis-app-referral-program-is-here/"
-              target="_blank"
+              href="/inprogress"
               sx={{ fontWeight: 'body' }}
             >
               {' '}
               {t('ref.modal.link-1')}
             </AppLink>
             <AppLink
-              href="https://kb.oasis.app/help/a-step-by-step-guide-to-refer-a-friend"
-              target="_blank"
+              href="/inprogress"
               sx={{ fontWeight: 'body' }}
             >
               {' '}
