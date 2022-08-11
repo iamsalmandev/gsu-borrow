@@ -39,7 +39,7 @@ export function SidebarVaultProxyStage({ stage, gasData }: SidebarOpenVaultProxy
           components={{
             1: (
               <AppLink
-                href="https://kb.oasis.app/help/what-is-a-proxy-contract"
+                href="/inprogress"
                 sx={{ fontSize: 2 }}
               />
             ),

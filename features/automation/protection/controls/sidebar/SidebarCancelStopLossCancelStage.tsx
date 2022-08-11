@@ -36,7 +36,7 @@ export function SidebarCancelStopLossCancelStage(props: CancelSlFormLayoutProps)
             {t('protection.cancel-protection-complete-desc')}
           </Text>
           <AppLink
-            href="https://kb.oasis.app/help/stop-loss-protection"
+            href="/inprogress"
             sx={{ fontWeight: 'body' }}
           >
             {t('protection.find-more-about-setting-stop-loss')}

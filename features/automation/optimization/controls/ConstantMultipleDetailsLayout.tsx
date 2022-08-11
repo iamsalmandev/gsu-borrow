@@ -41,21 +41,21 @@ export function ConstantMultipleDetailsLayout({ token }: ConstantMultipleDetails
               <ContentCardTargetColRatio
                 threshold={one}
                 token={''}
-                // targetColRatio={targetColRatio}
-                // afterTargetColRatio={uiState.targetCollRatio}
-                // threshold={threshold}
-                // changeVariant="positive"
-                // token={token}
+              // targetColRatio={targetColRatio}
+              // afterTargetColRatio={uiState.targetCollRatio}
+              // threshold={threshold}
+              // changeVariant="positive"
+              // token={token}
               />
               {/* TODO - ŁW allow to pass title for ContentCardTriggerColRatio re-use for buy, sell ? */}
               {/* not sure if it makes sense to reuse those components, there are some differences in designs */}
               {/* buy trigger */}
               <ContentCardTriggerColRatio
                 token={token}
-                //   triggerColRatio={triggerColRatio}
-                //   afterTriggerColRatio={uiState.execCollRatio}
-                //   nextBuyPrice={nextBuyPrice}
-                //   changeVariant="positive"
+              //   triggerColRatio={triggerColRatio}
+              //   afterTriggerColRatio={uiState.execCollRatio}
+              //   nextBuyPrice={nextBuyPrice}
+              //   changeVariant="positive"
               />
               {/* sell trigger */}
               <ContentCardTriggerColRatio token={token} />
@@ -71,7 +71,7 @@ export function ConstantMultipleDetailsLayout({ token }: ConstantMultipleDetails
             description={
               <>
                 {t('constant-multiple.banner.content')}{' '}
-                <AppLink href="https://kb.oasis.app/help" sx={{ fontSize: 2 }}>
+                <AppLink href="/inprogress" sx={{ fontSize: 2 }}>
                   {t('here')}.
                 </AppLink>
               </>

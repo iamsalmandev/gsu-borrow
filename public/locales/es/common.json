@@ -142,7 +142,7 @@
     "onboarding": {
       "title": "Dígale Hola a Oasis Swap",
       "body": "Intercambie sus tokens de forma rápida y segura en Oasis. Visite <0>las preguntas frecuentes de Oasis Swap para más información →</0>",
-      "faq-url": "https://kb.oasis.app/help/how-to-swap-your-cryptocurrency-using-the-uniswap-widget",
+      "faq-url": "/inprogress",
       "button": "Entendido"
     }
   },

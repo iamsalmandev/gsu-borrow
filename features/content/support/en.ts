@@ -31,7 +31,7 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'What is the Stability Fee?',
-          answer: `The Stability Fee is the variable annual rate (shown as a percentage) added to your debt that you will need to pay back. This can be seen as the cost to generate Dai, which is paid directly to the Maker Protocol. To read more about the Stability Fee check the [Knowledge Base](https://kb.oasis.app/help/the-stability-fee).`,
+          answer: `The Stability Fee is the variable annual rate (shown as a percentage) added to your debt that you will need to pay back. This can be seen as the cost to generate Dai, which is paid directly to the Maker Protocol. To read more about the Stability Fee check the [Knowledge Base](coming soon).`,
         },
 
         {
@@ -51,12 +51,12 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'What is the Liquidation Ratio?',
-          answer: `The Liquidation Ratio is the Minimum Collateralization Ratio which you must keep your Vault at to not put it at risk of being liquidated. If your Vault goes below this Minimum Collateralization Ratio, your Vault could be liquidated and your collateral sold off to cover your debt. To understand more about [collateralization ratio](https://kb.oasis.app/help/collateralization-ratio) and [liquidations](https://kb.oasis.app/help/liquidations) follow the links to the Knowledge Base.`,
+          answer: `The Liquidation Ratio is the Minimum Collateralization Ratio which you must keep your Vault at to not put it at risk of being liquidated. If your Vault goes below this Minimum Collateralization Ratio, your Vault could be liquidated and your collateral sold off to cover your debt. To understand more about [collateralization ratio](coming soon) and [liquidations](coming soon) follow the links to the Knowledge Base.`,
         },
 
         {
           question: 'What is the Liquidation Price?',
-          answer: `The Liquidation Price is the price that your Vault will be at risk of liquidation based on the ‘Current Price’ from the Oracle Security Module of the Maker Procol. It is a helpful indicator to allow you to know when you could get liquidated. Please note however that if your Vault has a positive Stability Fee (i.e. >0) then your liquidation price will continually increase as more debt is added to your Vault. You can read more about Liquidation [here](https://kb.oasis.app/help/liquidations).`,
+          answer: `The Liquidation Price is the price that your Vault will be at risk of liquidation based on the ‘Current Price’ from the Oracle Security Module of the Maker Procol. It is a helpful indicator to allow you to know when you could get liquidated. Please note however that if your Vault has a positive Stability Fee (i.e. >0) then your liquidation price will continually increase as more debt is added to your Vault. You can read more about Liquidation [here](coming soon).`,
         },
 
         {
@@ -66,7 +66,7 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'What is the minimum Vault Debt?',
-          answer: `The minimum Vault Debt, also called Dust, is the minimum amount of Dai you must generate to open a new Vault, and maintain. This minimum Vault Debt value is set and can be adjusted at any time by Maker Governance. If the minimum is increased to a value above your current Debt, then you will experience reduced functionality of your Vault until you increase it to above the minimum again. Read more about minimum Vaul Debt [here](https://kb.oasis.app/help/minimum-vault-debt-dust).`,
+          answer: `The minimum Vault Debt, also called Dust, is the minimum amount of Dai you must generate to open a new Vault, and maintain. This minimum Vault Debt value is set and can be adjusted at any time by Maker Governance. If the minimum is increased to a value above your current Debt, then you will experience reduced functionality of your Vault until you increase it to above the minimum again. Read more about minimum Vaul Debt [here](coming soon).`,
         },
 
         {
@@ -76,7 +76,7 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'What is the next price and how do you know?',
-          answer: `Within the Maker Protocol, there are always two prices for the collateral, the current price and the next price. To protect the system and users from ‘bad actors’ and flash crashes, the Maker Protocol uses an ‘Oracle Security Module’. This means that all prices that go into the system are delayed by one hour, and only updated once per hour - roughly on the hour. The next price is the price that will come into the system as the ‘Current Price’. It is the Current Price that your Vault is always measured against, so you can only be liquidated once the ‘Current Price’ goes below your  ‘Liquidation Price’. This also means you have up to one hour to react if there is a big price drop and the next price is below your Liquidation Price. You can read more about the Oracle Security Module [here](https://kb.oasis.app/help/the-oracle-security-module).`,
+          answer: `Within the Maker Protocol, there are always two prices for the collateral, the current price and the next price. To protect the system and users from ‘bad actors’ and flash crashes, the Maker Protocol uses an ‘Oracle Security Module’. This means that all prices that go into the system are delayed by one hour, and only updated once per hour - roughly on the hour. The next price is the price that will come into the system as the ‘Current Price’. It is the Current Price that your Vault is always measured against, so you can only be liquidated once the ‘Current Price’ goes below your  ‘Liquidation Price’. This also means you have up to one hour to react if there is a big price drop and the next price is below your Liquidation Price. You can read more about the Oracle Security Module [here](coming soon).`,
         },
 
         {
@@ -92,7 +92,7 @@ export const content: ContentTypeSupport = {
         {
           question: 'How can I contact the Oasis team?',
           answer:
-            'If you have any questions, reach out to us through our [Contact page](/daiwallet/contact) or on [Twitter](https://twitter.com/oasisdotapp).',
+            'If you have any questions, reach out to us through our [Contact page](/daiwallet/contact) or on [Twitter](https://twitter.com/GSUcoin).',
         },
       ],
     },
@@ -186,7 +186,7 @@ export const content: ContentTypeSupport = {
         {
           question: 'Is Oasis Secure?',
           answer:
-            'Security is our top priority. We stringently follow the best security practices, and regularly conduct smart contract and code audits. In addition, Oasis code is open-source, giving everyone in the community the ability to pressure test and audit the core technology. You can check our [documentation](https://kb.oasis.app/help/smart-contracts-and-documentation) page where you will find links to our codebase, smart contracts addresses and code and the audit reports.',
+            'Security is our top priority. We stringently follow the best security practices, and regularly conduct smart contract and code audits. In addition, Oasis code is open-source, giving everyone in the community the ability to pressure test and audit the core technology. You can check our [documentation](coming soon) page where you will find links to our codebase, smart contracts addresses and code and the audit reports.',
         },
         {
           question: 'Can Oasis access the funds in my account or wallet?',
