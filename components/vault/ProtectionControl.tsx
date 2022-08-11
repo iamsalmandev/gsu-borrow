@@ -46,7 +46,7 @@ function ZeroDebtProtectionBanner({
           {showLink && (
             <>
               {', '}
-              <AppLink href="https://kb.oasis.app/help/stop-loss-protection" sx={{ fontSize: 3 }}>
+              <AppLink href="/inprogress" sx={{ fontSize: 3 }}>
                 {t('here')}.
               </AppLink>
             </>
