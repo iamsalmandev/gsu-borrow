@@ -291,95 +291,95 @@ export const productCardsConfig: {
   descriptionLinks: {
     'ETH-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_126274073291652792840397',
+        '/inprogress',
       name: 'Maker (ETH-A)',
     },
     'ETH-B': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_126274073291652792840397',
+        '/inprogress',
       name: 'Maker (ETH-B)',
     },
     'ETH-C': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_126274073291652792840397',
+        '/inprogress',
       name: 'Maker (ETH-C)',
     },
     'WSTETH-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_274014616431652792856773',
+        '/inprogress',
       name: 'Maker (WSTETH-A)',
     },
     'WSTETH-B': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_274014616431652792856773',
+        '/inprogress',
       name: 'Maker (WSTETH-B)',
     },
     'WBTC-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_884958393561652792865000',
+        '/inprogress',
       name: 'Maker (WBTC-A)',
     },
     'WBTC-B': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_884958393561652792865000',
+        '/inprogress',
       name: 'Maker (WBTC-B)',
     },
     'WBTC-C': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_884958393561652792865000',
+        '/inprogress',
       name: 'Maker (WBTC-C)',
     },
     'RENBTC-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_414294869681652792871926',
+        '/inprogress',
       name: 'Maker (RENBTC-A)',
     },
     'LINK-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_42582440791652792878921',
+        '/inprogress',
       name: 'Maker (LINK-A)',
     },
     'MANA-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_536808626201652802419989',
+        '/inprogress',
       name: 'Maker (MANA-A)',
     },
     'MATIC-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_615723980991652792924214',
+        '/inprogress',
       name: 'Maker (MATIC-A)',
     },
     'GUSD-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_4952663551081652792930397',
+        '/inprogress',
       name: 'Maker (GUSD-A)',
     },
     'YFI-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_4996750151161652792936142',
+        '/inprogress',
       name: 'Maker (YFI-A)',
     },
     'GUNIV3DAIUSDC1-A': {
-      link: 'https://kb.oasis.app/help/earn-with-dai-and-g-uni-multiply',
+      link: '/inprogress',
       name: 'Maker/Gelato/Uniswap',
     },
     'GUNIV3DAIUSDC2-A': {
-      link: 'https://kb.oasis.app/help/earn-with-dai-and-g-uni-multiply',
+      link: '/inprogress',
       name: 'Maker/Gelato/Uniswap',
     },
     'UNIV2USDCETH-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_1653695461291652792950901',
+        '/inprogress',
       name: 'Maker/Uniswap',
     },
     'UNIV2DAIUSDC-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_1653695461291652792950901',
+        '/inprogress',
       name: 'Maker/Uniswap',
     },
     'CRVV1ETHSTETH-A': {
       link:
-        'https://kb.oasis.app/help/collaterals-supported-in-oasis-app#h_67885280351652802433065',
+        '/inprogress',
       name: 'Maker/Curve/Lido',
     },
   },
