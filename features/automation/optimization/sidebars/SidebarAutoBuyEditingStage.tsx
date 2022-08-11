@@ -89,20 +89,20 @@ export function SidebarAutoBuyEditingStage({
       <Text as="p" variant="paragraph3" sx={{ color: 'neutral80' }}>
         {basicBuyState.maxBuyOrMinSellPrice !== undefined
           ? t('auto-buy.set-trigger-description', {
-              targetCollRatio: basicBuyState.targetCollRatio.toNumber(),
-              token: vault.token,
-              execCollRatio: basicBuyState.execCollRatio,
-              executionPrice: executionPrice.toFixed(2),
-              minBuyPrice: basicBuyState.maxBuyOrMinSellPrice,
-            })
+            targetCollRatio: basicBuyState.targetCollRatio.toNumber(),
+            token: vault.token,
+            execCollRatio: basicBuyState.execCollRatio,
+            executionPrice: executionPrice.toFixed(2),
+            minBuyPrice: basicBuyState.maxBuyOrMinSellPrice,
+          })
           : t('auto-buy.set-trigger-description-no-threshold', {
-              targetCollRatio: basicBuyState.targetCollRatio.toNumber(),
-              token: vault.token,
-              execCollRatio: basicBuyState.execCollRatio,
-              executionPrice: executionPrice.toFixed(2),
-            })}{' '}
+            targetCollRatio: basicBuyState.targetCollRatio.toNumber(),
+            token: vault.token,
+            execCollRatio: basicBuyState.execCollRatio,
+            executionPrice: executionPrice.toFixed(2),
+          })}{' '}
         {/* TODO ŁW link to article in kb */}
-        <AppLink href="https://kb.oasis.app/help/" sx={{ fontSize: 2 }}>
+        <AppLink href="/inprogress" sx={{ fontSize: 2 }}>
           {t('here')}.
         </AppLink>
       </Text>{' '}
@@ -155,8 +155,8 @@ export function SidebarAutoBuyEditingStage({
             maxBuyOrMinSellPrice: !toggleStatus
               ? undefined
               : autoBuyTriggerData.maxBuyOrMinSellPrice.isEqualTo(maxUint256)
-              ? zero
-              : autoBuyTriggerData.maxBuyOrMinSellPrice,
+                ? zero
+                : autoBuyTriggerData.maxBuyOrMinSellPrice,
           })
         }}
         showToggle={true}

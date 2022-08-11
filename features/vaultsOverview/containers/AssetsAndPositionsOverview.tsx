@@ -36,9 +36,8 @@ function AssetRow(props: PositionView) {
         pr: '14px',
         borderRadius: '12px',
       }}
-      title={`${props.title}  |  ${props.proportion && formatPercent(props.proportion)}  |  $${
-        props.contentsUsd && formatAmount(props.contentsUsd, 'USD')
-      }`}
+      title={`${props.title}  |  ${props.proportion && formatPercent(props.proportion)}  |  $${props.contentsUsd && formatAmount(props.contentsUsd, 'USD')
+        }`}
     >
       <Icon
         name={getToken(props.token).iconCircle}
@@ -203,8 +202,8 @@ function TotalAssetsContent(props: { totalValueUsd: BigNumber }) {
           i18nKey="vaults-overview.total-assets-subheader"
           components={[
             <AppLink
-              href="https://kb.oasis.app/help/curated-token-list"
-              target="_blank"
+              href="/inprogress"
+              // target="_blank"
               sx={{ fontWeight: 'body', fontSize: 3 }}
             />,
           ]}

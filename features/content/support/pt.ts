@@ -31,7 +31,7 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'O que é a Taxa de Estabilidade?',
-          answer: `A Taxa de Estabilidade é a taxa anual varíavel (mostrada em porcentagem) adicionada a sua dívida - que deverá ser paga. Ela pode ser vista como o custo para gerar Dai, que é pago diretamente ao Protocolo Maker. Para ler mais sobre a Taxa de Estabilidade por favor cheque nossa [Central de Conhecimento](https://kb.oasis.app/help/the-stability-fee).`,
+          answer: `A Taxa de Estabilidade é a taxa anual varíavel (mostrada em porcentagem) adicionada a sua dívida - que deverá ser paga. Ela pode ser vista como o custo para gerar Dai, que é pago diretamente ao Protocolo Maker. Para ler mais sobre a Taxa de Estabilidade por favor cheque nossa [Central de Conhecimento](coming soon).`,
         },
 
         {
@@ -51,12 +51,12 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'O que é o Ratio de Liquidação?',
-          answer: `O Ratio de Liquidação é o Ratio Mínimo de Colateralização que você precisa manter para evitar que seu Cofre seja liquidado. Se seu Cofre for abaixo do Ratio Mínimo de Colateralização, seu Cofre pode ser liquidado e seu colateral vendido para pagar a dívida. Para entender mais sobre o [Ratio de Colateralização](https://kb.oasis.app/help/collateralization-ratio) e [liquidações](https://kb.oasis.app/help/liquidations), entre neste links da nossa Central de Conhecimento.`,
+          answer: `O Ratio de Liquidação é o Ratio Mínimo de Colateralização que você precisa manter para evitar que seu Cofre seja liquidado. Se seu Cofre for abaixo do Ratio Mínimo de Colateralização, seu Cofre pode ser liquidado e seu colateral vendido para pagar a dívida. Para entender mais sobre o [Ratio de Colateralização](coming soon) e [liquidações](coming soon), entre neste links da nossa Central de Conhecimento.`,
         },
 
         {
           question: 'O que é o Preço de Liquidação?',
-          answer: `O Preço de Liquidação é o preço no qual seu Cofre estará em risco de liquidação baseado no 'Preço Atual' do Módulo de Segurança do Protocolo Maker. É um indicador útil para você descobrir se pode ser liquidado. Por favor, note que se o seu Cofre tiver uma Taxa de Estabilidade positiva (>0), seu preço de liquidação continuará aumentando, já que mais dívida é adicionada ao seu Cofre. Você pode ler mais sobre Liquidação [aqui] (https://kb.oasis.app/help/liquidations).`,
+          answer: `O Preço de Liquidação é o preço no qual seu Cofre estará em risco de liquidação baseado no 'Preço Atual' do Módulo de Segurança do Protocolo Maker. É um indicador útil para você descobrir se pode ser liquidado. Por favor, note que se o seu Cofre tiver uma Taxa de Estabilidade positiva (>0), seu preço de liquidação continuará aumentando, já que mais dívida é adicionada ao seu Cofre. Você pode ler mais sobre Liquidação [aqui] (coming soon).`,
         },
 
         {
@@ -66,12 +66,12 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'O que é a Dívida Mínima do Cofre?',
-          answer: `A Dívida Mínima do Cofre, também chamada de pó (dust), é a quantia mínima de Dai que você precisa para abrir e manter um novo Cofre. Essa Dívida Mínima do Cofre é determinada pela Governança Maker e pode ser ajustada a qualquer momento. Se o mínimo for aumentado para um valor acima da sua dívida atual, você irá experenciar funcionalidade reduzida do seu Cofre até que você aumente sua dívida acima do mínimo novamente. Para ler mais sobre a Dívida Mínima do Cofre, acesse [aqui] (https://kb.oasis.app/help/minimum-vault-debt-dust).`,
+          answer: `A Dívida Mínima do Cofre, também chamada de pó (dust), é a quantia mínima de Dai que você precisa para abrir e manter um novo Cofre. Essa Dívida Mínima do Cofre é determinada pela Governança Maker e pode ser ajustada a qualquer momento. Se o mínimo for aumentado para um valor acima da sua dívida atual, você irá experenciar funcionalidade reduzida do seu Cofre até que você aumente sua dívida acima do mínimo novamente. Para ler mais sobre a Dívida Mínima do Cofre, acesse [aqui] (coming soon).`,
         },
 
         {
           question: 'O que é o próximo preço e como você sabe?',
-          answer: `Dentro do Protocolo Maker, sempre existem 2 preços para o colateral; o preço atual e o próximo preço. Para proteger o sistema e usuários de ‘agentes maliciosos’ e quedas repentinas (flash crashes), o Protocolo Maker usa o 'Módulo de Segurança'. Isso significa que todos os preços utilizados pelo sistema são atrasados em uma hora e apenas atualizados uma vez por hora - aproximadamente no arredondar da hora. O próximo preço é o preço que entrará no sistema como 'Preço Atual'. É o Preço Atual que seu Cofre utiliza como referência, podendo apenas ser liquidado se o 'Preço Atual' estiver abaixo do seu 'Preço de Liquidação'. Isso também significa que você tem até uma hora para reagir se houver uma grande queda no preço e o próximo preço estiver abaixo do seu Preço de Liquidação. Você pode ler mais sobre o Módulo de Segurança [aqui] (https://kb.oasis.app/help/the-oracle-security-module).`,
+          answer: `Dentro do Protocolo Maker, sempre existem 2 preços para o colateral; o preço atual e o próximo preço. Para proteger o sistema e usuários de ‘agentes maliciosos’ e quedas repentinas (flash crashes), o Protocolo Maker usa o 'Módulo de Segurança'. Isso significa que todos os preços utilizados pelo sistema são atrasados em uma hora e apenas atualizados uma vez por hora - aproximadamente no arredondar da hora. O próximo preço é o preço que entrará no sistema como 'Preço Atual'. É o Preço Atual que seu Cofre utiliza como referência, podendo apenas ser liquidado se o 'Preço Atual' estiver abaixo do seu 'Preço de Liquidação'. Isso também significa que você tem até uma hora para reagir se houver uma grande queda no preço e o próximo preço estiver abaixo do seu Preço de Liquidação. Você pode ler mais sobre o Módulo de Segurança [aqui] (coming soon).`,
         },
 
         {

@@ -116,18 +116,18 @@ export function ManageVaultFormHeader(
                   ? t('vault-form.header.proxy-success')
                   : t('vault-form.header.proxy')
                 : isCollateralAllowanceStage
-                ? t('vault-form.header.allowance', { token: props.vault.token.toUpperCase() })
-                : isDaiAllowanceStage
-                ? t('vault-form.header.daiAllowance')
-                : isManageStage
-                ? stage === 'manageInProgress'
-                  ? t('vault-form.header.modified')
-                  : t('vault-form.header.confirm-manage')
-                : stage === 'multiplyTransitionEditing'
-                ? t('vault-form.header.multiply-transition', {
-                    token: props.vault.token.toUpperCase(),
-                  })
-                : t('vault-form.header.go-to-multiply')}
+                  ? t('vault-form.header.allowance', { token: props.vault.token.toUpperCase() })
+                  : isDaiAllowanceStage
+                    ? t('vault-form.header.daiAllowance')
+                    : isManageStage
+                      ? stage === 'manageInProgress'
+                        ? t('vault-form.header.modified')
+                        : t('vault-form.header.confirm-manage')
+                      : stage === 'multiplyTransitionEditing'
+                        ? t('vault-form.header.multiply-transition', {
+                          token: props.vault.token.toUpperCase(),
+                        })
+                        : t('vault-form.header.go-to-multiply')}
             </Text>
           </WithVaultFormStepIndicator>
           <Text variant="paragraph3" sx={{ color: 'neutral80', lineHeight: '22px' }}>
@@ -141,7 +141,7 @@ export function ManageVaultFormHeader(
                 components={{
                   1: (
                     <AppLink
-                      href="https://kb.oasis.app/help/what-is-a-proxy-contract"
+                      href="/inprogress"
                       sx={{ fontSize: 2 }}
                     />
                   ),

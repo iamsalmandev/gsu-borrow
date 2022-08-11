@@ -43,7 +43,7 @@ export function SidebarAutoBuyCreationStage({
             {isAddForm && (
               <>
                 {t('auto-buy.add-complete-content')}{' '}
-                <AppLink href="https://kb.oasis.app/help" sx={{ fontSize: 2 }}>
+                <AppLink href="/inprogress" sx={{ fontSize: 2 }}>
                   {t('here')}.
                 </AppLink>
               </>

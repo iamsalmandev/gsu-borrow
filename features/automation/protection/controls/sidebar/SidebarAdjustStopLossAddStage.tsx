@@ -38,7 +38,7 @@ export function SidebarAdjustStopLossAddStage(props: AdjustSlFormLayoutProps) {
         <>
           <Text as="p" variant="paragraph3" sx={{ color: 'neutral80' }}>
             {t('protection.downside-protection-complete-desc')}{' '}
-            <AppLink href="https://kb.oasis.app/help/stop-loss-protection" sx={{ fontSize: 2 }}>
+            <AppLink href="/inprogress" sx={{ fontSize: 2 }}>
               {t('here')}.
             </AppLink>
           </Text>

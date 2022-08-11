@@ -147,20 +147,20 @@ export function SidebarAutoSellAddEditingStage({
       <Text as="p" variant="paragraph3" sx={{ color: 'neutral80' }}>
         {basicSellState.maxBuyOrMinSellPrice !== undefined
           ? t('auto-sell.set-trigger-description', {
-              targetCollRatio: basicSellState.targetCollRatio.toNumber(),
-              token: vault.token,
-              execCollRatio: basicSellState.execCollRatio,
-              executionPrice: executionPrice.toFixed(2),
-              minSellPrice: basicSellState.maxBuyOrMinSellPrice,
-            })
+            targetCollRatio: basicSellState.targetCollRatio.toNumber(),
+            token: vault.token,
+            execCollRatio: basicSellState.execCollRatio,
+            executionPrice: executionPrice.toFixed(2),
+            minSellPrice: basicSellState.maxBuyOrMinSellPrice,
+          })
           : t('auto-sell.set-trigger-description-no-threshold', {
-              targetCollRatio: basicSellState.targetCollRatio.toNumber(),
-              token: vault.token,
-              execCollRatio: basicSellState.execCollRatio,
-              executionPrice: executionPrice.toFixed(2),
-            })}{' '}
+            targetCollRatio: basicSellState.targetCollRatio.toNumber(),
+            token: vault.token,
+            execCollRatio: basicSellState.execCollRatio,
+            executionPrice: executionPrice.toFixed(2),
+          })}{' '}
         {/* TODO ŁW link to article in kb */}
-        <AppLink href="https://kb.oasis.app/help/" sx={{ fontSize: 2 }}>
+        <AppLink href="/inprogress" sx={{ fontSize: 2 }}>
           {t('here')}.
         </AppLink>
       </Text>{' '}
