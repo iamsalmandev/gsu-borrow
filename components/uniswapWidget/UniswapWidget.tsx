@@ -69,7 +69,7 @@ const cssPaths = (() => {
 const OnboardingGraphic = () => (
   <Box sx={{ position: 'relative' }}>
     <Image
-      src={staticFilesRuntimeUrl('/static/icons/apple-touch-icon.png')}
+      src={staticFilesRuntimeUrl('/static/icons/GSUswap.png')}
       sx={{ position: 'absolute', top: '24px', left: '24px', width: '60.6px' }}
     />
     <svg
