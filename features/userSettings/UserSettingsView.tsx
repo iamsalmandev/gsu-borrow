@@ -268,7 +268,7 @@ function WalletInfo() {
         <Icon name={userIcon!} size={32} sx={{ mr: 2, flexShrink: 0 }} />
         <Grid sx={{ gap: 0, width: '100%' }}>
           <Flex sx={{ justifyContent: 'space-between' }}>
-            <Text variant="address" sx={{ fontSize: 2 }}>
+            <Text variant="address" sx={{ fontWeight: 600, fontSize: 5 }}>
               {formatAddress(account, 6)}
             </Text>
             <Text
