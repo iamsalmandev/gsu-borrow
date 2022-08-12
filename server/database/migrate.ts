@@ -4,13 +4,14 @@ import { migrate } from 'postgres-migrations'
 
 require('dotenv-flow').config({ path: __dirname })
 
+const DATABASE_URL="postgresql://user:pass@localhost:5432/db?schema=public"
 async function main() {
-  if (!process.env.DATABASE_URL) {
+  if (DATABASE_URL) {
     throw new Error('DATABASE_URL not set!')
   }
 
   const dbConfig = {
-    connectionString: process.env.DATABASE_URL,
+    connectionString: DATABASE_URL,
   }
   const client = new pg.Client(dbConfig)
   await client.connect()
