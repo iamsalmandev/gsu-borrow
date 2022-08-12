@@ -5,12 +5,12 @@ import { content as es } from './es'
 import { content as pt } from './pt'
 
 export type ContentSectionId =
-  | 'buying-dai'
-  | 'saving-lending-dai'
-  | 'using-oasis'
+  | 'buying-gsucoin'
+  | 'saving-lending-gsucoin'
+  | 'using-gsucoin'
   | 'using-multiply'
   | 'security'
-  | 'using-daiwallet'
+  | 'using-gsucoin-wallet'
 
 export interface ContentQuestion {
   question: string
