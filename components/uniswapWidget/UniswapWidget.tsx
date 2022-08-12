@@ -69,7 +69,7 @@ const cssPaths = (() => {
 const OnboardingGraphic = () => (
   <Box sx={{ position: 'relative' }}>
     <Image
-      src={staticFilesRuntimeUrl('/static/icons/apple-touch-icon.png')}
+      src={staticFilesRuntimeUrl('/static/icons/GSUswap.png')}
       sx={{ position: 'absolute', top: '24px', left: '24px', width: '60.6px' }}
     />
     <svg
@@ -379,9 +379,9 @@ export function UniswapWidget(props: { token?: string }) {
           ':hover': { borderColor: 'primary100', bg: 'neutral10' },
         },
         [main.token1Btn +
-          '[color="interactive100"], ' +
-          main.token2Btn +
-          '[color="interactive100"]']: {
+        '[color="interactive100"], ' +
+        main.token2Btn +
+        '[color="interactive100"]']: {
           border: '1px solid',
           borderColor: 'neutral20',
           ':hover': { borderColor: 'primary100', bg: 'neutral10' },

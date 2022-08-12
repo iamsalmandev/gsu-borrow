@@ -97,9 +97,13 @@ export function VaultsOverviewView({
                 display: 'flex',
                 margin: '0 auto',
                 px: '40px',
+                color: 'black',
                 py: 2,
                 my: 4,
                 alignItems: 'center',
+                '&:hover': {
+                  bg: 'rgba(255,255,255,0.8)',
+                },
                 '&:hover svg': {
                   transform: 'translateX(10px)',
                 },

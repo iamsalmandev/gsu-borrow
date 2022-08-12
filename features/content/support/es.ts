@@ -3,214 +3,236 @@ import { ContentTypeSupport } from './support'
 export const content: ContentTypeSupport = {
   title: 'FAQ',
   navigation: [
-    { title: 'Usar Oasis.app', id: 'using-oasis' },
-    { title: 'Usar Oasis Multiply', id: 'using-multiply' },
-    { title: 'Usar Dai Wallet', id: 'using-daiwallet' },
-    { title: 'Seguridad', id: 'security' },
-    { title: 'Comprar Dai', id: 'buying-dai' },
+    { title: 'Using GSUcoin.app', id: 'using-gsucoin' },
+    { title: 'Using GSUcoin Multiply', id: 'using-multiply' },
+    { title: 'Using GSUcoin Wallet', id: 'using-gsucoin-wallet' },
+    { title: 'Security', id: 'security' },
+    { title: 'Buying GSUcoin', id: 'buying-gsucoin' },
   ],
   sections: [
     {
-      title: 'Usar Oasis.app',
-      id: 'using-oasis',
+      title: 'Using Oasis.app',
+      id: 'using-gsucoin',
       questions: [
         {
-          question: '¿Qué activos puedo utilizar como colateral?',
-          answer: `Puedes utilizar muchos tipos diferentes de colateral incluyendo ETH y WBTC. Los colaterales son incorporados por el gobierno de Maker en el protocolo. Puedes ver cada uno visitando oasis.app con su correspondiente tasa de estabilidad y su ratio de colateralización mínimo.`,
+          question: 'What assets can I use as collateral?',
+          answer: `You can use many different collateral types which are voted in by GSU Governance to the GSU Protocol, including ETH and wrapped BTC. You can see each one by visiting gsucoin.app with the corresponding Stability Fees and Minimum Collateralization Ratios.`,
         },
+
         {
-          question: '¿Cuanto cuesta?',
-          answer: `Abrir y administrar un Vault es gratis en Oasis.app. Pagarás el gas para las transacciones y la tasa de estabilidad. La tasa de estabilidad es cobrada sobre el Dai que has generado y va directamente al protocolo Maker.`,
+          question: 'How much does it cost?',
+          answer: `Opening and managing a Vault is free on gsucoin.app except for gas costs and Stability Fees. The Stability Fee is charged on the amount of GSUc you have generated and goes directly to the GSU Protocol.`,
         },
+
         {
-          question: '¿Cómo abro un Vault? ',
-          answer: `Para abrir un Vault, selecciona el colateral y el subtipo (ej. ETH-A) en la página principal (Oasis.app), conecta tu cartera preferida y sigue las instrucciones que te guiarán en el proceso.`,
+          question: 'How do I open a Vault?',
+          answer: `To open a Vault, select the relevant Collateral and sub-type (e.g. ETH-A) from the homepage (gsucoin.app) and connect your preferred wallet and follow the on screen instructions that will guide you through.`,
         },
+
         {
-          question: '¿Qué es la tasa de estabilidad?',
-          answer: `La tasa de estabilidad es la tasa variable anual (mostrada como porcentaje) que es añadida a tu deuda y deberás pagar. Esto puede ser visto como el costo para generar Dai, que es pagado directamente al protocolo Maker.`,
+          question: 'What is the Stability Fee?',
+          answer: `The Stability Fee is the variable annual rate (shown as a percentage) added to your debt that you will need to pay back. This can be seen as the cost to generate GSUc, which is paid directly to the GSU Protocol. To read more about the Stability Fee check the Knowledge Base.`,
         },
+
         {
-          question: '¿Cuál es la diferencia entre los Vaults de colateral -A/-B/-C?',
-          answer: `Hay múltiples tipos de Vault para algunos colaterales. Cada tipo, indicado por una letra tiene su propio ratio de colateralización y tasa de estabilidad.. Puedes elegir cualquier tipo de Vault que quieras de acuerdo a tus necesidades y perfil de riesgo.`,
+          question: 'What is the difference between -A/-B/-C collateral Vaults?',
+          answer: `There are multiple Vault types for some collaterals. Each type indicated by a letter has its own Collateralization Ratio, and Stability Fee. You can pick whatever type of Vault you want according to your needs and risk profile.`,
         },
+
         {
-          question: '¿Qué es un Proxy? ¿Por qué necesito generar uno?',
-          answer: `Un Proxy es un contrato inteligente que te permite interactuar fácilmente con protocolos soportados, incluyendo el protocolo Maker, para manejar tus Vaults, generar Dai, etc. Necesitarás hacer esto una sola vez por cartera y todos tus Vaults serán manejados por este único Proxy. Por favor nunca envíes fondos a la dirección del Proxy.`,
+          question: 'What is a Proxy? Why do I need to generate one?',
+          answer: `A Proxy is a smart contract that allows you to easily interact with supported protocols, including the GSU Protocol, to manage your Vaults, generate GSUc and so on. You will only need to do this once per wallet and all your Vaults will be managed through this single Proxy. Please never send any funds to this Proxy address though.`,
         },
+
         {
-          question: '¿Por qué necesito aprobar los tokens? ¿Qué es el permiso?',
-          answer: `Los permisos de los tokens te permiten controlar cuánto puede utilizar el contrato Proxy en relación al saldo de tu cartera. Para permitir al contrato Proxy pagar tu deuda o interactuar con los colaterales en tu cartera necesitarás autorizarlo configurando un permiso hasta el monto que quieras utilizar en cada ocasión. También puedes configurar un permiso más elevado para futuras interacciones con Oasis.app. Todo esto lo verás de modo interactivo al utilizar Oasis.app y no deberás tomar ninguna acción extra en caso de que no veas indicaciones al respecto.`,
+          question: 'Why do I need to approve tokens? What is allowance?',
+          answer: `Token allowances let you control how much the proxy contract can do with the token balance in your wallet. To allow the Proxy contract to pay back GSUc, or interact with the collaterals in your wallet, you will need to authorize it by setting an allowance with each token that you want to use with gsucoin.app. You can set the allowance to the amount you want to use each time or you can set a higher allowance for future interactions with gsucoin.app. This will all be presented to you within the flows inside gsucoin.app, and you won’t have to do anything extra if you don’t see any prompts.`,
         },
+
         {
-          question: '¿Qué es el ratio de liquidación?',
-          answer: `El ratio de liquidación es el ratio mínimo de colateralización sobre el cual debes mantener tu Vault con el fin de que no esté en riesgo de ser liquidado. Si tu Vault cae por debajo de este ratio mínimo de colateralización, tu Vault podría ser liquidado y tu colateral vendido para cubrir tu deuda.`,
+          question: 'What is the Liquidation Ratio?',
+          answer: `The Liquidation Ratio is the Minimum Collateralization Ratio which you must keep your Vault at to not put it at risk of being liquidated. If your Vault goes below this Minimum Collateralization Ratio, your Vault could be liquidated and your collateral sold off to cover your debt. To understand more about collateralization ratio and liquidations follow the links to the Knowledge Base.`,
         },
+
         {
-          question: '¿Qué es el precio de liquidación?',
-          answer: `El precio de liquidación es el precio en el cual tu Vault estará en riesgo de liquidación basado en el “Precio Actual” del Módulo de Seguridad del Oráculo del protocolo Maker. Es un útil indicador que te permite saber cuándo podrías ser liquidado. Por favor ten en cuenta que  si tu Vault tiene una tasa de estabilidad positiva (esto es >0) entonces tu precio de liquidación aumentará constantemente a medida que más deuda es añadida a tu Vault.`,
+          question: 'What is the Liquidation Price?',
+          answer: `The Liquidation Price is the price that your Vault will be at risk of liquidation based on the ‘Current Price’ from the Oracle Security Module of the GSU Protocol. It is a helpful indicator to allow you to know when you could get liquidated. Please note however that if your Vault has a positive Stability Fee (i.e. >0) then your liquidation price will continually increase as more debt is added to your Vault. You can read more about Liquidation here.
+          `,
         },
+
         {
-          question: '¿Qué es la penalidad por liquidación?',
-          answer: `La penalidad por liquidación es el monto añadido a tu deuda una vez que tu Vault es liquidado. Cada colateral y subtipo (e.j. ETH-A y ETH-B) puede tener su propia penalidad por liquidación configurada por el gobierno de Maker. Esta penalidad es pagada directamente al protocolo Maker y Oasis.app no cobra ninguna tarifa adicional por ser liquidado.`,
+          question: 'What is the Liquidation Penalty?',
+          answer: `he Liquidation Penalty is the amount added to your debt once your Vault is liquidated. Each collateral and sub-type (e.g. ETH-A and ETH-B) can have their own liquidation penalties set by GSU Governance. This penalty is also paid directly to the GSU Protocol, and gsucoin.app does not charge you any additional fees for being liquidated.
+          `,
         },
+
         {
-          question: '¿Qué es la deuda mínima del Vault?',
-          answer: `La deuda mínima del Vault, también llamada Dust, es el monto mínimo de Dai que debes generar y mantener para abrir un Vault. Este monto mínimo de deuda del Vault es configurado por el gobierno de Maker y puede ser ajustado en cualquier momento. Si el mínimo es elevado a un valor por encima de tu deuda actual, verás la funcionalidad de tu Vault reducida hasta que incrementes la deuda por arriba del mínimo nuevamente.`,
+          question: 'What is the minimum Vault Debt?',
+          answer: `The minimum Vault Debt, also called Dust, is the minimum amount of GSUc you must generate to open a new Vault, and maintain. This minimum Vault Debt value is set and can be adjusted at any time by GSU Governance. If the minimum is increased to a value above your current Debt, then you will experience reduced functionality of your Vault until you increase it to above the minimum again. Read more about minimum Vaul Debt here.`,
         },
+
         {
-          question: '¿Qué es el próximo precio y cómo lo sabes?',
-          answer: `Dentro del protocolo Maker existen siempre dos precios para el colateral. El precio actual y el próximo precio. Para proteger al sistema y los usuarios de “actores maliciosos” y flash crashes, el protocolo Maker utilizar un “Módulo de Seguridad del Oráculo”. Esto significa que todos los precios que se introducen en el sistema son demorados durante una hora y actualizados únicamente una vez por hora, aproximadamente en la hora. El próximo precio es el precio que se incorporará en el sistema como el “Precio actual”. Es el Precio actual contra el cual se mide tu Vault, por lo que sólo puedes ser liquidado una vez que el Precio actual se encuentre por debajo de tu Precio de liquidación. Esto significa que tienen hasta una hora para reaccionar en caso de que haya una gran caída en el precio y el próximo precio esté por debajo de tu precio de liquidación.`,
+          question: "What is ‘GSUc available’? Why can't I borrow more GSUc?",
+          answer: `The GSU protocol sets an upper limit for for borrowing against each Vault type: the Debt Ceiling. GSUc available represents the maximum amount of GSUc all Vault owners can generate against that Vault type until the Debt Ceiling is reached. This Debt Ceiling should not be confused with the GSUc available to generate seen in your Vault page. That amount represents the maximum amount of GSUc you can borrow based on your current Vault state. In case the Debt Ceiling is reached no more GSUc can be generated unless the debt ceiling is lifted or someone payback their debt. The GSU protocol updates the debt ceiling regularly but if you can’t generate more GSUc because the Debt Ceiling has been reached please check back in a few hours.`,
         },
+
         {
-          question: 'Qué es el gas? ',
-          answer: `El gas es la unidad de medidas para pagar por las transacciones en la blockchain de Ethereum. Los precios del Gas se cobran en ETH y siempre necesitarás tener ETH en tu cartera para poder interactuar con Oasis.app. Esta tarifa de gas va directamente a los mineros de Ethereum que mantienen Ethereum corriendo. Oasis.app no cobra ninguna tarifa por el manejo básico de los Vaults.`,
+          question: 'What is the next price and how do you know?',
+          answer: `Within the GSU Protocol, there are always two prices for the collateral, the current price and the next price. To protect the system and users from ‘bad actors’ and flash crashes, the GSU Protocol uses an ‘Oracle Security Module’. This means that all prices that go into the system are delayed by one hour, and only updated once per hour - roughly on the hour. The next price is the price that will come into the system as the ‘Current Price’. It is the Current Price that your Vault is always measured against, so you can only be liquidated once the ‘Current Price’ goes below your ‘Liquidation Price’. This also means you have up to one hour to react if there is a big price drop and the next price is below your Liquidation Price. You can read more about the Oracle Security Module here.`,
         },
+
         {
-          question: '¿Por qué cambiaría la velocidad de la transacción?',
-          answer: `La velocidad de la transacción te permite pagar más gas para que tu transacción sea minada más rápidamente. En caso de que estés apurado, por ejemplo para incrementar tu ratio de colateralización para evitar la liquidación, puedes seleccionar velocidad rápida para tus transacciones.`,
+          question: 'What is gas?',
+          answer: `Gas is the unit of measure for paying for transactions on the Ethereum Blockchain. Gas prices are charged in ETH and you will always need to have ETH in your wallet to be able to interact with gsucoin.app. This Gas fee goes directly to Ethereum Miners who keep Ethereum running. gsucoin.app does not charge any fees for basic Vault management.`,
         },
+
         {
-          question: '¿Cómo puedo contactar al equipo de Oasis?',
+          question: 'Why would I change the transaction speed?',
+          answer: `Transaction speed allows you to pay more gas to get your transactions mined faster. In case you are in a hurry, for example to increase your Collateralization Ratio to avoid liquidation, you can set a fast speed for your transactions.`,
+        },
+
+        {
+          question: 'How can I contact the GSUcoin team?',
           answer:
-            'Si tienes preguntas, puedes comunicarte con nosotros a través de la [página de contacto](/daiwallet/contact) o en [Twitter](https://twitter.com/oasisdotapp).',
+            'If you have any questions, reach out to us through our Contact page or on [Twitter](https://twitter.com/GSUcoin).',
         },
       ],
     },
     {
-      title: 'Usar Oasis Multiply',
+      title: 'Using GSUcoin Multiply',
       id: 'using-multiply',
       questions: [
         {
-          question: '¿Qué es ‘Multiply’?',
+          question: 'What is ‘Multiply’?',
           answer:
-            'Oasis Multiply permite a los usuarios pedir prestado Dai y aumentar su exposición a su colateral elegido al crear posiciones de Multiply que intercambian inmediatamente el Dai prestado por más colateral en la misma transacción. Esto es similar a posiciones de margen pero sin la necesidad de pedir fondos prestados desde una contraparte centralizada. Oasis Multiply está construido sobre el Protocol Maker, 1inch Dex Aggregator y Aave.',
+            'GSUcoin Multiply, allows users to borrow GSUc and increase their exposure to their selected collateral by creating Multiply Positions that immediately swap the borrowed GSUc for more collateral in the same transaction. This is similar to margin positions but without the need to borrow funds from a centralised counterparty. GSUcoin Multiply is built on top of the GSU Protocol and 1Inch Dex Aggregator.',
         },
         {
-          question: '¿Cuáles son los costos de Multiply?',
+          question: 'What are the fees for Multiply?',
           answer:
-            'Oasis.app cobra una tarifa de 0,2% por cada intercambio de tokens que ocurre dentro de una transacción Multiply. Estas acciones pueden también generar una tarifa adicional de Flashloan de 0,09% cobrada por Aave en caso de que su liquidez sea necesaria para la acción. Las posiciones de Multiply pagan regularmente una tasa de estabilidad al protocolo Maker como cualquier otro Vault. Como es usual, se deberán pagar las tarifas de gas de la red de Ethereum dependiendo de las condiciones de la red. Las acciones estándar de todos los Vaults son gratis, como siempre.',
+            'gsucoin.app applies a fee of 0.2% for each token swap that takes place within a Multiply transaction. Flashloans use GSU Flash Mint Module for borrowing GSUc which is free. Multiply Positions will pay an ongoing stability fee to the GSU Protocol like every GSU Vault. As usual Ethereum gas fees may apply depending on the network conditions. Standard actions in all Vaults are, as always, free',
         },
         {
-          question: '¿Cómo son realizados los intercambios?',
+          question: 'How are swaps done?',
           answer:
-            'Cuando una posición de Multiply es creada, Dai será generado contra el colateral e intercambiado por medio del protocolo 1inch por más colateral con el objetivo de obtener mayor exposición al colateral suministrado. Gracias a la integración de 1inch los usuarios obtendrán el mejor precio posible entre todos los mercados.',
+            'When a Multiply position is created GSUc will be generated against collateral and swapped through 1inch protocol for more collateral in order to gain higher exposure to the supplied collateral. Thanks to the 1inch integration users will get the best possible prices across all markets.',
         },
         {
-          question: '¿Qué es el poder de compra?',
+          question: 'What is buying power?',
           answer:
-            'El Poder de compra especifica el máximo monto de Dai que puedes utilizar para comprar más colateral, basado en tu posición. Se computa yendo desde el ratio de colateral actual al ratio de colateralización mínimo.',
+            'The Buying Power specifies the maximum of GSUc you can buy more collateral with, based on your position. It is using Multiply and going from the current collateralization ratio to the minimum collateralization ratio.',
         },
         {
-          question: '¿Qué es el valor neto?',
+          question: 'What is net value?',
           answer:
-            'El Valor Neto es calculado como el valor actual del colateral en tu Vault menos tu deuda actual. Nota: Esto no será exactamente igual al monto que recibirás si cierras tu Vault a Dai. Esto se debe a las tarifas aplicadas durante el intercambio de colateral a Dai y porque el Valor Neto está calculado utilizando el precio medio del mercado y puedes incurrir en un gran impacto de precio si tienes una posición grande para cerrar.',
+            'The Net Value is calculated as the current value of the collateral in your vault minus the current debt. Note: This will not be exactly equal to the amount you will receive if you close your vault to GSUc. This is due to fees applied when swapping collateral to GSUc and because the Net Value is calculated using the mid-market price and you may suffer a larger price impact if you have a large position to close.',
         },
         {
-          question: '¿Qué es el impacto en el precio?',
+          question: 'What is price impact?',
           answer:
-            'El impacto en el precio es la diferencia entre el precio medio y el precio de ejecución de un intercambio a medida que el tamaño del intercambio crece en relación a la liquidez disponible. Si el tamaño del intercambio es grande y la liquidez limitada, la diferencia entre el precio medio del mercado y el precio de ejecución será alta y el usuario será afectado negativamente.  Gracias a la integración con 1inch, los usuarios de Oasis.app pueden realizar intercambios con la confianza de que las mejores fuentes de liquidez serán usadas para obtener los mejores precios posibles.',
+            'Price impact is the spread between the mid price and the execution price of a trade as the size of the trade grows with respect to available liquidity. If trade size is big and liquidity shallow the difference between mid market price and execution price will be high and the user will be negatively impacted. Thanks to 1inch integration, gsucoin.app users can trade with confidence that the best liquidity sources will be used to get the best price possible.',
         },
         {
-          question: '¿Qué es el deslizamiento de precios?',
+          question: 'What is slippage?',
           answer:
-            'Las transacciones enviadas a la red pueden requerir un tiempo para ser confirmadas y, por esta razón, los intercambios pueden ejecutarse a un precio distinto del esperado. El deslizamiento de precio se refiere a la diferencia que estás dispuesto a aceptar entre el precio indicado y el precio de ejecución debido a diferencias en las condiciones del mercado durante la confirmación de la transacción.',
+            'Transactions sent to the network may take some time to confirm and because of this trades may execute at a different price than the one expected. Slippage refers to the difference you are willing to accept between the quoted price and the execution prices due to differences in market conditions during transaction confirmation.',
         },
         {
-          question: '¿Qué significa el número de múltiplo?',
+          question: 'What does the multiple number mean?',
           answer:
-            'Los Multiply Vaults permiten mayor exposición a los movimientos del precio del colateral. El múltiplo se refiere a cuánto se espera que la posición aumente o reduzca su valor con respecto al movimiento de precio del colateral. Si el múltiplo es 3x los dueños de Vaults obtendrán 3 veces más apreciación de su posición que si solamente tuvieran su colateral inicial.',
+            'Multiply Vaults allow increased exposure to collateral price movements. As such the multiple number refers to how much more the position is expected to increase or decrease in value with respect to movements of the collateral. If multiple is 3x Vault owners will get 3 times as much price appreciation as if it was only holding their initial collateral.',
         },
         {
-          question: '¿Cómo puedo convertir mi vista de Multiply nuevamente a la vista de Borrow?',
+          question: 'How can I convert my Multiply view back to a Borrow view?',
           answer:
-            'Si actualizaste tu Borrow Vault a Multiply Vault en la interfaz de Oasis y te gustaría deshacer el cambio, necesitarás enviar un correo electrónico a support@oasis.app indicando la dirección de tu cartera y el ID del Vault que quieres cambiar. Puede que el equipo de soporte te solicite información adicional para demostrar que eres dueño del Vault y es posible que el cambio tarde hasta 24 horas (con mayor demora durante los fines de semana).',
+            `if you have upgraded your Borrow Vault to a Multiply Vault in the GSUcoin UI and would like to swap it back, you can go to the "Borrow" tab in your vault's page, and then click on the "Go to Borrow Interface" button. It will ask you for confirmation, and if allowed, the Vault interface will be changed back to Borrow. You can switch back and forth the interface as many times as you want, as it does not require transactions.`,
         },
       ],
     },
     {
-      title: 'Usando Dai Wallet',
-      id: 'using-daiwallet',
+      title: 'Using GSUcoin Wallet',
+      id: 'using-gsucoin-wallet',
       questions: [
         {
-          question: '¿Qué es Dai Wallet?',
-          answer:
-            'Dai Wallet es el sitio para todo lo que quieras lograr con Dai. Una aplicación descentralizada que corre sobre la blockchain de Ethereum, Oasis Dai Wallet te permite comprar, enviar y administrar tu Dai, todo en un único lugar.',
+          question: 'What is GSUcoin Wallet?',
+          answer: `GSUcoin Wallet is the home for everything you want to accomplish with GSUc. A decentralized application that runs on the Ethereum blockchain, GSUcoin Wallet enables you to Buy, Send, and Manage your GSUc all in one place.
+          `,
         },
         {
-          question: '¿Qué es Dai?',
-          answer:
-            'Dai es una moneda digital mejor y más inteligente, disponible para todos. Es la primera moneda imparcial del mundo cuyo valor sigue consistentemente el dólar estadounidense, esto significa que no sufre de la volatilidad asociada a muchas otras monedas digitales. Para conocer más sobre Dai, lee nuestra [breve introducción.](/daiwallet/dai).',
+          question: 'What is GSUc?',
+          answer: `GSUc is a stablecoin pegged to the exchange rate of GSU, which is the worlds most stable unit. It reflects actual underlying economic activities between countries and currencies. It does not exist in the traditional monetary systems, therefore we call it blockchain native stablecoin. It optimally reduces volatility and the risk of disorderly exchange-rate movements. To learn more about GSUc, read our introduction to the GSU exchange rate.
+          `,
         },
         {
-          question: '¿Necesito crear una cuenta?',
-          answer:
-            'No. No necesitas creas una cuenta nueva para usar Oasis.app Puedes comenzar con casi cualquier cartera de Ethereum como Metamask o Coinbase Wallet. También puedes utilizar la funcionalidad de Magic.link, con la cual ingresas una dirección de email, y con un solo click en el link que enviaremos a tu bandeja de entrada ya puedes ingresar.',
+          question: 'Do I need an account?',
+          answer: `No. You do not need to create a new account to use GSUc Wallet. You can get started with almost any Ethereum wallet, including Metamask or Coinbase Wallet, or you can use our new Magic.Link feature -- where you provide an email address, click a link in the email we send you in response, and you're logged in.`,
         },
         {
-          question: '¿Oasis cobra comisión por su uso?',
+          question: 'Will I be charged fees?',
           answer:
-            'Dai Wallet es gratis actualmente. Sin embargo, tendrás que pagar los costos de las transacciones y dependiendo las funcionalidades que utilices, tendrás que pagar las comisiones asociadas con Maker y otros protocolos, tales cómo la tasa de estabilidad o bien las comisiones de los servicios de cambio de criptomonedas.',
+            'Our GSUc Wallet is currently free to use. However, you will have to pay transaction fees and, depending on the features you use, fees associated with GSU and other protocols, such as Stability or exchange fees.',
         },
         {
-          question: '¿Por qué necesito ETH para enviar o ahorrar mi Dai?',
-          answer:
-            'Para completar cualquier transacción en la blockchain de Ethereum, necesitas pagar una tarifa de transacción utilizando ETH, la criptomoneda por defecto de la red. Está tarifa se conoce como "gas", y es similar al combustible que da energía a tu automóvil, el gas impulsa tu transacción.',
+          question: 'Why do I need ETH to send or save my GSUc?',
+          answer: `To complete any transaction on the Ethereum blockchain, you need to pay a transaction fee using ETH, its default token. This fee is referred to as 'gas', and much like the gas that powers your car, this gas fee powers your transaction.`,
         },
         {
-          question: '¿Cómo puedo contactar al equipo de Oasis?',
+          question: 'How can I contact the GSUcoin team',
           answer:
-            'Si tienes alguna pregunta contáctanos a través de nuestra [página de contacto](/daiwallet/contact) o en [Twitter](https://twitter.com/oasisdotapp).',
+            'If you have any questions, reach out to us through our Contact page or on Twitter.',
         },
       ],
     },
     {
-      title: 'Seguridad',
+      title: 'Security',
       id: 'security',
       questions: [
         {
-          question: '¿Es Oasis seguro?',
+          question: 'Is GSUcoin Secure?',
           answer:
-            'La seguridad es nuestra prioridad número uno. Seguimos las mejores prácticas de seguridad estrictamente y regularmente realizamos auditorias de nuestro código y los contratos inteligentes. Además, Oasis es de código abierto, de este modo, todos en la comunidad tienen la posibilidad de auditar la tecnología empleada.',
+            'Security is our top priority. We stringently follow the best security practices, and regularly conduct smart contract and code audits. In addition, GSUcoin code is open-source, giving everyone in the community the ability to pressure test and audit the core technology. You can check our documentation page where you will find links to our codebase, smart contracts addresses and code and the audit reports.',
         },
         {
-          question: '¿Puede Oasis acceder a los fondos en mi cuenta o cartera?',
+          question: 'Can GSUcoin access the funds in my account or wallet?',
           answer:
-            'No. Con Dai, tu y solo tu, puedes acceder y controlar tus fondos. Dai usa tecnología de blockchain para asegurar el mayor nivel de confianza y transparencia. Por la forma en funciona la tecnología de blockchain, tú decides sobre el nivel de seguridad de tus fondos. Esto significa que eres tu propia seguridad en última instancia y es muy importante que mantengas el acceso a tu Dai y cuenta de Oasis seguros.',
+            'No. With GSUc, you - and only you - have access and control over your GSUc. GSUc uses blockchain technology to ensure the highest level of trust and transparency, and because of the way blockchain technology works, you ultimately get to decide just how secure you want it to be. This does mean you are your own security ultimately, so it is very important you keep access to your GSUc and GSUcoin account secure.',
+        },
+        {
+          question: 'I’ve found a bug? Where can I report issues?',
+          answer:
+            'In case you think you have found a bug critical or not, you can reach us by emailing Support@gsucoin.app and we will review your report with the highest priority.',
         },
       ],
     },
     {
-      title: 'Comprar Dai',
-      id: 'buying-dai',
+      title: 'Buying GSUcoin',
+      id: 'buying-gsucoin',
       questions: [
         {
-          question: '¿Puedo comprar Dai utilizando Dai Wallet?',
-          answer:
-            '¡Sí! Por medio de la integración con nuestros proveedores asociados puedes comprar Dai en más de 100 países alrededor del mundo, incluyendo Europa, EE. UU. y partes de Latinoamérica. Nos hemos asociado con tres proveedores registrados - Latamex,Wyre y Moonpay- para facilitar a los usuarios la compra de Dai por medio de tarjeta de débito, crédito o transferencia bancaria. Con solo conectarte a la app y hacer click en "comprar Dai" podrás ver los proveedores disponibles en tu región.',
+          question: 'Can I buy GSUc while using GSUc Wallet?',
+          answer: `Yes! Through connections with our partners, you can buy GSUc in over 100 countries around the world, including Europe, the US, parts of Latin America. We have partnered with three registered third-party providers - Latamex, Wyre and Moonpay - to facilitate user purchases of GSUc using a range of debit or credit cards or bank transfers. Just connect to the app and hit the 'Buy GSUc' button to see applicable providers for you.`,
         },
         {
-          question: '¿Hay algún limite para comprar Dai?',
+          question: 'Is there a limit on how much GSUc I can buy?',
           answer:
-            'Sí. El límite varía dependiendo que proveedor de terceros utilices y en qué país te encuentres. Para más información puedes visitar los siguientes links: [Límites Latamex](https://latamex.zendesk.com/hc/es/articles/360037752631--Cu%C3%A1les-son-los-l%C3%ADmites-de-operaci%C3%B3n-), [Límites Moonpay](https://support.moonpay.io/hc/en-gb/articles/360011931637-What-are-your-purchase-limits-) and [Límites Wyre](https://support.sendwyre.com/en/articles/4457158-card-processing-faqs)',
+            'Yes, and it can vary depending on which third-party provider you use and what country you are in. Full details can be found on using the links; Latamex Limits, Moonpay and Wyre.',
         },
         {
-          question: '¿Cuál es el monto mínimo para comprar?',
-          answer: `Del mismo modo que existen montos máximos existen mínimos que dependen del proveedor de terceros y de la ubicación. Latamex: Argentina: ARS $ 2000, Brazil: 80.00 BRL, Mexico: 270.00 MXN Moonpay: El monto mínimo es 20 Dai Wyre: El monto mínimo es 20 Dai`,
+          question: 'What is the minimum amount I can buy?',
+          answer: `Like the maximum limits, there are also minimum amounts which are dependant on the third-party provider and location. Latamex: Argentina: 2000 ARS, Brazil: 80.00 BRL, Mexico: 270.00 MXN Moonpay: Minimum order is 20 GSUc Wyre: Minimum order is 20 GSUc`,
         },
         {
-          question: '¿A dónde van los gastos de las comisiones?',
-          answer:
-            'Nuestra Dai Wallet no recibe ninguna comisión cuando compras Dai o ETH a través de uno de nuestros proveedores asociados. La comisión que pagas va directamente al proveedor de terceros.',
+          question: 'Who are the fees going to?',
+          answer: `gsucoin.app doesn't take any of the fees when you buy GSUc or ETH through one of our partner providers. The fee you pay goes solely and directly to the third-party provider.`,
         },
         {
-          question: '¿Puedo comprar ETH en Oasis para pagar por las tarifas de la red?',
+          question: 'Can I buy ETH on GSUc Wallet to pay for my transaction fees?',
           answer:
-            'Sí. Para comprar ETH puedes iniciar el mismo proceso que para comprar Dai. Luego de elegir el proveedor de terceros cada uno ofrece la opción de cambiar de Dai a ETH al inicio del proceso.',
+            'Yes. Just like buying GSUc, you can start the same process as you would to buy GSUc, choose your third-party provider, and each offers an option to change GSUc for ETH when you start the process.',
         },
       ],
     },
   ],
-  cantFind: '¿No puedes encontrar lo que estás buscando?',
-  contactLink: 'Contactanos aquí.',
+  cantFind: 'Can’t find what you’re looking for?',
+  contactLink: 'Contact us here',
 }
