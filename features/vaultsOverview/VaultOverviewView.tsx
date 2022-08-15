@@ -102,7 +102,7 @@ export function VaultsOverviewView({
                 my: 4,
                 alignItems: 'center',
                 '&:hover': {
-                  bg: 'rgba(255,255,255,0.8)'
+                  bg: 'rgba(255,255,255,0.8)',
                 },
                 '&:hover svg': {
                   transform: 'translateX(10px)',

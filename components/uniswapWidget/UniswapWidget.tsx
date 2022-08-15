@@ -379,9 +379,9 @@ export function UniswapWidget(props: { token?: string }) {
           ':hover': { borderColor: 'primary100', bg: 'neutral10' },
         },
         [main.token1Btn +
-          '[color="interactive100"], ' +
-          main.token2Btn +
-          '[color="interactive100"]']: {
+        '[color="interactive100"], ' +
+        main.token2Btn +
+        '[color="interactive100"]']: {
           border: '1px solid',
           borderColor: 'neutral20',
           ':hover': { borderColor: 'primary100', bg: 'neutral10' },
