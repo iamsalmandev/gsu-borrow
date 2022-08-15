@@ -73,12 +73,12 @@ export function PageSEOTags({
       <meta name="twitter:card" content="summary_large_image" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="GSUpro" />
+      <meta property="og:site_name" content="GSUcoin" />
     </Head>
   )
 }
 
-const APP_NAME = 'GSUpro'
+const APP_NAME = 'GSUcoin'
 
 export function PWATags() {
   return (

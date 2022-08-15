@@ -1,9 +1,9 @@
 import { Icon } from '@makerdao/dai-ui-icons'
 import BigNumber from 'bignumber.js'
-import { ReferralBanner } from 'components/ReferralBanner'
+// import { ReferralBanner } from 'components/ReferralBanner'
 import { TabBar } from 'components/TabBar'
 import { LANDING_PILLS } from 'content/landing'
-import { NewReferralModal } from 'features/referralOverview/NewReferralModal'
+// import { NewReferralModal } from 'features/referralOverview/NewReferralModal'
 import { TermsOfService } from 'features/termsOfService/TermsOfService'
 import { formatAsShorthandNumbers } from 'helpers/formatters/format'
 import { useFeatureToggle } from 'helpers/useFeatureToggle'
@@ -18,7 +18,7 @@ import { InfoCard } from '../../components/InfoCard'
 import { AppLink } from '../../components/Links'
 import {
   BorrowProductCardsContainer,
-  EarnProductCardsContainer,
+  // EarnProductCardsContainer,
   MultiplyProductCardsContainer,
 } from '../../components/productCards/ProductCardsContainer'
 import { useObservable } from '../../helpers/observableHook'
@@ -173,7 +173,7 @@ export function HomepageView() {
         flex: 1,
       }}
     >
-      {referralsEnabled && (
+      {/* {referralsEnabled && (
         <Flex
           sx={{
             justifyContent: 'center',
@@ -189,7 +189,7 @@ export function HomepageView() {
       )}
       {referralsEnabled && landedWithRef && context?.status === 'connectedReadonly' && (
         <NewReferralModal />
-      )}
+      )} */}
       {referralsEnabled && userReferral?.referrer && <TermsOfService userReferral={userReferral} />}
       <Hero
         isConnected={context?.status === 'connected'}
