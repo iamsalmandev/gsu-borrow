@@ -28,8 +28,8 @@ const FOOTER_SECTIONS = [
   {
     titleKey: 'nav.about',
     links: [
-      { labelKey: 'nav.team', url: '/about' },
-      { labelKey: 'nav.careers', url: '/careers' },
+      // { labelKey: 'nav.team', url: '/about' },
+      // { labelKey: 'nav.careers', url: '/careers' },
       { labelKey: 'nav.privacy', url: '/privacy' },
       { labelKey: 'nav.cookie', url: '/cookie' },
       { labelKey: 'nav.terms', url: '/terms' },
