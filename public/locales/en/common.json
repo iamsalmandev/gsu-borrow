@@ -164,7 +164,7 @@
     "onboarding": {
       "title": "Say Hello to GSUcoin Swap",
       "body": "Quickly and securely swap tokens directly on GSUcoin. Visit <0>GSUcoin Swap FAQ's to read more →</0>",
-      "faq-url": "https://kb.gsucoin.app/help/how-to-swap-your-cryptocurrency-using-the-uniswap-widget",
+      "faq-url": "/support",
       "button": "Got it"
     }
   },
@@ -1289,7 +1289,7 @@
     },
     "dai": {
       "description": "GSUc is the largest overcollateralized decentralized stablecoin. GSUc can be generated on gsucoin.app using various collateral types. Here we show the products that will net you returns in GSUc.",
-      "link": "https://kb.gsucoin.app/help/what-is-dai"
+      "link": "/inprogress"
     },
     "uni": {
       "description": "UNI is the governance token of Uniswap Protocol, which is governed by a decentralized community who propose and vote on upgrades to the protocol. Uniswap is a decentralized trading protocol for swapping ERC20 tokens.",
