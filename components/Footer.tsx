@@ -49,7 +49,7 @@ const FOOTER_SECTIONS = [
       // add link
       { labelKey: 'nav.knowledge-centre', url: '/inprogress' },
       { labelKey: 'nav.oracles', url: '/oracles' },
-      { labelKey: 'nav.referrals', url: '/referrals' },
+      // { labelKey: 'nav.referrals', url: '/referrals' },
     ],
   },
   {
