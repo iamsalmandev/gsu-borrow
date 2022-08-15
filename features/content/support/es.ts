@@ -11,7 +11,7 @@ export const content: ContentTypeSupport = {
   ],
   sections: [
     {
-      title: 'Using Oasis.app',
+      title: 'Using gsucoin.app',
       id: 'using-gsucoin',
       questions: [
         {
