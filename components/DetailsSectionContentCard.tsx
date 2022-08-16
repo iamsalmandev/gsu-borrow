@@ -157,7 +157,7 @@ export function DetailsSectionContentCard({
         as="p"
         variant="header2"
         sx={{
-          fontSize: '50px',
+          fontSize: '32px',
           maxWidth: '100%',
           lineHeight: 'loose',
           cursor: modal ? 'pointer' : 'auto',

@@ -36,10 +36,10 @@ export function getCollRatioColor(
   return collateralizationRatio.isZero()
     ? 'primary100'
     : vaultWillBeAtRiskLevelDanger || vaultWillBeUnderCollateralized
-    ? 'critical100'
-    : vaultWillBeAtRiskLevelWarning
-    ? 'warning100'
-    : 'success100'
+      ? 'critical100'
+      : vaultWillBeAtRiskLevelWarning
+        ? 'warning100'
+        : 'success100'
 }
 
 export function getPriceChangeColor({
@@ -48,8 +48,8 @@ export function getPriceChangeColor({
   return collateralPricePercentageChange.isZero()
     ? 'neutral80'
     : collateralPricePercentageChange.gt(zero)
-    ? 'success100'
-    : 'critical100'
+      ? 'success100'
+      : 'critical100'
 }
 
 export function getAfterPillColors(collRatioColor: CollRatioColor) {
@@ -143,14 +143,14 @@ export function VaultDetailsCard({
       >
         <Box>
           <Flex sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text variant="subheader" sx={{ fontSize: '20px', fontWeight: 'semiBold' }}>
+            <Text variant="subheader" sx={{ fontSize: '12px', fontWeight: 'semiBold' }}>
               {title}
             </Text>
             {openModal && <Icon name="question_o" size="auto" width="20px" height="20px" />}
           </Flex>
           <Heading
             variant="header2"
-            sx={{ fontSize: '50px', fontWeight: 'semiBold', mt: openModal ? 0 : 1 }}
+            sx={{ mt: openModal ? 0 : 1 }}
           >
             {value}
           </Heading>
@@ -160,7 +160,7 @@ export function VaultDetailsCard({
             </VaultDetailsAfterPill>
           )}
         </Box>
-        <Box sx={{ fontSize: '50px', fontWeight: 'semiBold', minHeight: '1em' }}>{valueBottom}</Box>
+        <Box sx={{ minHeight: '1em' }}>{valueBottom}</Box>
       </Flex>
     </Card>
   )
@@ -208,10 +208,10 @@ export function VaultDetailsSummaryItem({
 }: { label: ReactNode; value: ReactNode; valueAfter?: ReactNode } & AfterPillProps) {
   return (
     <Grid gap={1}>
-      <Text variant="paragraph3" sx={{ color: 'neutral80', fontWeight: 'semiBold' }}>
+      <Text variant="paragraph3" sx={{ fontSize: '14px', color: 'neutral80', fontWeight: 'semiBold' }}>
         {label}
       </Text>
-      <Text variant="paragraph3" sx={{ fontSize: '50px', fontWeight: 'semiBold' }}>
+      <Text variant="paragraph3" sx={{ fontSize: '32px', fontWeight: 'semiBold' }}>
         {value}
       </Text>
       {valueAfter && (

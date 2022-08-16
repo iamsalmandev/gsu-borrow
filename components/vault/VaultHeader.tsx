@@ -32,8 +32,8 @@ export function VaultIlkDetailsItem({
       onClick={
         isTouchDevice
           ? () => {
-              setTooltipOpen(!tooltipOpen)
-            }
+            setTooltipOpen(!tooltipOpen)
+          }
           : undefined
       }
       sx={{
@@ -49,7 +49,7 @@ export function VaultIlkDetailsItem({
         },
       }}
     >
-      <Flex sx={{ alignItems: 'center', fontSize: '14px' }}>
+      <Flex sx={{ alignItems: 'center', fontSize: '12px' }}>
         {`${label} `}
         <Text as="span" sx={{ color: 'primary100', ml: 1, mr: 1 }}>
           {value}
