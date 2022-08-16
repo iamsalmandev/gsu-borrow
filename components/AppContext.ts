@@ -7,6 +7,7 @@ import {
   AutomationBotAddTriggerData,
   AutomationBotRemoveTriggerData,
 } from 'blockchain/calls/automationBot'
+import { AutomationBotAddAggregatorTriggerData } from 'blockchain/calls/automationBotAggregator'
 import {
   createSendTransaction,
   createSendWithGasConstraints,
@@ -85,6 +86,11 @@ import {
   basicBSFormChangeReducer,
 } from 'features/automation/protection/common/UITypes/basicBSFormChange'
 import {
+  CONSTANT_MULTIPLE_FORM_CHANGE,
+  ConstantMultipleChangeAction,
+  constantMultipleFormChangeReducer,
+} from 'features/automation/protection/common/UITypes/constantMultipleFormChange'
+import {
   MULTIPLY_VAULT_PILL_CHANGE_SUBJECT,
   MultiplyPillChange,
   MultiplyPillChangeAction,
@@ -151,6 +157,12 @@ import {
   saveUserSettingsLocalStorage$,
 } from 'features/userSettings/userSettingsLocal'
 import { createVaultsOverview$ } from 'features/vaultsOverview/vaultsOverview'
+import {
+  gasEstimationReducer,
+  TX_DATA_CHANGE,
+  TxPayloadChange,
+  TxPayloadChangeAction,
+} from 'helpers/gasEstimate'
 import { isEqual, mapValues, memoize } from 'lodash'
 import moment from 'moment'
 import { combineLatest, Observable, of, Subject } from 'rxjs'
@@ -266,6 +278,7 @@ export type TxData =
   | CloseGuniMultiplyData
   | ClaimRewardData
   | ClaimMultipleData
+  | AutomationBotAddAggregatorTriggerData
 
 export interface TxHelpers {
   send: SendTransactionFunction<TxData>
@@ -312,6 +325,7 @@ export type SupportedUIChangeType =
   | SwapWidgetState
   | AutomationChangeFeature
   | NotificationChange
+  | TxPayloadChange
 
 export type LegalUiChanges = {
   AddFormChange: AddFormChangeAction
@@ -322,7 +336,9 @@ export type LegalUiChanges = {
   MultiplyPillChange: MultiplyPillChangeAction
   SwapWidgetChange: SwapWidgetChangeAction
   AutomationChangeFeature: AutomationChangeFeatureAction
+  ConstantMultipleChangeAction: ConstantMultipleChangeAction
   NotificationChange: NotificationChangeAction
+  TxPayloadChange: TxPayloadChangeAction
 }
 
 export type UIChanges = {
@@ -412,7 +428,12 @@ function initializeUIChanges() {
   uiChangesSubject.configureSubject(PROTECTION_MODE_CHANGE_SUBJECT, protectionModeChangeReducer)
   uiChangesSubject.configureSubject(SWAP_WIDGET_CHANGE_SUBJECT, swapWidgetChangeReducer)
   uiChangesSubject.configureSubject(AUTOMATION_CHANGE_FEATURE, automationChangeFeatureReducer)
+  uiChangesSubject.configureSubject(
+    CONSTANT_MULTIPLE_FORM_CHANGE,
+    constantMultipleFormChangeReducer,
+  )
   uiChangesSubject.configureSubject(NOTIFICATION_CHANGE, notificationReducer)
+  uiChangesSubject.configureSubject(TX_DATA_CHANGE, gasEstimationReducer)
 
   return uiChangesSubject
 }

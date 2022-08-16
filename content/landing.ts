@@ -14,14 +14,15 @@ export const LANDING_PILLS = [
     label: 'GSUC',
     link: '/asset/gsuc',
   },
-  {
-    icon: 'uni_lp_circle_color',
-    label: 'UNI LP',
-    link: '/asset/lp-token',
-  },
-  {
-    icon: 'yfi_circle_color',
-    label: 'YFI',
-    link: '/asset/yfi',
-  },
+  //@GSUpro remove assets
+  // {
+  //   icon: 'uni_lp_circle_color',
+  //   label: 'UNI LP',
+  //   link: '/asset/lp-token',
+  // },
+  // {
+  //   icon: 'yfi_circle_color',
+  //   label: 'YFI',
+  //   link: '/asset/yfi',
+  // },
 ]
