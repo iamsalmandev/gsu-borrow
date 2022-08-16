@@ -78,14 +78,15 @@ export const supportedBorrowIlks = [
   'WBTC-B',
   'WBTC-C',
   'RENBTC-A',
-  'LINK-A',
-  'GUSD-A',
-  'YFI-A',
-  'MANA-A',
-  'MATIC-A',
-  'UNIV2USDCETH-A',
-  'UNIV2DAIUSDC-A',
-  'CRVV1ETHSTETH-A',
+  // @GSUpro remove unspported Ilks
+  // 'LINK-A',
+  // 'GUSD-A',
+  // 'YFI-A',
+  // 'MANA-A',
+  // 'MATIC-A',
+  // 'UNIV2USDCETH-A',
+  // 'UNIV2DAIUSDC-A',
+  // 'CRVV1ETHSTETH-A',
   'WSTETH-B',
 ]
 
@@ -98,10 +99,11 @@ export const supportedMultiplyIlks = [
   'WBTC-B',
   'WBTC-C',
   'RENBTC-A',
-  'LINK-A',
-  'YFI-A',
-  'MANA-A',
-  'MATIC-A',
+  // @GSUpro remove unspported Ilks
+  // 'LINK-A',
+  // 'YFI-A',
+  // 'MANA-A',
+  // 'MATIC-A',
   'WSTETH-B',
 ]
 
