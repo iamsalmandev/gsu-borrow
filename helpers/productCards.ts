@@ -301,95 +301,95 @@ export const productCardsConfig: {
     'ETH-A': {
       link:
         '/inprogress',
-      name: 'Maker (ETH-A)',
+      name: 'GSUP (ETH-A)',
     },
     'ETH-B': {
       link:
         '/inprogress',
-      name: 'Maker (ETH-B)',
+      name: 'GSUP (ETH-B)',
     },
     'ETH-C': {
       link:
         '/inprogress',
-      name: 'Maker (ETH-C)',
+      name: 'GSUP (ETH-C)',
     },
     'WSTETH-A': {
       link:
         '/inprogress',
-      name: 'Maker (WSTETH-A)',
+      name: 'GSUP (WSTETH-A)',
     },
     'WSTETH-B': {
       link:
         '/inprogress',
-      name: 'Maker (WSTETH-B)',
+      name: 'GSUP (WSTETH-B)',
     },
     'WBTC-A': {
       link:
         '/inprogress',
-      name: 'Maker (WBTC-A)',
+      name: 'GSUP (WBTC-A)',
     },
     'WBTC-B': {
       link:
         '/inprogress',
-      name: 'Maker (WBTC-B)',
+      name: 'GSUP (WBTC-B)',
     },
     'WBTC-C': {
       link:
         '/inprogress',
-      name: 'Maker (WBTC-C)',
+      name: 'GSUP (WBTC-C)',
     },
     'RENBTC-A': {
       link:
         '/inprogress',
-      name: 'Maker (RENBTC-A)',
+      name: 'GSUP (RENBTC-A)',
     },
     'LINK-A': {
       link:
         '/inprogress',
-      name: 'Maker (LINK-A)',
+      name: 'GSUP (LINK-A)',
     },
     'MANA-A': {
       link:
         '/inprogress',
-      name: 'Maker (MANA-A)',
+      name: 'GSUP (MANA-A)',
     },
     'MATIC-A': {
       link:
         '/inprogress',
-      name: 'Maker (MATIC-A)',
+      name: 'GSUP (MATIC-A)',
     },
     'GUSD-A': {
       link:
         '/inprogress',
-      name: 'Maker (GUSD-A)',
+      name: 'GSUP (GUSD-A)',
     },
     'YFI-A': {
       link:
         '/inprogress',
-      name: 'Maker (YFI-A)',
+      name: 'GSUP (YFI-A)',
     },
     'GUNIV3DAIUSDC1-A': {
       link: '/inprogress',
-      name: 'Maker/Gelato/Uniswap',
+      name: 'GSUP/Gelato/Uniswap',
     },
     'GUNIV3DAIUSDC2-A': {
       link: '/inprogress',
-      name: 'Maker/Gelato/Uniswap',
+      name: 'GSUP/Gelato/Uniswap',
     },
     'UNIV2USDCETH-A': {
       link:
         '/inprogress',
-      name: 'Maker/Uniswap',
+      name: 'GSUP/Uniswap',
     },
     'UNIV2DAIUSDC-A': {
       link:
         '/inprogress',
-      name: 'Maker/Uniswap',
+      name: 'GSUP/Uniswap',
     },
     'CRVV1ETHSTETH-A': {
       link:
         '/inprogress',
-      name: 'Maker/Curve/Lido',
+      name: 'GSUP/Curve/Lido',
     },
   },
 }
