@@ -69,9 +69,16 @@ export function ProductCardsFilter({
         {/*@GSUpro updates the container styles*/}
         <Flex sx={{ justifyContent: 'center', mb: 4 }}>
           {filters.map((tab) => {
-            {/*@GSUpro updates the button styles*/ }
+            {
+              /*@GSUpro updates the button styles*/
+            }
             return (
-              <Button variant="unStyled" sx={{ minWidth: "80px" }} onClick={() => handleTabClick(tab.name)} key={tab.name}>
+              <Button
+                variant="unStyled"
+                sx={{ minWidth: '80px' }}
+                onClick={() => handleTabClick(tab.name)}
+                key={tab.name}
+              >
                 <Flex
                   sx={{ flexDirection: 'column', alignItems: 'center' }}
                   onMouseEnter={() => handleHover(tab.name)}
