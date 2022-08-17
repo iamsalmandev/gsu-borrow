@@ -42,11 +42,13 @@ function getLibrary(provider: any, connector: AbstractConnector | undefined): We
 
 const FTPolarFontBold = staticFilesRuntimeUrl('/static/fonts/FTPolar/FTPolarTrial-Bold')
 const FTPolarFontMedium = staticFilesRuntimeUrl('/static/fonts/FTPolar/FTPolarTrial-Medium')
+//@GSUpro add fonts
 const OpenSansRegular = staticFilesRuntimeUrl('/static/fonts/OpenSans/OpenSans-Regular')
 const OpenSansBold = staticFilesRuntimeUrl('/static/fonts/OpenSans/OpenSans-Bold')
 const OpenSansLight = staticFilesRuntimeUrl('/static/fonts/OpenSans/OpenSans-Light')
 const OpenSansMedium = staticFilesRuntimeUrl('/static/fonts/OpenSans/OpenSans-Medium')
 const OpenSansSemiBold = staticFilesRuntimeUrl('/static/fonts/OpenSans/OpenSans-SemiBold')
+//@GSUpro add fonts ends
 const globalStyles = `
   html,
   body,
