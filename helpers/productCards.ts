@@ -296,6 +296,7 @@ export const productCardsConfig: {
     'UNIV2WBTCDAI-A': 'lp-tokens',
     'CRVV1ETHSTETH-A': 'borrow',
   } as Record<string, string>,
+  // @GSUpro remove links to oasis
   descriptionLinks: {
     'ETH-A': {
       link:
@@ -392,7 +393,7 @@ export const productCardsConfig: {
     },
   },
 }
-
+// @GSUpro remove links to oasis end
 function btcProductCards<T extends IlkTokenMap>(productCardsData: Array<T>): Array<T> {
   return productCardsData.filter((ilk) => {
     return BTC_TOKENS.includes(ilk.token)
