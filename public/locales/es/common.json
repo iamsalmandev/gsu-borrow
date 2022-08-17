@@ -4,15 +4,15 @@
   "404-message": "Lo siento, no se pudo encontrar la página.",
   "about": {
     "heading": "Sobre nosotros",
-    "description": "Nuestra misión en Oasis es proveer el mejor y más confiable punto de entrada para que usted despliegue su capital. Estamos construyendo Oasis.app para permitir que nuestros usuarios se beneficien de todo el potencial de DeFi. Somos un equipo formado por pensadores y desarrolladores apasionados.",
+    "description": "Nuestra misión en Oasis es proveer el mejor y más confiable punto de entrada para que usted despliegue su capital. Estamos construyendo GSUcoin.app para permitir que nuestros usuarios se beneficien de todo el potencial de DeFi. Somos un equipo formado por pensadores y desarrolladores apasionados.",
     "careers-link": "Únase a nosotros",
     "pics-title": "Conozca al equipo"
   },
   "wallet-wrong-network": "Su cartera no está en la red correcta",
-  "app-wrong-network": "La red actual de Oasis.app no está soportada por su cartera",
-  "wallet-wrong-network-desc": "Parece que su cartera está conectada a una red diferente a la de Oasis.app. Por favor, cambie manualmente la red de su cartera, o haga click en el botón inferior.",
-  "app-wrong-network-desc": "Parece que Oasis.app está en una red diferente a la de su cartera. Por favor, haga click en el botón inferior para cambiarla.",
-  "user-wrong-network-desc": "Parece que su cartera está conectada a una red diferente a la de Oasis.app. Por favor, cambie manualmente la red de su cartera.",
+  "app-wrong-network": "La red actual de GSUcoin.app no está soportada por su cartera",
+  "wallet-wrong-network-desc": "Parece que su cartera está conectada a una red diferente a la de GSUcoin.app. Por favor, cambie manualmente la red de su cartera, o haga click en el botón inferior.",
+  "app-wrong-network-desc": "Parece que GSUcoin.app está en una red diferente a la de su cartera. Por favor, haga click en el botón inferior para cambiarla.",
+  "user-wrong-network-desc": "Parece que su cartera está conectada a una red diferente a la de GSUcoin.app. Por favor, cambie manualmente la red de su cartera.",
   "switch-network": "Cambiar red",
   "switch-to-mainnet": "Cambiar a la red principal de Ethereum",
   "acceptance-check-failed": "La verificación de aceptación falló",
@@ -92,19 +92,19 @@
   "configure-your-vault": "Configure su Vault",
   "create-proxy": "Cree un Proxy",
   "create-proxy-btn": "Crear Proxy",
-  "create-proxy-desc": "Para poder usar los Vaults Maker, necesitará crear un proxy para su cartera.",
+  "create-proxy-desc": "Para poder usar los Vaults GSUP, necesitará crear un proxy para su cartera.",
   "create-vault": "Crear Vault",
   "create-your-vault": "Cree su Vault",
   "creating-proxy": "Creando Proxy",
   "creating-vault": "Creando Vault",
   "proxy-advantages": {
     "0": "Solo se necesita un proxy por cuenta",
-    "1": "Le permite a su cartera interactuar con el protocolo Maker",
+    "1": "Le permite a su cartera interactuar con el protocolo GSUP",
     "2": "Más eficiente en consumo de gas"
   },
   "proxy-advantages-new": {
     "0": "<0>Solo se</0> necesita un proxy por cuenta",
-    "1": "Le permite a su cartera interactuar con el protocolo Maker",
+    "1": "Le permite a su cartera interactuar con el protocolo GSUP",
     "2": "Más eficiente en consumo de gas"
   },
   "currency": "Moneda",
@@ -267,7 +267,7 @@
     },
     "hero": {
       "headlinePreAssetLandingPages": "Genere Dai usando cripto como garantía",
-      "subheaderPreAssetLandingPages": "Abra un Vault de Maker y genere Dai depositando su colateral. Conecte su cartera para comenzar",
+      "subheaderPreAssetLandingPages": "Abra un Vault de GSUP y genere Dai depositando su colateral. Conecte su cartera para comenzar",
       "headline": "Lleve sus criptomonedas a DeFi",
       "subheader": "Obtenga rendimientos, multiplique su exposición, o pida préstamos con sus criptomonedas como garantía. Puede utilizar ETH, BTC, y 30 criptomonedas más"
     },
@@ -302,28 +302,28 @@
       "have-some-questions": "¿Tiene alguna pregunta?",
       "learn": {
         "learn": "Aprenda más",
-        "deep-dive": "Conozca más sobre las funcionalidades de Oasis.app y su glosario",
+        "deep-dive": "Conozca más sobre las funcionalidades de GSUcoin.app y su glosario",
         "get-started": "Primeros pasos",
         "tutorials": "Tutoriales",
         "key-concepts": "Conceptos importantes"
       },
       "support": {
         "support": "Soporte",
-        "contact-whenever": "Contacte al equipo de Oasis.app cuando lo necesite",
+        "contact-whenever": "Contacte al equipo de GSUcoin.app cuando lo necesite",
         "faq": "Preguntas frecuentes",
         "discord": "Discord",
         "contact-us": "Contáctenos",
         "twitter": "Twitter"
       },
-      "get-started": "Comience a usar Oasis.app",
+      "get-started": "Comience a usar GSUcoin.app",
       "multiply": {
         "multiply": "Multiplique sus activos",
-        "subtitle": "Puede abrir un Vault de Maker, generar Dai y comprar más colateral en una sola transacción.",
+        "subtitle": "Puede abrir un Vault de GSUP, generar Dai y comprar más colateral en una sola transacción.",
         "open-vault": "Abrir Vault"
       },
       "borrow": {
         "borrow-dai": "Pida un préstamo en Dai",
-        "choose-your-preferred-token": "Elija su token preferido para usar como garantía, y abra un Vault de Maker para obtener Dai",
+        "choose-your-preferred-token": "Elija su token preferido para usar como garantía, y abra un Vault de GSUP para obtener Dai",
         "open-vault": "Abrir Vault"
       },
       "manage": {
@@ -340,7 +340,7 @@
       "cookies": {
         "marketing": {
           "title": "Cookies de marketing",
-          "description": "Oasis.app utiliza cookies anónimas con propósitos de marketing"
+          "description": "GSUcoin.app utiliza cookies anónimas con propósitos de marketing"
         },
         "analytics": {
           "title": "Cookies de análisis",
@@ -386,13 +386,13 @@
       "deposit-amount-exceeds-collateral-balance": "No puede depositar más colateral que el disponible en su cartera",
       "withdraw-amount-exceeds-free-collateral": "No puede retirar más de {{maxWithdrawAmount}} {{token}}",
       "withdraw-amount-exceeds-free-collateral-at-next-price": "No puede retirar más de {{maxWithdrawAmount}} {{token}}",
-      "generate-amount-exceeds-dai-yield-from-total-collateral": "El ratio de colateralización de este Vault de Maker es muy bajo. Por favor genere menos Dai",
-      "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "El ratio de colateralización de este Vault de Maker será muy bajo en la próxima actualización del precio, por favor genere menos Dai",
+      "generate-amount-exceeds-dai-yield-from-total-collateral": "El ratio de colateralización de este Vault de GSUP es muy bajo. Por favor genere menos Dai",
+      "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "El ratio de colateralización de este Vault de GSUP será muy bajo en la próxima actualización del precio, por favor genere menos Dai",
       "generate-amount-exceeds-debt-ceiling": "Está tratando de generar más Dai que el permitido por el techo de deuda actual. El monto de Dai que puede ser generado es {{maxGenerateAmount}} {{token}}",
       "generate-amount-less-than-debt-floor": "Este tipo de Vault requiere que sea generado un mínimo de {{debtFloor}} Dai. Más información acerca de la deuda mínima de Vault <0>aquí</0>.",
       "payback-amount-exceeds-dai-balance": "No puede pagar más Dai que el disponible en su cartera",
-      "payback-amount-exceeds-vault-debt": "Está tratando de pagar más que su deuda de Dai para este Vault de Maker",
-      "debt-will-be-less-than-debt-floor": "La deuda de este Vault de Maker debe ser 0 o exceder {{debtFloor}} Dai. Por favor cambie el monto que desea pagar",
+      "payback-amount-exceeds-vault-debt": "Está tratando de pagar más que su deuda de Dai para este Vault de GSUP",
+      "debt-will-be-less-than-debt-floor": "La deuda de este Vault de GSUP debe ser 0 o exceder {{debtFloor}} Dai. Por favor cambie el monto que desea pagar",
       "custom-collateral-allowance-amount-exceeds-maxuint256": "La autorización es muy grande. Por favor, disminuya el monto de la autorización.",
       "custom-collateral-allowance-amount-less-than-deposit-amount": "Necesita autorizar al menos el monto de su depósito",
       "custom-dai-allowance-amount-exceeds-maxuint256": "La autorización es muy grande. Por favor, disminuya el monto de la autorización.",
@@ -405,11 +405,11 @@
     "card": {
       "collateralization-ratio-calculated": "Su ratio de colateralización se calcula como: Valor del colateral / Deuda en Dai",
       "collateralization-ratio-header2": "Ratio de colateralización actual:",
-      "collateralization-ratio-description": "El precio utilizado para calcular el valor de su colateral es el precio obtenido de los oráculos de Maker. Su ratio de colateralización necesita estar por arriba del mínimo requerido en todo momento para no ser liquidado",
+      "collateralization-ratio-description": "El precio utilizado para calcular el valor de su colateral es el precio obtenido de los oráculos de GSUP. Su ratio de colateralización necesita estar por arriba del mínimo requerido en todo momento para no ser liquidado",
       "collateralization-ratio-next-price": "Su ratio de colateralización en el próximo precio será:",
       "collateral-locked-amount": "El monto total de colateral bloqueado en su Vault es:",
       "collateral-locked-USD": "El valor total en dólares del colateral en su Vault es:",
-      "collateral-locked-oracles": "Usamos el precio actual del oráculo de Maker para calcular este valor. El precio actual de mercado de su colateral puede diferir de este precio."
+      "collateral-locked-oracles": "Usamos el precio actual del oráculo de GSUP para calcular este valor. El precio actual de mercado de su colateral puede diferir de este precio."
     }
   },
   "earn-vault": {
@@ -421,8 +421,8 @@
   },
   "manage-multiply-vault": {
     "tooltip": {
-      "vaultId": "El ID del Vault es un identificador único para su Vault de Maker en Oasis.app",
-      "stabilityFee": "El protocolo Maker cobra una tasa de estabilidad en el Dai que se genera en los Vaults de Maker. Es una tasa variable que cambia cuando el gobierno de Maker vota en propuestas presentadas por los Equipos de Riesgo",
+      "vaultId": "El ID del Vault es un identificador único para su Vault de GSUP en GSUcoin.app",
+      "stabilityFee": "El protocolo GSUP cobra una tasa de estabilidad en el Dai que se genera en los Vaults de GSUP. Es una tasa variable que cambia cuando el gobierno de GSUP vota en propuestas presentadas por los Equipos de Riesgo",
       "liquidationFee": "Si su Vault es liquidado, se le agregará una penalidad por liquidación a la deuda de Dai pendiente de su Vault. Esto significa que se subastará más colateral para cubrir la deuda pendiente. La tasa de liquidación es un incentivo para que los dueños de Vaults eviten las liquidaciones. El valor nominal de la penalidad de liquidación se calcula a partir de la tasa de liquidación y la deuda del Vault.",
       "min-collateral": "También llamado ratio de liquidación, si el Vault se encuentra por debajo de este nivel de colateralización, se considera sujeto a liquidación. En ese caso, parte del colateral se liquidará.",
       "dust-limit": "Este valor es el mínimo monto de Dai que puede generarse en este tipo de Vault. También se conoce como piso de deuda."
@@ -435,10 +435,10 @@
       "buying-power": "Poder de compra",
       "buying-power-description": "Esta es la cantidad de Dai que puede utilizar para comprar más colateral en este momento. El Poder de Compra especifica el máximo de Dai con el que puede comprar más colateral, basado en el estado actual de su posición. Se calcula tomando el valor máximo de Dai disponible, utilizandolo para comprar más colateral, y bloqueando ese colateral nuevamente en el Vault.",
       "current-price": "Precio Actual",
-      "current-price-description": "Este es el precio actual del colateral de su Vault de acuerdo a los oráculos de precio de Maker. Existe una hora de demora entre que el precio del oráculo se convierta en el precio actual en el protocolo Maker.",
+      "current-price-description": "Este es el precio actual del colateral de su Vault de acuerdo a los oráculos de precio de GSUP. Existe una hora de demora entre que el precio del oráculo se convierta en el precio actual en el protocolo GSUP.",
       "next-price": "Precio Siguiente",
-      "next-price-description": "Aquí puede ver el precio siguiente que se hará efectivo en el protocolo Maker. Compare este valor con el Precio de Liquidación para ver si su Vault será liquidado en la próxima actualización de precio. {{nextPrice}}",
-      "more-info-oracles": "Más información <0>aquí</0> sobre los oráculos de Maker.",
+      "next-price-description": "Aquí puede ver el precio siguiente que se hará efectivo en el protocolo GSUP. Compare este valor con el Precio de Liquidación para ver si su Vault será liquidado en la próxima actualización de precio. {{nextPrice}}",
+      "more-info-oracles": "Más información <0>aquí</0> sobre los oráculos de GSUP.",
       "net-value": "Valor Neto y P/G",
       "unrealised-pnl": "P/G no realizadas",
       "based-on-price": "El valor neto actual se calcula a partir del precio de mercado de",
@@ -716,12 +716,12 @@
   },
   "vault-errors": {
     "deposit-amount-exceeds-collateral-balance": "No puede depositar más colateral que el disponible en su cartera",
-    "generate-amount-exceeds-dai-yield-from-depositing-collateral": "El ratio de colateralización de este Vault de Maker será muy bajo. Por favor, genere menos Dai.",
-    "generate-amount-exceeds-dai-yield-from-depositing-collateral-at-next-price": "El ratio de colateralización de este Vault de Maker será muy bajo en la próxima actualización de precios. Por favor, genere menos Dai.",
+    "generate-amount-exceeds-dai-yield-from-depositing-collateral": "El ratio de colateralización de este Vault de GSUP será muy bajo. Por favor, genere menos Dai.",
+    "generate-amount-exceeds-dai-yield-from-depositing-collateral-at-next-price": "El ratio de colateralización de este Vault de GSUP será muy bajo en la próxima actualización de precios. Por favor, genere menos Dai.",
     "generate-amount-exceeds-debt-ceiling": "Está tratando de generar más Dai que lo que permite el límite de deuda actual. La cantidad de Dai que puede ser generada es {{maxGenerateAmount}}",
     "generate-amount-less-than-debt-floor": "Este tipo de Vault requiere generar un mínimo de deuda de {{debtFloor}} Dai. Más información sobre la Deuda Mínima de un Vault <0>aquí</0>",
     "generate-amount-more-than-max-flash-amount": "Esta transacción excede el máximo permitido de {{maxFlashAmount}} para flashloans. Por favor, disminuya el múltiplo o la cantidad depositada.",
-    "debt-will-be-less-than-debt-floor": "La deuda del Vault de Maker debe ser 0 o exceder la deuda mínima de {{debtFloor}} Dai. Por favor, cambie el monto de pago.",
+    "debt-will-be-less-than-debt-floor": "La deuda del Vault de GSUP debe ser 0 o exceder la deuda mínima de {{debtFloor}} Dai. Por favor, cambie el monto de pago.",
     "custom-allowance-amount-exceeds-maxuint256": "La autorización es muy grande. Por favor, disminuya el monto de la autorización.",
     "custom-allowance-amount-less-than-deposit-amount": "Necesita autorizar al menos el monto de su depósito",
     "depositing-all-eth-balance": "Necesitará ETH para pagar el costo del gas. Disminuya el monto de su depósito",
@@ -729,10 +729,10 @@
     "exchange-error": "No se pudo obtener la información de precio desde el exchange para esta acción de Multiply",
     "withdraw-amount-exceeds-free-collateral": "No puede retirar más de {{maxWithdrawAmount}} {{token}}",
     "withdraw-amount-exceeds-free-collateral-at-next-price": "No puede retirar más de {{maxWithdrawAmount}} {{token}}",
-    "generate-amount-exceeds-dai-yield-from-total-collateral": "El ratio de colateralización de este Vault de Maker es muy bajo. Por favor, genere menos Dai.",
-    "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "El ratio de colateralización de este Vault de Maker será muy bajo en la próxima actualización de precios. Por favor, genere menos Dai.",
+    "generate-amount-exceeds-dai-yield-from-total-collateral": "El ratio de colateralización de este Vault de GSUP es muy bajo. Por favor, genere menos Dai.",
+    "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "El ratio de colateralización de este Vault de GSUP será muy bajo en la próxima actualización de precios. Por favor, genere menos Dai.",
     "payback-amount-exceeds-dai-balance": "No puede pagar más Dai que el disponible en su cartera.",
-    "payback-amount-exceeds-vault-debt": "Está intentando pagar un monto mayor a la deuda en Dai de este Vault de Maker",
+    "payback-amount-exceeds-vault-debt": "Está intentando pagar un monto mayor a la deuda en Dai de este Vault de GSUP",
     "custom-collateral-allowance-amount-exceeds-maxuint256": "La autorización es muy grande. Por favor, disminuya el monto de la autorización.",
     "custom-collateral-allowance-amount-less-than-deposit-amount": "Necesita autorizar al menos el monto de su depósito",
     "custom-dai-allowance-amount-exceeds-maxuint256": "La autorización es muy grande. Por favor, disminuya el monto de la autorización.",
@@ -783,8 +783,8 @@
   },
   "ilks-list": {
     "headers": {
-      "noVaults": "Seleciona un tipo de colateral para crear un Vault de Maker y generar Dai, o comprar colateral adicional.",
-      "withVaults": "Abra un nuevo Vault de Maker.<0/> Genere Dai o compre colateral adicional."
+      "noVaults": "Seleciona un tipo de colateral para crear un Vault de GSUP y generar Dai, o comprar colateral adicional.",
+      "withVaults": "Abra un nuevo Vault de GSUP.<0/> Genere Dai o compre colateral adicional."
     }
   },
   "vaults-overview": {
@@ -793,14 +793,14 @@
     "headers": {
       "connected-owner-noVaults": "No tiene Vaults abiertos",
       "connected-owner-withVaults": "Sus vaults",
-      "connected-viewer-noVaults": "{{address}} actualmente no tiene Vaults Maker.",
-      "connected-viewer-withVaults": "Resumen de Vaults de Maker de {{address}}",
-      "notConnected-noVaults": "{{address}} actualmente no tiene Vaults de Maker.<0/> Conecte su cartera y abra un Vault",
-      "notConnected-withVaults": "Resumen de Vaults de Maker de {{address}}.<0/> Conecte su cartera",
-      "vault-suggestions": "{{address}}, hacer más en Oasis.app"
+      "connected-viewer-noVaults": "{{address}} actualmente no tiene Vaults GSUP.",
+      "connected-viewer-withVaults": "Resumen de Vaults de GSUP de {{address}}",
+      "notConnected-noVaults": "{{address}} actualmente no tiene Vaults de GSUP.<0/> Conecte su cartera y abra un Vault",
+      "notConnected-withVaults": "Resumen de Vaults de GSUP de {{address}}.<0/> Conecte su cartera",
+      "vault-suggestions": "{{address}}, hacer más en GSUcoin.app"
     },
     "number-of-vaults": "Número de Vaults",
-    "subheader-no-vaults": "Abra un Vault de Maker, deposite su colateral, y tome prestado Dai o compre más colateral con su préstamo.",
+    "subheader-no-vaults": "Abra un Vault de GSUP, deposite su colateral, y tome prestado Dai o compre más colateral con su préstamo.",
     "subheader-vault-suggestions": "Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Ut fringilla dictum nibh etc aliquam dolor sit amet.",
     "total-debt": "Deuda Total",
     "total-locked": "Total bloqueado",
@@ -815,18 +815,18 @@
       "subheader2": "Puede ver sus Vaults"
     },
     "liquidating": {
-      "header1": "Su Vault de Maker {{ collateral }} {{ id }} está en cerca de ser liquidado",
-      "header2": "Vault de Maker {{ collateral }} {{ id }} está cerca de ser liquidado",
+      "header1": "Su Vault de GSUP {{ collateral }} {{ id }} está en cerca de ser liquidado",
+      "header2": "Vault de GSUP {{ collateral }} {{ id }} está cerca de ser liquidado",
       "subheader1": "La próxima actualización del precio de {{ collateral }} provocará una liquidación de este Vault a menos que añada más colateral, o pague la deuda en Dai.",
-      "subheader2": "¿Este Vault de Maker le pertenece? Por favor conéctese con la dirección {{ address }} y evite que su Vault sea liquidado",
+      "subheader2": "¿Este Vault de GSUP le pertenece? Por favor conéctese con la dirección {{ address }} y evite que su Vault sea liquidado",
       "subheader3": "Este Vault está en liquidación, y puede ser liquidado en cualquier momento."
     },
     "liquidated": {
-      "header1": "Su Vault de Maker fue liquidado",
-      "header2": "Este Vault de Maker fue liquidado",
-      "subheader1": "Este Vault de Maker fue liquidado. Una parte del colateral se subastó para pagar su deuda en Dai.",
+      "header1": "Su Vault de GSUP fue liquidado",
+      "header2": "Este Vault de GSUP fue liquidado",
+      "subheader1": "Este Vault de GSUP fue liquidado. Una parte del colateral se subastó para pagar su deuda en Dai.",
       "subheader2": "Puede recuperar {{ amount }} {{ collateral }}",
-      "subheader3": "Este Vault de Maker fue liquidado. Una parte del colateral se subastó para pagar la deuda en Dai.",
+      "subheader3": "Este Vault de GSUP fue liquidado. Una parte del colateral se subastó para pagar la deuda en Dai.",
       "subheader4": "Si este es su Vault, conéctese con la dirección {{ address }} para recuperar el colateral restante."
     }
   },
@@ -844,7 +844,7 @@
   "my-positions": "Mis posiciones",
   "no-results": "Sin resultados",
   "learn-about-wallets": "Aprenda más sobre carteras",
-  "learn-more-at-oasis": "Más información en la Base de Conocimiento de Oasis.app",
+  "learn-more-at-oasis": "Más información en la Base de Conocimiento de GSUcoin.app",
   "learn-more-link": "https://ethereum.org/es/wallets/find-wallet/",
   "enter-an-amount": "Ingrese un monto",
   "enter-allowance-amount": "Ingrese un monto de autorización",
@@ -896,13 +896,13 @@
   "adjusting-vault-multiply": "El cambio a Vault Multiply está en proceso",
   "closing-vault-multiply": "Cerrando su Vault Multiply",
   "your-wallet": "Su cartera",
-  "welcome": "Bienvenido al nuevo Oasis.app.",
+  "welcome": "Bienvenido al nuevo GSUcoin.app.",
   "wallet": "Cartera",
   "read-blog-post": "Lea el post en nuestro blog",
   "visit-old-oasis": "Visitar la versión anterior de Oasis",
   "oracles": {
     "header": "Oráculos",
-    "description": "En esta página puede ver el precio actual y siguiente de los distintos colaterales admitidos en los Vaults Maker. La mayoría utilizan el Módulo de Seguridad del Oráculo (OSM), que actualiza el precio una vez por hora. Por lo tanto, si hay caídas abruptas de precio, los usuarios disponen de una hora para reaccionar al cambio de precio.",
+    "description": "En esta página puede ver el precio actual y siguiente de los distintos colaterales admitidos en los Vaults GSUP. La mayoría utilizan el Módulo de Seguridad del Oráculo (OSM), que actualiza el precio una vez por hora. Por lo tanto, si hay caídas abruptas de precio, los usuarios disponen de una hora para reaccionar al cambio de precio.",
     "token": "Token",
     "current-price": "Precio actual",
     "next-price": "Próximo precio",
@@ -952,7 +952,7 @@
     "max-cost": "Costo máximo de la transacción",
     "token-on-stop-loss-trigger": "{{token}} al dispararse la protección",
     "zero-debt-heading": "Necesita generar Dai para poder activar la protección por stop-loss",
-    "zero-debt-description": "La protección por stop-loss de Oasis le permite establecer un límite de pérdidas dinámico para su Vault, basado en el ratio de colateralización. En el caso de una bajada abrupta en el precio de su colateral, esta función de protección avanzada de Oasis.app cerrará su Vault automáticamente para evitar liquidaciones o mayores pérdidas. Podrá elegir si desea cerrar a Dai o a colateral. Más información sobre el funcionamiento de esta característica.",
+    "zero-debt-description": "La protección por stop-loss de Oasis le permite establecer un límite de pérdidas dinámico para su Vault, basado en el ratio de colateralización. En el caso de una bajada abrupta en el precio de su colateral, esta función de protección avanzada de GSUcoin.app cerrará su Vault automáticamente para evitar liquidaciones o mayores pérdidas. Podrá elegir si desea cerrar a Dai o a colateral. Más información sobre el funcionamiento de esta característica.",
     "summary-of-protection": "Resumen de la protección",
     "on-stop-loss-trigger": "Al dispararse el stop-loss",
     "estimated-to-receive": "Recibirá aproximadamente",
@@ -998,7 +998,7 @@
   "dsr-deposit-error-deposit": "Falló el depósito a DSR",
   "dsr-deposit-error-greater-than-balance": "DAI insuficiente",
   "dsr-deposit-permissions": "Esta autorización le permite a Oasis interactuar con el Dai en su cartera.",
-  "dsr-product": "Bloquee sus Dai con Maker y geners ahorros.",
+  "dsr-product": "Bloquee sus Dai con GSUP y geners ahorros.",
   "dsr-proxy-create-description-pending": "Creando proxy",
   "dsr-proxy-create-description-recent": "Proxy creado",
   "dsr-proxy-create-description-recent-failed": "No se pudo crear el proxy",
@@ -1094,7 +1094,7 @@
   "moonpay-purchase-notification": "Compra con Moonpay",
   "moonpay-purchase-notification-past": "Comprado con Moonpay",
   "no-camera": "La Cámara no está disponible",
-  "notice-app-homescreen": "Añadir Oasis.app a mi pantalla de inicio",
+  "notice-app-homescreen": "Añadir GSUcoin.app a mi pantalla de inicio",
   "wyre-badge-country": "EEUU. y Europa",
   "wyre-badge-fees": "Comisiones de 2.9%",
   "wyre-desc": "Wyre es un puente seguro entre las monedas fiduciarias y las criptomonedas.",
@@ -1104,7 +1104,7 @@
   "wyre-purchase-notification": "Compra con Wyre",
   "wyre-purchase-notification-past": "Comprado con Wyre",
   "newsletter": {
-    "title": "Manténgase al día con Oasis.app",
+    "title": "Manténgase al día con GSUcoin.app",
     "subtitle": "Suscríbase a nuestro boletín de actualizaciones de Oasis",
     "placeholder": "Dirección de email",
     "button": "Suscríbase",
@@ -1137,9 +1137,9 @@
     "update-failure": "Algo salió mal"
   },
   "modal-trezor-eip1559-title": "Trezor en Metamask no soporta el EIP-1559",
-  "modal-trezor-eip1559-paragraph1": "Oasis.app actualizó las transacciones recientemente para soportar el EIP-1559. Trezor en Metamask no soporta actualmente las transacciones EIP-1559, ver <0>aquí</0>",
+  "modal-trezor-eip1559-paragraph1": "GSUcoin.app actualizó las transacciones recientemente para soportar el EIP-1559. Trezor en Metamask no soporta actualmente las transacciones EIP-1559, ver <0>aquí</0>",
   "modal-trezor-eip1559-paragraph2": "Puede seguir utilizando Metamask y Trezor en nuestro entorno anterior en <0>legacy.oasis.app</0>",
-  "modal-trezor-eip1559-paragraph3": "Como alternativa, si tiene un Trezor Model T, puede <0>conectarse</0> directamente a Oasis.app",
+  "modal-trezor-eip1559-paragraph3": "Como alternativa, si tiene un Trezor Model T, puede <0>conectarse</0> directamente a GSUcoin.app",
   "product-card": {
     "borrow": "Un Vault diseñado para pedir préstamos contra {{token}}",
     "multiply": "Un Vault diseñado para multiplicar su exposición a {{token}}",
@@ -1228,7 +1228,7 @@
     }
   },
   "guni-slippage-overridden": "El deslizamiento personalizado fue modificado para este Vault. Los Vaults GUNI sólo pueden ser abiertos con un deslizamiento de 0.1%.",
-  "temporary-guni-message": "El máximo múltiplo para su posición en GUNI fue incrementado por el gobierno de Maker de 20x a 50x. Para aprovechar esto, deberá cerrar su vault y abrir una nueva posición GUNI. Más información en",
+  "temporary-guni-message": "El máximo múltiplo para su posición en GUNI fue incrementado por el gobierno de GSUP de 20x a 50x. Para aprovechar esto, deberá cerrar su vault y abrir una nueva posición GUNI. Más información en",
   "claim-rewards": {
     "title": "Recompensas por su posición en {{ bonusTokenName }}",
     "text1": "Esta posición otorga recompensas en {{ bonusTokenName }}. Presione el botón para obtener {{ bonusAmount }}. Puede ver más información sobre estas recompensas",

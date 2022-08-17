@@ -16,9 +16,9 @@
 
 <br>
 
-# Oasis.app
+# GSUcoin.app
 
-[Oasis.app](https://oasis.app) is the most popular user-interface to interact with the
+[GSUcoin.app](https://oasis.app) is the most popular user-interface to interact with the
 [Maker protocol](https://docs.makerdao.com/). It enables users to generate Dai, the most used and
 decentralized stablecoin, using a variety of crypto assets as collateral.
 

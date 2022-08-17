@@ -1,5 +1,5 @@
 export const tokenList = {
-  name: 'Oasis.app Token List',
+  name: 'GSUcoin.app Token List',
   timestamp: '2022-03-21T09:49:26.225Z',
   version: {
     major: 1,
@@ -8,7 +8,7 @@ export const tokenList = {
   },
   tags: {},
   logoURI: 'https://oasis.app/static/img/logo_footer.svg',
-  keywords: ['Oasis.app', 'MakerDAO'],
+  keywords: ['GSUcoin.app', 'MakerDAO'],
   tokens: [
     {
       name: 'Dai Stablecoin',

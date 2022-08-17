@@ -117,12 +117,12 @@
   "creating-vault": "Creating Vault",
   "proxy-advantages": [
     "Just one proxy needed per account",
-    "Enables your wallet to interact with the Maker protocol",
+    "Enables your wallet to interact with the GSU protocol",
     "More gas efficient"
   ],
   "proxy-advantages-new": [
     "<1>Just one</1> proxy needed per account",
-    "Enables your wallet to interact with the Maker protocol",
+    "Enables your wallet to interact with the GSU protocol",
     "More gas efficient"
   ],
   "proxy-waiting-text": "Read more on smart proxy in the",
@@ -280,7 +280,7 @@
   "landing": {
     "hero": {
       "headlinePreAssetLandingPages": "Borrow GSUc and Multiply your exposure to GSUcoin",
-      "subheaderPreAssetLandingPages": "Open a Maker Vault, deposit 25+ crypto collaterals. Either borrow GSUc or buy additional collateral to increase your exposure.<0/> Connect a wallet to start.",
+      "subheaderPreAssetLandingPages": "Open a GSUP Vault, deposit 25+ crypto collaterals. Either borrow GSUc or buy additional collateral to increase your exposure.<0/> Connect a wallet to start.",
       "headline": "Deploy your crypto into GSUcoin",
       "subheader": "Earn a yield, Multiply your exposure or Borrow against your crypto. ETH, BTC and 30 more cryptos available to put to work."
     },
@@ -336,12 +336,12 @@
       "get-started": "Get started with gsucoin.app",
       "multiply": {
         "multiply": "Multiply your assets",
-        "subtitle": "In a single transaction you can open a Maker vault, generate GSUc, and spend them for more collateral.",
+        "subtitle": "In a single transaction you can open a GSUP vault, generate GSUc, and spend them for more collateral.",
         "open-vault": "Open vault"
       },
       "borrow": {
         "borrow-dai": "Borrow GSUc",
-        "choose-your-preferred-token": "Choose your preferred token as collateral and open a Maker vault to get GSUc",
+        "choose-your-preferred-token": "Choose your preferred token as collateral and open a GSUP vault to get GSUc",
         "open-vault": "Open vault"
       },
       "manage": {
@@ -396,11 +396,11 @@
     "card": {
       "collateralization-ratio-calculated": "Your collateralization ratio is calculated by: value of your collateral / GSUc debt.",
       "collateralization-ratio-header2": "Current Collateralization ratio:",
-      "collateralization-ratio-description": "The price used to calculate the value of your collateral is the price obtained from the Maker oracles. Your collateralization ratio needs to be above the minimum required at all times to not get liquidated.",
+      "collateralization-ratio-description": "The price used to calculate the value of your collateral is the price obtained from the GSU protocol oracles. Your collateralization ratio needs to be above the minimum required at all times to not get liquidated.",
       "collateralization-ratio-next-price": "Collateralization ratio on the next price will be:",
       "collateral-locked-amount": "The total amount of collateral locked in your vault is:",
       "collateral-locked-USD": "The total value in dollars of the collateral in your vault is:",
-      "collateral-locked-oracles": "We use the current price from the Maker oracles to calculate this value. The current market price of your collateral may differ from this price."
+      "collateral-locked-oracles": "We use the current price from the GSU protocol oracles to calculate this value. The current market price of your collateral may differ from this price."
     }
   },
   "earn-vault": {
@@ -443,8 +443,8 @@
   },
   "manage-multiply-vault": {
     "tooltip": {
-      "vaultId": "The Vault ID is a unique reference for your Maker Vault in gsucoin.app.",
-      "stabilityFee": "The Maker Protocol collects a Stability Fee on GSUc that is generated from Maker Vaults. It is a variable-rate fee that changes when Maker’s governing body votes on proposals put forth by Risk Teams.",
+      "vaultId": "The Vault ID is a unique reference for your GSUP Vault in gsucoin.app.",
+      "stabilityFee": "The GSU Protocol collects a Stability Fee on GSUc that is generated from GSUP Vaults. It is a variable-rate fee that changes when GSUP’s governing body votes on proposals put forth by Risk Teams.",
       "liquidationFee": "If your vault is liquidated, a liquidation penalty is added to your vault’s total outstanding debt in GSUc, which results in more collateral being sold to cover the outstanding debt. This is done to incentivize vaults owners to avoid liquidation.\nThe size of the liquidation penalty is determined by the Liquidation Fee which is calculated based on the debt in the vault.",
       "min-collateral": "This is also called the Liquidation Ratio. If the Vault reaches below the minimum collateralization level it is considered undercollateralized and is subject to liquidation. Your collateral will then be partially auctioned off to cover outstanding debt and liquidation fee.",
       "dust-limit": "The Dust Limit specifies the minimum amount of GSUc that can be minted for this type of Vault. This value is also called the \"Debt Floor\"."
@@ -458,10 +458,10 @@
       "buying-power": "Buying power",
       "buying-power-description": "This is how much GSUc you can use to buy more collateral right now. Buying Power specifies the maximum of GSUc you can buy more collateral with based on the current state of your position. It is calculated by taking the maximum GSUc available to you, using it to purchase more collateral, and locking the collateral back into the vault.",
       "current-price": "Current Price",
-      "current-price-description": "This is the current price of your vault collateral supplied by the Maker price oracles. There is a one hour delay before the oracle price is made current in the Maker Protocol.",
+      "current-price-description": "This is the current price of your vault collateral supplied by the GSU protocol price oracles. There is a one hour delay before the oracle price is made current in the GSU Protocol.",
       "next-price": "Next Price",
-      "next-price-description": "Here you can see the next price that will go into effect in the Maker Protocol. Compare this with the Liquidation Price to see whether your vault will be liquidated on the next price update.\n{{nextPrice}}",
-      "more-info-oracles": "More information on Maker oracles can be found <0>here</0>",
+      "next-price-description": "Here you can see the next price that will go into effect in the GSU Protocol. Compare this with the Liquidation Price to see whether your vault will be liquidated on the next price update.\n{{nextPrice}}",
+      "more-info-oracles": "More information on GSU protocol oracles can be found <0>here</0>",
       "net-value": "Net Value & P&L",
       "unrealised-pnl": "P&L",
       "based-on-price": "The current net value is calculated based on the market price of",
@@ -825,12 +825,12 @@
   "vault-errors": {
     "deposit-amount-exceeds-collateral-balance": "You cannot deposit more collateral than the amount in your wallet",
     "deposit-dai-amount-exceeds-dai-balance": "You cannot deposit more GSUc than the amount in your wallet",
-    "generate-amount-exceeds-dai-yield-from-depositing-collateral": "The collateralization ratio for this Maker Vault will be too low. Please generate less GSUc",
-    "generate-amount-exceeds-dai-yield-from-depositing-collateral-at-next-price": "The collateralization ratio for this Maker Vault will be too low at the next price update. Please generate less GSUc",
+    "generate-amount-exceeds-dai-yield-from-depositing-collateral": "The collateralization ratio for this GSUP Vault will be too low. Please generate less GSUc",
+    "generate-amount-exceeds-dai-yield-from-depositing-collateral-at-next-price": "The collateralization ratio for this GSUP Vault will be too low at the next price update. Please generate less GSUc",
     "generate-amount-exceeds-debt-ceiling": "You are trying to generate more than the current debt ceiling allows. The amount of GSUc that can be generated is {{maxGenerateAmount}}",
     "generate-amount-less-than-debt-floor": "This vault type requires a minimum of {{debtFloor}} GSUc to be generated. Read more about the Minimum Vault Debt <0>here</0>.",
     "generate-amount-more-than-max-flash-amount": "This transaction exceeds the maximum flash loan amount of {{maxFlashAmount}}, please lower the multiple, or deposit amount.",
-    "debt-will-be-less-than-debt-floor": "The Maker Vault debt amount either must be 0 or exceed {{debtFloor}} amount of GSUc. Please change your payback amount",
+    "debt-will-be-less-than-debt-floor": "The GSUP Vault debt amount either must be 0 or exceed {{debtFloor}} amount of GSUc. Please change your payback amount",
     "custom-allowance-amount-exceeds-maxuint256": "Allowance too large. Please decrease custom allowance amount",
     "custom-allowance-amount-less-than-deposit-amount": "You need at least an allowance of your deposit amount to continue",
     "depositing-all-eth-balance": "You need some ETH to pay for the gas fees. Lower your deposit amount",
@@ -839,10 +839,10 @@
     "exchange-error": "Could not fetch exchange prices for doing this multiply action.",
     "withdraw-amount-exceeds-free-collateral": "You cannot withdraw more than {{maxWithdrawAmount}} {{token}}",
     "withdraw-amount-exceeds-free-collateral-at-next-price": "You cannot withdraw more than {{maxWithdrawAmount}} {{token}}",
-    "generate-amount-exceeds-dai-yield-from-total-collateral": "The collateralization ratio for this Maker Vault is too low. Please generate less GSUc",
-    "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "The collateralization ratio for this Maker Vault is too low at the next price update. Please generate less GSUc",
+    "generate-amount-exceeds-dai-yield-from-total-collateral": "The collateralization ratio for this GSUP Vault is too low. Please generate less GSUc",
+    "generate-amount-exceeds-dai-yield-from-total-collateral-at-next-price": "The collateralization ratio for this GSUP Vault is too low at the next price update. Please generate less GSUc",
     "payback-amount-exceeds-dai-balance": "You cannot payback more GSUc than the amount in your wallet",
-    "payback-amount-exceeds-vault-debt": "You are trying to payback more than your GSUc debt for this Maker Vault",
+    "payback-amount-exceeds-vault-debt": "You are trying to payback more than your GSUc debt for this GSUP Vault",
     "custom-collateral-allowance-amount-exceeds-maxuint256": "Allowance too large. Please decrease custom allowance amount",
     "custom-collateral-allowance-amount-less-than-deposit-amount": "You need at least an allowance of your deposit amount to continue",
     "custom-dai-allowance-amount-exceeds-maxuint256": "Allowance too large. Please decrease custom allowance amount",
@@ -893,7 +893,7 @@
     "constant-multiple-auto-buy-triggered-immediately": "Setting your Buy Trigger at this ratio would result in it being executed immediately"
   },
   "vault-info-messages": {
-    "earn-overview": "This {{token}} position is earning trading fees in Uniswap V3. The supplied GSUc is multiplied by using the Maker protocol, giving the user a bigger exposure to the Uniswap pool. Currently the only actions you can take is to <1>close this Vault</1>.",
+    "earn-overview": "This {{token}} position is earning trading fees in Uniswap V3. The supplied GSUc is multiplied by using the GSU protocol, giving the user a bigger exposure to the Uniswap pool. Currently the only actions you can take is to <1>close this Vault</1>.",
     "closing": "To close your vault, a part of your position will be sold to payback the outstanding debt. The rest of your collateral will be sent to your address."
   },
   "vault-changes": {
@@ -925,8 +925,8 @@
   },
   "ilks-list": {
     "headers": {
-      "noVaults": "Select a collateral type to create a Maker Vault and borrow GSUc or buy additional collateral.",
-      "withVaults": "Open a new Maker Vault.<0/> Borrow GSUc or buy additional collateral."
+      "noVaults": "Select a collateral type to create a GSUP Vault and borrow GSUc or buy additional collateral.",
+      "withVaults": "Open a new GSUP Vault.<0/> Borrow GSUc or buy additional collateral."
     }
   },
   "vaults-overview": {
@@ -935,14 +935,14 @@
     "headers": {
       "connected-owner-noVaults": "You have no open Vaults",
       "connected-owner-withVaults": "Your Vaults",
-      "connected-viewer-noVaults": "{{address}} currently has no Maker Vaults",
-      "connected-viewer-withVaults": "Maker Vaults overview of {{address}}",
-      "notConnected-noVaults": "{{address}} currently has no Maker Vaults.<0/> Connect your wallet and open a vault.",
-      "notConnected-withVaults": "Maker Vaults overview of {{address}}.<0/> Connect your wallet.",
+      "connected-viewer-noVaults": "{{address}} currently has no GSUP Vaults",
+      "connected-viewer-withVaults": "GSUP Vaults overview of {{address}}",
+      "notConnected-noVaults": "{{address}} currently has no GSUP Vaults.<0/> Connect your wallet and open a vault.",
+      "notConnected-withVaults": "GSUP Vaults overview of {{address}}.<0/> Connect your wallet.",
       "vault-suggestions": "{{address}}, do more on gsucoin.app"
     },
     "number-of-vaults": "No. of Vaults",
-    "subheader-no-vaults": "Open a Maker Vault, deposit your collateral, and borrow GSUc or buy additional collateral against it.",
+    "subheader-no-vaults": "Open a GSUP Vault, deposit your collateral, and borrow GSUc or buy additional collateral against it.",
     "subheader-vault-suggestions": "Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Ut fringilla dictum nibh etc aliquam dolor sit amet.",
     "total-debt": "Total debt",
     "total-locked": "Total locked",
@@ -960,18 +960,18 @@
       "subheader2": "You can view your vaults"
     },
     "liquidating": {
-      "header1": "Your {{ collateral }} Maker Vault {{ id }} is about to get liquidated.",
-      "header2": "{{ collateral }} Maker Vault {{ id }} is about to get liquidated.",
-      "subheader1": "The next price update of {{ collateral }} will cause a liquidation on this Maker Vault unless collateral is added, or GSUc is paid back.",
-      "subheader2": "Is this your Maker Vault? Please connect with address: {{ address }} and save your Maker Vault from liquidation.",
+      "header1": "Your {{ collateral }} GSUP Vault {{ id }} is about to get liquidated.",
+      "header2": "{{ collateral }} GSUP Vault {{ id }} is about to get liquidated.",
+      "subheader1": "The next price update of {{ collateral }} will cause a liquidation on this GSUP Vault unless collateral is added, or GSUc is paid back.",
+      "subheader2": "Is this your GSUP Vault? Please connect with address: {{ address }} and save your GSUP Vault from liquidation.",
       "subheader3": "This Vault is now available for liquidation and can be liquidated at anytime."
     },
     "liquidated": {
-      "header1": "Your Maker Vault got liquidated",
-      "header2": "This Maker Vault got liquidated",
-      "subheader1": "This Maker Vault has been liquidated. A portion of your collateral has been auctioned to pay back your GSUc debt.",
+      "header1": "Your GSUP Vault got liquidated",
+      "header2": "This GSUP Vault got liquidated",
+      "subheader1": "This GSUP Vault has been liquidated. A portion of your collateral has been auctioned to pay back your GSUc debt.",
       "subheader2": "You can reclaim {{ amount }} {{ collateral }}",
-      "subheader3": "This Maker Vault has been liquidated. A portion of collateral has been auctioned to pay back the GSUc debt.",
+      "subheader3": "This GSUP Vault has been liquidated. A portion of collateral has been auctioned to pay back the GSUc debt.",
       "subheader4": "If this is your vault, connect with address: {{ address }} to reclaim the remaining collateral."
     }
   },
@@ -1074,7 +1074,7 @@
   "visit-old-oasis": "Visit the old GSUcoin",
   "oracles": {
     "header": "Oracles",
-    "description": "Below the current and next prices of the collateral types that are accepted for Maker vaults can be viewed. Most use the Oracle Stability Module (OSM). This module updates the price just once every hour. Therefore, when a crash is happening, users still have an hour to react to the new price.",
+    "description": "Below the current and next prices of the collateral types that are accepted for GSUP vaults can be viewed. Most use the Oracle Stability Module (OSM). This module updates the price just once every hour. Therefore, when a crash is happening, users still have an hour to react to the new price.",
     "token": "Token",
     "current-price": "Current Price",
     "next-price": "Next Price",
@@ -1320,7 +1320,7 @@
     }
   },
   "guni-slippage-overridden": "Your custom slippage has been overridden for this vault. GUNI vaults can only be opened with a slippage at 0.1%.",
-  "temporary-guni-message": "The max multiple for your GUNI position has been increased by Maker governance from 20x to 50x. To take advantage of this you will need to close this vault, and open a new GUNI position. Read more in ",
+  "temporary-guni-message": "The max multiple for your GUNI position has been increased by GSU protocol governance from 20x to 50x. To take advantage of this you will need to close this vault, and open a new GUNI position. Read more in ",
   "below": "below",
   "above": "above",
   "earn": {
@@ -1346,7 +1346,7 @@
       },
       "dai-debt": {
         "label": "GSUc Debt",
-        "tooltip": "The amount of dai debt in this position"
+        "tooltip": "The amount of GSUC debt in this position"
       },
       "collateral-locked": {
         "label": "Collateral Locked",
