@@ -268,9 +268,12 @@ function WalletInfo() {
         <Icon name={userIcon!} size={32} sx={{ mr: 2, flexShrink: 0 }} />
         <Grid sx={{ gap: 0, width: '100%' }}>
           <Flex sx={{ justifyContent: 'space-between' }}>
+            {/*@GSUpro update style */}
             <Text variant="address" sx={{ fontWeight: 600, fontSize: 5 }}>
+              {/*@GSUpro update style end*/}
               {formatAddress(account, 6)}
             </Text>
+
             <Text
               sx={{
                 color: 'interactive100',

@@ -97,13 +97,17 @@ export function VaultsOverviewView({
                 display: 'flex',
                 margin: '0 auto',
                 px: '40px',
+                //GSUpro update color
                 color: 'black',
+                //GSUpro update color end
                 py: 2,
                 my: 4,
                 alignItems: 'center',
+                //GSUpro adds hover style
                 '&:hover': {
                   bg: 'rgba(255,255,255,0.8)',
                 },
+                //GSUpro adds hover style end
                 '&:hover svg': {
                   transform: 'translateX(10px)',
                 },

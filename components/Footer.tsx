@@ -15,7 +15,7 @@ import { SelectComponents } from 'react-select/src/components'
 const {
   publicRuntimeConfig: { buildHash, buildDate, showBuildInfo },
 } = getConfig()
-
+//@GSUpro add links 
 const ROUTES = {
   // CONTACT: `${apiHost}/daiwallet/contact`,
   CONTACT: `/inprogress`,
@@ -23,7 +23,8 @@ const ROUTES = {
   TWITTER: ' https://twitter.com/GSUcoin',
   DISCORD: 'https://discord.com/invite/cm3tmM37W3',
 }
-
+//@GSUpro add links ends
+//@GSUpro add links
 const FOOTER_SECTIONS = [
   {
     titleKey: 'nav.about',
@@ -35,7 +36,6 @@ const FOOTER_SECTIONS = [
       { labelKey: 'nav.terms', url: '/terms' },
       // { labelKey: 'nav.contact', url: `${apiHost}/daiwallet/contact` },
       { labelKey: 'nav.contact', url: `/inprogress` },
-
     ],
   },
   {
@@ -65,6 +65,7 @@ const FOOTER_SECTIONS = [
       { labelKey: 'nav.multiply', url: '/multiply' },
     ],
   },
+  //@GSUpro remove links ends
 ]
 
 const LangSelectComponents: Partial<SelectComponents<{
@@ -161,9 +162,11 @@ function SocialWithLogo() {
         <AppLink href={ROUTES.DISCORD} sx={{ mx: 3 }}>
           <Icon name="discord" size="auto" width="20px" height="23px" />
         </AppLink>
+        {/*@GSUpro add github*/}
         <AppLink href="https://github.com/gsu-protocol/gsu-borrow">
           <Icon name="github" size="auto" width="21px" />
         </AppLink>
+        {/*@GSUpro add github end*/}
       </Flex>
       <Flex sx={{ justifyContent: ['center', 'flex-start'] }}>
         <LanguageSelect components={LangSelectComponents} />

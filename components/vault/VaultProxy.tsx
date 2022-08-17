@@ -96,9 +96,11 @@ export function VaultProxySubtitle({
         stage === 'proxySuccess' ? 'vault-form.subtext.proxy-success' : 'vault-form.subtext.proxy'
       }
       components={{
+        //GSUpro update the "what-is-a-proxy-contract" link as it's not available yet
         1: (
           <AppLink href="/inprogress" sx={{ fontSize: 2 }} />
         ),
+        //GSUpro end
         2: <WithArrow sx={{ display: 'inline', color: 'interactive100', fontWeight: 'body' }} />,
       }}
     />

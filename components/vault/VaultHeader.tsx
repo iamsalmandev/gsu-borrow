@@ -49,7 +49,7 @@ export function VaultIlkDetailsItem({
         },
       }}
     >
-      <Flex sx={{ alignItems: 'center', fontSize: '12px' }}>
+      <Flex sx={{ alignItems: 'center' }}>
         {`${label} `}
         <Text as="span" sx={{ color: 'primary100', ml: 1, mr: 1 }}>
           {value}
