@@ -531,7 +531,8 @@ function ConnectedHeader() {
             </Flex>
             <Flex sx={{ flexShrink: 0 }}>
               <PositionsButton sx={{ mr: 2 }} />
-              <Button
+              {/*@GSUpro  remove swap*/}
+              {/* <Button
                 variant="menuButtonRound"
                 onClick={() => {
                   uiChanges.publish<SwapWidgetChangeAction>(SWAP_WIDGET_CHANGE_SUBJECT, {
@@ -564,7 +565,8 @@ function ConnectedHeader() {
                   bottom: 'unset',
                   transform: 'translateX(-50%) translateY(-50%)',
                 }}
-              />
+              /> */}
+              {/*@GSUpro  remove swap end*/}
               <MobileMenu />
             </Flex>
             <MobileSettings />

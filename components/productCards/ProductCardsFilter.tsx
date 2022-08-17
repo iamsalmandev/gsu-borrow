@@ -66,10 +66,12 @@ export function ProductCardsFilter({
   return (
     <>
       <Box sx={{ display: ['none', 'block'] }}>
-        <Flex sx={{ justifyContent: 'space-around', mb: 4 }}>
+        {/*@GSUpro updates the container styles*/}
+        <Flex sx={{ justifyContent: 'center', mb: 4 }}>
           {filters.map((tab) => {
+            {/*@GSUpro updates the button styles*/ }
             return (
-              <Button variant="unStyled" onClick={() => handleTabClick(tab.name)} key={tab.name}>
+              <Button variant="unStyled" sx={{ minWidth: "80px" }} onClick={() => handleTabClick(tab.name)} key={tab.name}>
                 <Flex
                   sx={{ flexDirection: 'column', alignItems: 'center' }}
                   onMouseEnter={() => handleHover(tab.name)}
