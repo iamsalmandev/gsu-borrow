@@ -9,7 +9,7 @@ import { Box, Flex, Grid, Heading, Text } from 'theme-ui'
 
 import {
   BorrowProductCardsContainer,
-  EarnProductCardsContainer,
+  // EarnProductCardsContainer,
   MultiplyProductCardsContainer,
 } from '../../components/productCards/ProductCardsContainer'
 
