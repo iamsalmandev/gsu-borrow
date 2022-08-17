@@ -62,16 +62,14 @@ export function ProductCardsFilter({
   function handleHover(filter: string) {
     setHover(filter)
   }
-
+  {
+    /*@GSUpro updates the container styles*/
+  }
   return (
     <>
       <Box sx={{ display: ['none', 'block'] }}>
-        {/*@GSUpro updates the container styles*/}
         <Flex sx={{ justifyContent: 'center', mb: 4 }}>
           {filters.map((tab) => {
-            {
-              /*@GSUpro updates the button styles*/
-            }
             return (
               <Button
                 variant="unStyled"
