@@ -37,15 +37,15 @@ export function AssetView({ content }: { content: AssetPageContent }) {
       ),
     }
 
-    const earnTab = content.earnIlks && {
-      label: t('landing.tabs.earn.tabLabel'),
-      value: 'earn',
-      content: (
-        <Box sx={{ mt: 5 }}>
-          <EarnProductCardsContainer ilks={content.earnIlks} />
-        </Box>
-      ),
-    }
+    // const earnTab = content.earnIlks && {
+    //   label: t('landing.tabs.earn.tabLabel'),
+    //   value: 'earn',
+    //   content: (
+    //     <Box sx={{ mt: 5 }}>
+    //       <EarnProductCardsContainer ilks={content.earnIlks} />
+    //     </Box>
+    //   ),
+    // }
 
     return [borrowTab, multiplyTab].filter((tab) => tab) as TabSection[]
   }

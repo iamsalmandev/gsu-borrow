@@ -22,11 +22,11 @@ import { useOnMobile } from 'theme/useBreakpointIndex'
 
 import { ContextConnected } from '../blockchain/network'
 import { LANDING_PILLS } from '../content/landing'
-import {
-  SWAP_WIDGET_CHANGE_SUBJECT,
-  // SwapWidgetChangeAction,
-  SwapWidgetState,
-} from '../features/automation/protection/common/UITypes/SwapWidgetChange'
+// import {
+//   // SWAP_WIDGET_CHANGE_SUBJECT,
+//   // SwapWidgetChangeAction,
+//   // SwapWidgetState,
+// } from '../features/automation/protection/common/UITypes/SwapWidgetChange'
 import { useAppContext } from './AppContextProvider'
 import { MobileSidePanelPortal, ModalCloseIcon } from './Modal'
 import { NotificationsIconButton } from './notifications/NotificationsIconButton'
@@ -240,7 +240,7 @@ function ButtonDropdown({
 
 function UserDesktopMenu() {
   const { t } = useTranslation()
-  const { accountData$, context$, web3Context$, uiChanges } = useAppContext()
+  const { accountData$, context$, web3Context$ } = useAppContext()
   const [context] = useObservable(context$)
   const [accountData] = useObservable(accountData$)
   const [web3Context] = useObservable(web3Context$)
@@ -460,17 +460,17 @@ const LINKS = {
 }
 
 function ConnectedHeader() {
-  const { uiChanges } = useAppContext()
+  // const { uiChanges } = useAppContext()
   const { pathname } = useRouter()
   const { t } = useTranslation()
   const onMobile = useOnMobile()
-  const [widgetUiChanges] = useObservable(
-    uiChanges.subscribe<SwapWidgetState>(SWAP_WIDGET_CHANGE_SUBJECT),
-  )
+  // const [widgetUiChanges] = useObservable(
+  //   uiChanges.subscribe<SwapWidgetState>(SWAP_WIDGET_CHANGE_SUBJECT),
+  // )
   // socket instance that can be used to emit events
   // const { socket } = useSocket()
 
-  const widgetOpen = widgetUiChanges && widgetUiChanges.isOpen
+  // const widgetOpen = widgetUiChanges && widgetUiChanges.isOpen
 
   return (
     <React.Fragment>

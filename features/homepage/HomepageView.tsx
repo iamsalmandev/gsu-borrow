@@ -8,7 +8,6 @@ import {
   // EarnProductCardsContainer,
   MultiplyProductCardsContainer,
 } from 'components/productCards/ProductCardsContainer'
-import { ReferralBanner } from 'components/ReferralBanner'
 import { TabBar } from 'components/TabBar'
 import { LANDING_PILLS } from 'content/landing'
 // import { NewReferralModal } from 'features/referralOverview/NewReferralModal'
@@ -152,7 +151,7 @@ export function HomepageView() {
   const [context] = useObservable(context$)
   const [checkReferralLocal] = useObservable(checkReferralLocal$)
   const [userReferral] = useObservable(userReferral$)
-  const [landedWithRef, setLandedWithRef] = useState('')
+  const [, setLandedWithRef] = useState('')
   const [localReferral, setLocalReferral] = useLocalStorage('referral', null)
 
   const router = useRouter()

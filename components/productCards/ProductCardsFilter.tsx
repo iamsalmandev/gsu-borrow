@@ -62,9 +62,7 @@ export function ProductCardsFilter({
   function handleHover(filter: string) {
     setHover(filter)
   }
-  {
-    /*@GSUpro updates the container styles*/
-  }
+  /*@GSUpro updates the container styles*/
   return (
     <>
       <Box sx={{ display: ['none', 'block'] }}>
