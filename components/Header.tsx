@@ -292,7 +292,8 @@ function UserDesktopMenu() {
         </PositionsLink>
         <PositionsButton sx={{ mr: 3, display: ['none', 'flex', 'none'] }} />
         <Box>
-          <Button
+          {/*@GSUpro  remove swap*/}
+          {/* <Button
             variant="menuButtonRound"
             onClick={() => {
               setExchangeOpened(true)
@@ -330,7 +331,8 @@ function UserDesktopMenu() {
               color={widgetOpen ? 'primary100' : 'inherit'}
             />
           </Button>
-          <UniswapWidgetShowHide />
+          <UniswapWidgetShowHide /> */}
+          {/*@GSUpro  remove swap*/}
         </Box>
 
         {!shouldHideSettings && (
