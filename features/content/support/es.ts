@@ -62,7 +62,7 @@ export const content: ContentTypeSupport = {
 
         {
           question: 'What is the Liquidation Penalty?',
-          answer: `he Liquidation Penalty is the amount added to your debt once your Vault is liquidated. Each collateral and sub-type (e.g. ETH-A and ETH-B) can have their own liquidation penalties set by GSU Governance. This penalty is also paid directly to the GSU Protocol, and gsucoin.app does not charge you any additional fees for being liquidated.
+          answer: `The Liquidation Penalty is the amount added to your debt once your Vault is liquidated. Each collateral and sub-type (e.g. ETH-A and ETH-B) can have their own liquidation penalties set by GSU Governance. This penalty is also paid directly to the GSU Protocol, and gsucoin.app does not charge you any additional fees for being liquidated.
           `,
         },
 
