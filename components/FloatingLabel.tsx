@@ -24,12 +24,18 @@ export function FloatingLabel({ text, flexSx = {}, textSx = {} }: FloatingLabelP
         ...flexSx,
       }}
     >
-      <Text sx={{
-        // @GSUpro update color 
-        color: 'black',
-        // @GSUpro update end
-        fontSize: 1, fontWeight: 'heading', ...textSx
-      }}>{text}</Text>
+      <Text
+        sx={{
+          // @GSUpro update color
+          color: 'black',
+          // @GSUpro update end
+          fontSize: 1,
+          fontWeight: 'heading',
+          ...textSx,
+        }}
+      >
+        {text}
+      </Text>
     </Flex>
   )
 }

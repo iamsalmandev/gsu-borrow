@@ -9,7 +9,7 @@ import { staticFilesRuntimeUrl } from 'helpers/staticPaths'
 import { WithChildren } from 'helpers/types'
 import { useUIChanges } from 'helpers/uiChangesHook'
 import { useFeatureToggle } from 'helpers/useFeatureToggle'
-import { useOnboarding } from 'helpers/useOnboarding'
+// import { useOnboarding } from 'helpers/useOnboarding'
 import { useOutsideElementClickHandler } from 'helpers/useOutsideElementClickHandler'
 import { InitOptions } from 'i18next'
 import { useTranslation } from 'next-i18next'
@@ -24,14 +24,14 @@ import { ContextConnected } from '../blockchain/network'
 import { LANDING_PILLS } from '../content/landing'
 import {
   SWAP_WIDGET_CHANGE_SUBJECT,
-  SwapWidgetChangeAction,
+  // SwapWidgetChangeAction,
   SwapWidgetState,
 } from '../features/automation/protection/common/UITypes/SwapWidgetChange'
 import { useAppContext } from './AppContextProvider'
 import { MobileSidePanelPortal, ModalCloseIcon } from './Modal'
 import { NotificationsIconButton } from './notifications/NotificationsIconButton'
 import { useSharedUI } from './SharedUIProvider'
-import { UniswapWidgetShowHide } from './uniswapWidget/UniswapWidget'
+// import { UniswapWidgetShowHide } from './uniswapWidget/UniswapWidget'
 
 export function Logo({ sx }: { sx?: SxStyleProp }) {
   return (
@@ -245,11 +245,11 @@ function UserDesktopMenu() {
   const [accountData] = useObservable(accountData$)
   const [web3Context] = useObservable(web3Context$)
   const vaultCount = useVaultCount()
-  const [exchangeOnboarded] = useOnboarding('Exchange')
-  const [exchangeOpened, setExchangeOpened] = useState(false)
-  const [widgetUiChanges] = useObservable(
-    uiChanges.subscribe<SwapWidgetState>(SWAP_WIDGET_CHANGE_SUBJECT),
-  )
+  // const [exchangeOnboarded] = useOnboarding('Exchange')
+  // const [exchangeOpened, setExchangeOpened] = useState(false)
+  // const [widgetUiChanges] = useObservable(
+  //   uiChanges.subscribe<SwapWidgetState>(SWAP_WIDGET_CHANGE_SUBJECT),
+  // )
   const [notificationsState] = useUIChanges<NotificationChange>(NOTIFICATION_CHANGE)
 
   // TODO: Update this once the the notifications pannel is available
@@ -257,9 +257,9 @@ function UserDesktopMenu() {
   const notificationsRef = useOutsideElementClickHandler(() => setNotificationsPanelOpen(false))
   const notificationsToggle = useFeatureToggle('Notifications')
 
-  const widgetOpen = widgetUiChanges && widgetUiChanges.isOpen
+  // const widgetOpen = widgetUiChanges && widgetUiChanges.isOpen
 
-  const showNewUniswapWidgetBeacon = !exchangeOnboarded && !exchangeOpened
+  // const showNewUniswapWidgetBeacon = !exchangeOnboarded && !exchangeOpened
 
   const shouldHideSettings =
     !context ||
