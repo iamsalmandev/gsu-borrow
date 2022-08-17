@@ -85,7 +85,7 @@ export function ProductCardProtocolLink({ ilk }: Partial<ProductCardData>) {
   return (
     <Box sx={{ paddingRight: '10px' }}>
       <AppLink href={link}>
-        <WithArrow variant="styles.a" gap="1">
+        <WithArrow sx={{ color: 'black', fontWeight: 500 }} variant="styles.a" gap="1">
           {name}
         </WithArrow>
       </AppLink>
@@ -107,7 +107,7 @@ function ProductCardBanner({ title, description }: ProductCardBannerProps) {
   return (
     <Box sx={{ position: 'relative' }}>
       <Card
-        opacity={0.7}
+        opacity={0.3}
         sx={{
           mixBlendMode: 'overlay',
           minHeight: contentHeight > 100 ? '140px' : '116px',
@@ -179,7 +179,7 @@ function ProductCardHeading({
             {title}
           </Heading>
           <Text
-            sx={{ color: 'neutral80', pb: '12px', fontSize: '14px', textAlign: 'left' }}
+            sx={{ color: 'black', pb: '12px', fontSize: '14px', textAlign: 'left' }}
             variant="paragraph3"
           >
             {description}
