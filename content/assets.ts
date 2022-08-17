@@ -43,6 +43,7 @@ export const ASSETS_PAGES = [
   //   multiplyIlks: ['YFI-A'],
   //   borrowIlks: ['YFI-A'],
   // },
+  //@GSUpro removes the token assets end
   {
     slug: 'gsuc',
     header: 'GSUC',
@@ -83,6 +84,7 @@ export const ASSETS_PAGES = [
   //   multiplyIlks: ['MANA-A'],
   //   borrowIlks: ['MANA-A'],
   // },
+  //@GSUpro removes the token assets end
 ]
 
 export const assetsPageContentBySlug = keyBy(ASSETS_PAGES, 'slug')

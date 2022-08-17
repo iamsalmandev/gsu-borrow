@@ -300,6 +300,7 @@ export function HomepageView() {
             //     />
             //   ),
             // },
+            //@GSUpro removes earn end
           ]}
         />
       </Box>

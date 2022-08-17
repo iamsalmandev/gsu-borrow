@@ -25,4 +25,5 @@ export const LANDING_PILLS = [
   //   label: 'YFI',
   //   link: '/asset/yfi',
   // },
+  //@GSUpro remove assets ends
 ]

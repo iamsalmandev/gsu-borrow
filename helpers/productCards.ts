@@ -87,6 +87,7 @@ export const supportedBorrowIlks = [
   // 'UNIV2USDCETH-A',
   // 'UNIV2DAIUSDC-A',
   // 'CRVV1ETHSTETH-A',
+  // @GSUpro remove unspported Ilks end
   'WSTETH-B',
 ]
 
@@ -104,6 +105,7 @@ export const supportedMultiplyIlks = [
   // 'YFI-A',
   // 'MANA-A',
   // 'MATIC-A',
+  // @GSUpro remove unspported Ilks end
   'WSTETH-B',
 ]
 
@@ -208,6 +210,7 @@ export const productCardsConfig: {
       // genericFilters.matic,
       // genericFilters.gusd,
       // genericFilters.crvlp,
+      //@GSUpro hide filters end
     ],
     featuredCards: ['ETH-C', 'WBTC-C', 'CRVV1ETHSTETH-A', 'WSTETH-B'],
     inactiveIlks: [],
@@ -227,10 +230,12 @@ export const productCardsConfig: {
       genericFilters.featured,
       genericFilters.eth,
       genericFilters.btc,
+      //@GSUpro hide filters
       // genericFilters.link,
       // genericFilters.yfi,
       // genericFilters.mana,
       // genericFilters.matic,
+      //@GSUpro hide filters end
     ],
     featuredCards: ['ETH-B', 'WBTC-B', 'WSTETH-A'],
     inactiveIlks: [],
