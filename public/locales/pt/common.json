@@ -430,7 +430,7 @@
     },
     "dai": {
       "description": "Uma breve introdução ao GSUC, uma forma mais inteligente de moeda digital",
-      "title": "Dai"
+      "title": "GSUC"
     },
     "default": {
       "description": "Gere GSUC, uma moeda estável lastreada em USD, usando cripto como colateral",

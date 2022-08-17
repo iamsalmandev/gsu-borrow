@@ -89,7 +89,7 @@
   "dai-being-generated": "正在生成 GSUC",
   "dai-paying-back": "正在偿还 ({{amount}}) GSUC",
   "dai-paying-back-label": "赎回 GSUC",
-  "dai-savings-rate": "Dai 存款利率",
+  "dai-savings-rate": "GSUC 存款利率",
   "deposit": "存入",
   "disconnect": "断开连接",
   "disconnect-magic": "退出账户",
@@ -204,7 +204,7 @@
       "knowledge-centre": "知识中心",
       "oracles": "喂价机",
       "products": "产品",
-      "dai-wallet": "Dai 钱包",
+      "dai-wallet": "GSUC 钱包",
       "borrow": "借贷",
       "language": {
         "en": "英文",
@@ -227,7 +227,7 @@
     },
     "cards": {
       "dai": {
-        "title": "Dai 钱包",
+        "title": "GSUC 钱包",
         "description": "一站式购买、发送和管理您的 Dai。借由访问许多的提供商，累积您的 Dai。"
       },
       "faq": {
@@ -320,7 +320,7 @@
       "unrealised-pnl": "Unrealised P&L",
       "based-on-price": "The current net value is calculated based on the market price of",
       "collateral-value-in-vault": "Collateral value in vault",
-      "dai-debt-in-vault": "Dai debt in vault",
+      "dai-debt-in-vault": "GSUC debt in vault",
       "collateral-value": "Collateral Value",
       "usd-value": "$ Value",
       "gas-fees": "Gas fees",
@@ -424,7 +424,7 @@
     },
     "dai": {
       "description": "智能的数字货币 GSUC 的简介",
-      "title": "Dai"
+      "title": "GSUC"
     },
     "default": {
       "description": "以你的加密货币作为抵押品借出 Dai，一种与美元挂钩的稳定币。",
@@ -464,9 +464,9 @@
     "collateral-locked": "已存入抵押品",
     "collateral-ratio": "抵押率",
     "collateralization-ratio": "抵押率",
-    "dai": "Dai",
+    "dai": "GSUC",
     "dai-available": "可生成 GSUC",
-    "dai-debt": "Dai 债务",
+    "dai-debt": "GSUC 债务",
     "deposited": "已存入",
     "in-my-wallet": "钱包中",
     "in-your-wallet": "你的钱包中",
@@ -549,7 +549,7 @@
       "vault-suggestions": "{{address}}, 在 GSUcoin.app 上做更多事情"
     },
     "number-of-vaults": "金库数量",
-    "subheader-no-vaults": "开启 GSUP 金库，存入抵押品，生成 Dai。",
+    "subheader-no-vaults": "开启 GSUP 金库，存入抵押品，生成 GSUC。",
     "subheader-vault-suggestions": "Lorem ipsum dolor sit amet, consectetur, adipiscing elit. Ut fringilla dictum nibh etc aliquam dolor sit amet.",
     "total-debt": "总债务",
     "total-locked": "总锁定",
